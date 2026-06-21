@@ -1,24 +1,73 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const lessons = await getCollection("lessons");
+lessons.sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
-<Layout title="Tips and Notes - Hebrew Course.">
+<Layout title="Hebrew Tips & Notes">
   <main>
-    <h2>Tips and Notes</h2>
+    <h1>Hebrew Tips & Notes</h1>
+    <p class="subtitle">
+      Complete Tips and Notes from the Duolingo Hebrew course.
+      These notes were removed from Duolingo and are preserved here as a reference.
+    </p>
+
+    <section>
+      <h2>All Lessons</h2>
+      <ul class="lesson-list">
+        {
+          lessons.map((lesson) => (
+            <li>
+              <a href={`/lessons/${lesson.id}`}>{lesson.data.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
   </main>
 </Layout>
 
 <style>
   main {
-    background-color: #eae9e9;
-    width: 78%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-inline: auto;
-    padding: 2rem;
-    font-size: 20px;
-    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    color: #586069;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  .lesson-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .lesson-list a {
+    display: block;
+    padding: 0.75rem 1rem;
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    color: #0366d6;
+    font-size: 0.9rem;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .lesson-list a:hover {
+    background: #fff;
+    border-color: #0366d6;
   }
 </style>
