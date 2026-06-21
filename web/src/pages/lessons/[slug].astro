@@ -1,0 +1,131 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const lessons = await getCollection("lessons");
+  return lessons.map((lesson) => ({
+    params: { slug: lesson.id },
+    props: { lesson },
+  }));
+}
+
+const { lesson } = Astro.props;
+
+const { Content } = await render(lesson);
+---
+
+<Layout title={`${lesson.data.title} - Hebrew Tips & Notes`}>
+  <article class="lesson">
+    <div class="lesson-header">
+      <a href="/" class="back-link">&larr; Back to lessons</a>
+      <div class="external-links">
+        <a href="https://github.com/EliasPereyra/Duolingo-Hebrew-tips-and-notes/blob/main/content/hebrew-tips-and-notes.md" target="_blank" rel="noopener noreferrer">Source Markdown</a>
+        <a href="https://userscript17.github.io/Duolingo-Hebrew-tips-and-notes/index.html" target="_blank" rel="noopener noreferrer">Full HTML version</a>
+      </div>
+    </div>
+
+    <div class="lesson-content">
+      <Content />
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .lesson {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e1e4e8;
+  }
+
+  .back-link {
+    color: #586069;
+    font-size: 0.9rem;
+  }
+
+  .external-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .external-links a {
+    color: #0366d6;
+    font-size: 0.85rem;
+  }
+
+  .lesson-content {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .lesson-content h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #e1e4e8;
+  }
+
+  .lesson-content h3 {
+    font-size: 1.25rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+
+  .lesson-content p {
+    margin: 0.75rem 0;
+  }
+
+  .lesson-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+
+  .lesson-content th,
+  .lesson-content td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5da;
+    text-align: left;
+  }
+
+  .lesson-content th {
+    background: #f6f8fa;
+    font-weight: 600;
+  }
+
+  .lesson-content blockquote {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-left: 3px solid #0366d6;
+    background: #f6f8fa;
+  }
+
+  .lesson-content ul,
+  .lesson-content ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+  }
+
+  .lesson-content li {
+    margin: 0.25rem 0;
+  }
+
+  .lesson-content hr {
+    border: none;
+    border-top: 1px solid #e1e4e8;
+    margin: 1.5rem 0;
+  }
+
+  .lesson-content img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
