@@ -1,0 +1,68 @@
+---
+import { getCollection } from "astro:content";
+
+const lessons = await getCollection("lessons");
+---
+
+<aside class="sidebar">
+  <a href="/" class="logo">Hebrew Tips & Notes</a>
+  <nav>
+    <ul>
+      {
+        lessons.map((lesson) => (
+          <li>
+            <a href={`/lessons/${lesson.id}`}>{lesson.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</aside>
+
+<style>
+  .sidebar {
+    width: 280px;
+    min-width: 280px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #1a1d23;
+    color: #c9d1d9;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .logo {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #58a6ff;
+    border-bottom: 1px solid #30363d;
+    margin-bottom: 0.5rem;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    padding: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.4rem 1.25rem;
+    color: #8b949e;
+    font-size: 0.875rem;
+    transition: color 0.15s, background 0.15s;
+  }
+
+  nav a:hover {
+    color: #c9d1d9;
+    background: #21262d;
+  }
+</style>
