@@ -101,7 +101,7 @@ web/
 
 ## CI / Deployment
 
-- CI runs on `main` branch via `.github/workflows/ci.yml`.
+- CI runs on `master` branch via `.github/workflows/ci.yml`.
 - Pipeline: `pnpm install --frozen-lockfile` → `pnpm check` → `pnpm build`.
 - `site` and `base` are set in `astro.config.mjs` for GitHub Pages hosting at `/Duolingo-Hebrew-tips-and-notes`. If you serve from a different URL, update those values.
 - The `dist/` folder is gitignored; the build artifact is ephemeral (not committed).
