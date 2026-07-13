@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 
 const lessons = await getCollection("lessons");
+const pathname = Astro.url.pathname;
 ---
 
 <aside class="sidebar">
@@ -9,15 +10,30 @@ const lessons = await getCollection("lessons");
   <nav>
     <ul>
       {
-        lessons.map((lesson) => (
-          <li>
-            <a href={`/lessons/${lesson.id}`}>{lesson.data.title}</a>
-          </li>
-        ))
+        lessons.map((lesson) => {
+          const href = `/lessons/${lesson.id}`;
+          const isActive = pathname === href || pathname === `${href}/`;
+          return (
+            <li>
+              <a href={href} class:list={{ active: isActive }}>
+                {lesson.data.title}
+              </a>
+            </li>
+          );
+        })
       }
     </ul>
   </nav>
 </aside>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const active = document.querySelector("nav a.active");
+    if (active) {
+      active.scrollIntoView({ block: "center" });
+    }
+  });
+</script>
 
 <style>
   .sidebar {
@@ -64,5 +80,11 @@ const lessons = await getCollection("lessons");
   nav a:hover {
     color: #c9d1d9;
     background: #21262d;
+  }
+
+  nav a.active {
+    color: #fff;
+    background: #0366d6;
+    font-weight: 600;
   }
 </style>
