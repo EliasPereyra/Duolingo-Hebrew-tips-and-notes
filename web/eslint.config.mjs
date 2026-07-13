@@ -10,6 +10,15 @@ export default [
     ignores: ["dist/", ".astro/"],
   },
   {
+    files: ["**/*.mjs"],
+    languageOptions: {
+      globals: {
+        console: "readonly",
+        process: "readonly",
+      },
+    },
+  },
+  {
     files: ["**/*.astro"],
     rules: {
       "astro/no-conflict-set-directives": "error",
