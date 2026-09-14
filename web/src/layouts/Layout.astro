@@ -1,4 +1,5 @@
 ---
+import { Font } from "astro:assets";
 import Sidebar from "../components/Sidebar.astro";
 
 interface Props {
@@ -16,6 +17,8 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
+    <Font cssVariable="--font-manrope" preload />
+    <Font cssVariable="--font-david-libre" />
   </head>
   <body>
     <Sidebar />
@@ -26,7 +29,24 @@ const { title } = Astro.props;
 </html>
 <style is:global>
   html {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family:
+      var(--font-manrope),
+      var(--font-david-libre),
+      system-ui,
+      -apple-system,
+      sans-serif;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    font-weight: 700;
   }
 
   body {
