@@ -1,6 +1,12 @@
 # Duolingo Hebrew Tips & Notes
 
-The complete Tips and Notes from Duolingo's Hebrew course, preserved here as a reference since Duolingo removed them from the platform.
+The complete **Tips and Notes** from Duolingo's Hebrew course, preserved here as a reference since Duolingo removed them from the platform.
+
+> [!NOTE]
+> **Disclaimer:** This project is not affiliated with, endorsed by, or sponsored by Duolingo. The Tips and Notes content was originally written by Duolingo's volunteer course contributors and published as part of the official Hebrew course; it is reproduced here for personal, non-commercial, educational reference only. All rights to that original text remain with Duolingo and/or its original authors. This repository is free to use. If a rights holder objects to this archive, please open an issue and the content will be taken down.
+
+> [!NOTE]
+> This project is a fork of [userscript17/Duolingo-Hebrew-tips-and-notes](https://github.com/userscript17/Duolingo-Hebrew-tips-and-notes), building on their original archival work. The goal here is to modernize it and turn it into a more usable study tool (Astro web app, better navigation/search, etc.).
 
 ## Contents
 
