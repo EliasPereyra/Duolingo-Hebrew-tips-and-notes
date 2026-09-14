@@ -1,8 +1,11 @@
 ---
 import { getCollection } from "astro:content";
+import { buildLessonIconMap } from "../utils/lesson-icons";
+import { ICONS } from "../constants/icons";
 
 const lessons = await getCollection("lessons");
 const pathname = Astro.url.pathname;
+const iconMap = buildLessonIconMap(lessons);
 ---
 
 <aside class="sidebar">
@@ -13,9 +16,12 @@ const pathname = Astro.url.pathname;
         lessons.map((lesson) => {
           const href = `/lessons/${lesson.id}`;
           const isActive = pathname === href || pathname === `${href}/`;
+          const { icon, color } = iconMap.get(lesson.id)!;
+          const LessonIcon = ICONS[icon as keyof typeof ICONS];
           return (
             <li>
               <a href={href} class:list={{ active: isActive }}>
+                <LessonIcon size={16} color={color} class="lesson-icon" />
                 {lesson.data.title}
               </a>
             </li>
@@ -70,11 +76,17 @@ const pathname = Astro.url.pathname;
   }
 
   nav a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0.4rem 1.25rem;
     color: #8b949e;
     font-size: 0.875rem;
     transition: color 0.15s, background 0.15s;
+  }
+
+  .lesson-icon {
+    flex-shrink: 0;
   }
 
   nav a:hover {

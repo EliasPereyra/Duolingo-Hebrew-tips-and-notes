@@ -1,6 +1,8 @@
 ---
-import Layout from "../../layouts/Layout.astro";
 import { getCollection, render } from "astro:content";
+import { ArrowLeft } from "reicon-astro";
+import Layout from "../../layouts/Layout.astro";
+import { TIPS_AND_NOTES_MD, ORIGINAL_HTML_VERSION } from "../../constants/external-links";
 
 export async function getStaticPaths() {
   const lessons = await getCollection("lessons");
@@ -18,10 +20,13 @@ const { Content } = await render(lesson);
 <Layout title={`${lesson.data.title} - Hebrew Tips & Notes`}>
   <article class="lesson">
     <div class="lesson-header">
-      <a href="/" class="back-link">&larr; Back to lessons</a>
+      <a href="/" class="back-link">
+        <ArrowLeft size={16} />
+        Back to lessons
+      </a>
       <div class="external-links">
-        <a href="https://github.com/EliasPereyra/Duolingo-Hebrew-tips-and-notes/blob/main/content/hebrew-tips-and-notes.md" target="_blank" rel="noopener noreferrer">Source Markdown</a>
-        <a href="https://userscript17.github.io/Duolingo-Hebrew-tips-and-notes/index.html" target="_blank" rel="noopener noreferrer">Full HTML version</a>
+        <a href={TIPS_AND_NOTES_MD} target="_blank" rel="noopener noreferrer">Source Markdown</a>
+        <a href={ORIGINAL_HTML_VERSION} target="_blank" rel="noopener noreferrer">Full HTML version</a>
       </div>
     </div>
 
@@ -48,6 +53,9 @@ const { Content } = await render(lesson);
   }
 
   .back-link {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
     color: #586069;
     font-size: 0.9rem;
   }
