@@ -60,6 +60,14 @@ const { title } = Astro.props;
     margin-left: 280px;
     flex: 1;
     min-height: 100vh;
+    min-width: 0;
+  }
+
+  @media (max-width: 768px) {
+    .content {
+      margin-left: 0;
+      padding-top: 3.5rem;
+    }
   }
 
   * {

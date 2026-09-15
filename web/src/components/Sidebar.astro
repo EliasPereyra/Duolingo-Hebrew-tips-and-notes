@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Menu, X } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
 
@@ -8,7 +9,14 @@ const pathname = Astro.url.pathname;
 const iconMap = buildLessonIconMap(lessons);
 ---
 
-<aside class="sidebar">
+<button type="button" class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false">
+  <Menu size={22} class="icon-open" />
+  <X size={22} class="icon-close" />
+</button>
+
+<div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+<aside class="sidebar" id="sidebar">
   <a href="/" class="logo">Hebrew Tips & Notes</a>
   <nav>
     <ul>
@@ -33,12 +41,45 @@ const iconMap = buildLessonIconMap(lessons);
 </aside>
 
 <script>
-  document.addEventListener("astro:page-load", () => {
-    const active = document.querySelector("nav a.active");
+  function initSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    const toggle = document.getElementById("sidebar-toggle");
+    const backdrop = document.getElementById("sidebar-backdrop");
+    if (!sidebar || !toggle || !backdrop) return;
+
+    const closeSidebar = () => {
+      sidebar.classList.remove("open");
+      backdrop.classList.remove("visible");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+
+    const openSidebar = () => {
+      sidebar.classList.add("open");
+      backdrop.classList.add("visible");
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", () => {
+      if (sidebar.classList.contains("open")) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    });
+
+    backdrop.addEventListener("click", closeSidebar);
+
+    sidebar.querySelectorAll("nav a").forEach((link) => {
+      link.addEventListener("click", closeSidebar);
+    });
+
+    const active = sidebar.querySelector("nav a.active");
     if (active) {
       active.scrollIntoView({ block: "center" });
     }
-  });
+  }
+
+  document.addEventListener("astro:page-load", initSidebar);
 </script>
 
 <style>
@@ -98,5 +139,68 @@ const iconMap = buildLessonIconMap(lessons);
     color: #fff;
     background: #0366d6;
     font-weight: 600;
+  }
+
+  .sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 0.75rem;
+    left: 1rem;
+    z-index: 1001;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    background: #1a1d23;
+    color: #c9d1d9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: left 0.25s ease;
+  }
+
+  .sidebar-toggle[aria-expanded="true"] {
+    left: 226px;
+  }
+
+  .sidebar-toggle :global(.icon-close) {
+    display: none;
+  }
+
+  .sidebar-toggle[aria-expanded="true"] :global(.icon-open) {
+    display: none;
+  }
+
+  .sidebar-toggle[aria-expanded="true"] :global(.icon-close) {
+    display: block;
+  }
+
+  .sidebar-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  .sidebar-backdrop.visible {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar-toggle {
+      display: flex;
+    }
+
+    .sidebar {
+      transform: translateX(-100%);
+      transition: transform 0.25s ease;
+      z-index: 1000;
+      box-shadow: 2px 0 16px rgba(0, 0, 0, 0.35);
+    }
+
+    .sidebar.open {
+      transform: translateX(0);
+    }
   }
 </style>
