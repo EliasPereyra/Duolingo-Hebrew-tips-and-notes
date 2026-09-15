@@ -1,8 +1,13 @@
 import { defineConfig, fontProviders } from "astro/config";
+import rehypeExamples from "./src/rehype-plugins/rehype-examples.mjs";
+import rehypeWrapTables from "./src/rehype-plugins/rehype-wrap-tables.mjs";
 
 // https://astro.build/config
 export default defineConfig({
   base: "/",
+  markdown: {
+    rehypePlugins: [rehypeExamples, rehypeWrapTables],
+  },
   fonts: [
     {
       provider: fontProviders.local(),
