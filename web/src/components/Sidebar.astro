@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import { Menu, X } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
+import logo from "../assets/imgs/logo.svg";
 
 const lessons = await getCollection("lessons");
 const pathname = Astro.url.pathname;
@@ -17,7 +18,9 @@ const iconMap = buildLessonIconMap(lessons);
 <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
 
 <aside class="sidebar" id="sidebar">
-  <a href="/" class="logo">Hebrew Tips & Notes</a>
+  <a href="/" class="logo">
+    <img src={logo.src} width={logo.width} height={logo.height} alt="Hebrew Tips & Notes" />
+  </a>
   <nav>
     <ul>
       {
@@ -99,11 +102,14 @@ const iconMap = buildLessonIconMap(lessons);
   .logo {
     display: block;
     padding: 0.75rem 1.25rem;
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #58a6ff;
     border-bottom: 1px solid #30363d;
     margin-bottom: 0.5rem;
+  }
+
+  .logo img {
+    display: block;
+    height: 40px;
+    width: auto;
   }
 
   nav ul {
