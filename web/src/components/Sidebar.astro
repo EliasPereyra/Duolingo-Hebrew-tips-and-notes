@@ -33,7 +33,7 @@ const iconMap = buildLessonIconMap(lessons);
 </aside>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("astro:page-load", () => {
     const active = document.querySelector("nav a.active");
     if (active) {
       active.scrollIntoView({ block: "center" });
