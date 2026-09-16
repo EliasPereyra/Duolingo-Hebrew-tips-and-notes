@@ -1,0 +1,199 @@
+---
+import { getCollection, render } from "astro:content";
+import { ArrowLeft } from "reicon-astro";
+import Layout from "../../../layouts/Layout.astro";
+import { TIPS_AND_NOTES_MD, ORIGINAL_HTML_VERSION } from "../../../constants/external-links";
+
+export async function getStaticPaths() {
+  const lessons = await getCollection("lessonsEs");
+  return lessons.map((lesson) => ({
+    params: { slug: lesson.id },
+    props: { lesson },
+  }));
+}
+
+const { lesson } = Astro.props;
+
+const { Content } = await render(lesson);
+---
+
+<Layout title={`${lesson.data.title} - Hebreo: Consejos y Notas`} locale="es">
+  <article class="lesson">
+    <div class="lesson-header">
+      <a href="/es" class="back-link">
+        <ArrowLeft size={16} />
+        Volver a las lecciones
+      </a>
+      <div class="external-links">
+        <a href={TIPS_AND_NOTES_MD} target="_blank" rel="noopener noreferrer">Markdown original</a>
+        <a href={ORIGINAL_HTML_VERSION} target="_blank" rel="noopener noreferrer">Versión HTML completa</a>
+      </div>
+    </div>
+
+    <div class="lesson-content">
+      <Content />
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+  .lesson {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e3e8ef;
+  }
+
+  .back-link {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: #586069;
+    font-size: 0.9rem;
+  }
+
+  .external-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .external-links a {
+    color: #0366d6;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 768px) {
+    .lesson {
+      padding: 1.25rem;
+    }
+
+    .lesson-header {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+  }
+
+  .lesson-content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #24292f;
+  }
+
+  .lesson-content h2 {
+    font-size: 1.5rem;
+    margin: 2.5rem 0 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e3e8ef;
+    color: #1b1f23;
+  }
+
+  .lesson-content h2:first-child {
+    margin-top: 0;
+  }
+
+  .lesson-content h3 {
+    font-size: 1.25rem;
+    margin: 1.75rem 0 0.85rem;
+    color: #1b1f23;
+  }
+
+  .lesson-content p {
+    margin: 0 0 1.5rem;
+  }
+
+  .lesson-content .table-wrapper {
+    margin: 1.25rem 0 1.5rem;
+    overflow-x: auto;
+    border: 1px solid #e3e8ef;
+    border-radius: 8px;
+  }
+
+  .lesson-content table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .lesson-content th,
+  .lesson-content td {
+    padding: 0.85rem 1.1rem;
+    border-bottom: 1px solid #e3e8ef;
+    border-right: 1px solid #e3e8ef;
+    text-align: left;
+  }
+
+  .lesson-content tr:last-child td {
+    border-bottom: none;
+  }
+
+  .lesson-content th:last-child,
+  .lesson-content td:last-child {
+    border-right: none;
+  }
+
+  .lesson-content th {
+    background: #f6f8fa;
+    font-weight: 600;
+    color: #1b1f23;
+  }
+
+  .lesson-content tbody tr:hover {
+    background: #fafbfc;
+  }
+
+  .lesson-content blockquote,
+  .lesson-content p.example {
+    margin: 1.25rem 0;
+    padding: 0.75rem 1.1rem;
+    border-left: 3px solid #79c0ff;
+    background: #f4f8fd;
+    border-radius: 0 6px 6px 0;
+    color: #1b1f23;
+  }
+
+  .lesson-content blockquote p {
+    margin: 0;
+  }
+
+  .lesson-content blockquote p + p {
+    margin-top: 0.5rem;
+  }
+
+  .lesson-content ul,
+  .lesson-content ol {
+    margin: 0 0 1.1rem;
+    padding-left: 1.75rem;
+  }
+
+  .lesson-content li {
+    margin: 0.4rem 0;
+  }
+
+  .lesson-content li p {
+    margin: 0;
+  }
+
+  .lesson-content li p + p {
+    margin-top: 0.4rem;
+  }
+
+  .lesson-content hr {
+    border: none;
+    border-top: 1px solid #e3e8ef;
+    margin: 2rem 0;
+  }
+
+  .lesson-content img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>

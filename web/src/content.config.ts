@@ -9,4 +9,11 @@ const lessons = defineCollection({
   }),
 });
 
-export const collections = { lessons };
+const lessonsEs = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "src/content/lessons-es" }),
+  schema: z.object({
+    title: z.string(),
+  }),
+});
+
+export const collections = { lessons, lessonsEs };

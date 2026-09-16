@@ -5,6 +5,13 @@ import rehypeWrapTables from "./src/rehype-plugins/rehype-wrap-tables.mjs";
 // https://astro.build/config
 export default defineConfig({
   base: "/",
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "es"],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
   markdown: {
     rehypePlugins: [rehypeExamples, rehypeWrapTables],
   },
