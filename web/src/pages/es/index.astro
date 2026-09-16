@@ -1,0 +1,79 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const lessons = await getCollection("lessonsEs");
+lessons.sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<Layout title="Hebreo: Consejos y Notas" locale="es">
+  <main>
+    <h1>Hebreo: Consejos y Notas</h1>
+    <p class="subtitle">
+      Consejos y notas completos del curso de hebreo de Duolingo. Estas notas fueron eliminadas de
+      Duolingo y se conservan aquí como referencia.
+    </p>
+
+    <section>
+      <h2>Todas las lecciones</h2>
+      <ul class="lesson-list">
+        {
+          lessons.map((lesson) => (
+            <li>
+              <a href={`/es/lessons/${lesson.id}`}>{lesson.data.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    color: #586069;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  .lesson-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .lesson-list a {
+    display: block;
+    padding: 0.75rem 1rem;
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    color: #0366d6;
+    font-size: 0.9rem;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .lesson-list a:hover {
+    background: #fff;
+    border-color: #0366d6;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      padding: 1.5rem 1.25rem;
+    }
+  }
+</style>
