@@ -1,20 +1,47 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter, slide } from "astro:transitions";
+import { Globe, ChevronDown } from "reicon-astro";
 import Sidebar from "../components/Sidebar.astro";
+import { descriptions, languageOptions } from "../constants/page-details";
 
 interface Props {
   title: string;
+  locale?: "en" | "es";
 }
 
-const { title } = Astro.props;
+const { title, locale = "en" } = Astro.props;
+const pathname = Astro.url.pathname;
+const basePath = pathname.replace(/^\/es(\/|$)/, "/");
+const localeHrefs = {
+  en: basePath,
+  es: basePath === "/" ? "/es" : `/es${basePath}`,
+};
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={locale}>
   <head>
+    <script is:inline define:vars={{ locale, basePath }}>
+      (function () {
+        try {
+          let stored = localStorage.getItem("preferredLocale");
+          if (!stored) {
+            const browserLang = (navigator.language || "").toLowerCase();
+            stored = browserLang.indexOf("es") === 0 ? "es" : "en";
+            localStorage.setItem("preferredLocale", stored);
+          }
+          if (stored !== locale) {
+            const target = stored === "es" ? (basePath === "/" ? "/es" : "/es" + basePath) : basePath;
+            location.replace(target + location.search + location.hash);
+          }
+        } catch {
+          // localStorage unavailable (private browsing, blocked storage, etc.) - skip detection
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
-    <meta name="description" content="Complete Tips and Notes from the Duolingo Hebrew course" />
+    <meta name="description" content={descriptions[locale]} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
@@ -23,12 +50,93 @@ const { title } = Astro.props;
     <ClientRouter />
   </head>
   <body>
-    <Sidebar />
+    <Sidebar locale={locale} />
+    <div class="lang-switcher" id="lang-switcher">
+      <button
+        type="button"
+        class="lang-toggle"
+        id="lang-switcher-toggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+        aria-label={locale === "es" ? "Cambiar idioma" : "Change language"}
+      >
+        <Globe size={16} />
+        <span>{locale.toUpperCase()}</span>
+        <ChevronDown size={14} class="lang-chevron" />
+      </button>
+      <ul class="lang-menu" id="lang-menu" role="menu">
+        {
+          languageOptions.map((option) => (
+            <li role="none">
+              <a
+                href={localeHrefs[option.code]}
+                role="menuitem"
+                data-locale={option.code}
+                class:list={{ active: locale === option.code }}
+              >
+                {option.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
     <div class="content" transition:animate={slide({ duration: "0.2s" })}>
       <slot />
     </div>
   </body>
 </html>
+
+<script>
+  function initLangSwitcher() {
+    const switcher = document.getElementById("lang-switcher");
+    const toggle = document.getElementById("lang-switcher-toggle");
+    const menu = document.getElementById("lang-menu");
+    if (!switcher || !toggle || !menu) return;
+
+    const closeMenu = () => {
+      switcher.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+
+    const openMenu = () => {
+      switcher.classList.add("open");
+      toggle.setAttribute("aria-expanded", "true");
+    };
+
+    toggle.addEventListener("click", (event) => {
+      event.stopPropagation();
+      if (switcher.classList.contains("open")) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!switcher.contains(event.target as Node)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeMenu();
+    });
+
+    menu.querySelectorAll<HTMLAnchorElement>("a[data-locale]").forEach((link) => {
+      link.addEventListener("click", () => {
+        try {
+          localStorage.setItem("preferredLocale", link.dataset.locale ?? "en");
+        } catch {
+          // localStorage unavailable - the choice just won't be remembered
+        }
+      });
+    });
+  }
+
+  document.addEventListener("astro:page-load", initLangSwitcher);
+</script>
+
 <style is:global>
   html {
     font-family:
@@ -61,6 +169,84 @@ const { title } = Astro.props;
     flex: 1;
     min-height: 100vh;
     min-width: 0;
+  }
+
+  .lang-switcher {
+    position: fixed;
+    top: 0.75rem;
+    right: 1rem;
+    z-index: 1001;
+  }
+
+  .lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    color: #24292f;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  .lang-toggle:hover {
+    background: #fff;
+    border-color: #0366d6;
+  }
+
+  .lang-chevron {
+    transition: transform 0.15s ease;
+  }
+
+  .lang-switcher.open .lang-chevron {
+    transform: rotate(180deg);
+  }
+
+  .lang-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    right: 0;
+    min-width: 140px;
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    list-style: none;
+    padding: 0.35rem;
+    overflow: hidden;
+  }
+
+  .lang-switcher.open .lang-menu {
+    display: block;
+  }
+
+  .lang-menu li {
+    padding: 0;
+  }
+
+  .lang-menu a {
+    display: block;
+    padding: 0.5rem 0.65rem;
+    border-radius: 6px;
+    color: #24292f;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+
+  .lang-menu a:hover {
+    background: #f6f8fa;
+    text-decoration: none;
+  }
+
+  .lang-menu a.active {
+    color: #0366d6;
+    font-weight: 600;
+    background: #f0f7ff;
   }
 
   @media (max-width: 768px) {

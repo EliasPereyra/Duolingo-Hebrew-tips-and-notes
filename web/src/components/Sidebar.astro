@@ -5,9 +5,20 @@ import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
 import logo from "../assets/imgs/logo.svg";
 
-const lessons = await getCollection("lessons");
+interface Props {
+  locale?: "en" | "es";
+}
+
+const { locale = "en" } = Astro.props;
+const prefix = locale === "es" ? "/es" : "";
+
+const enLessons = await getCollection("lessons");
+const lessons = locale === "es" ? await getCollection("lessonsEs") : enLessons;
 const pathname = Astro.url.pathname;
-const iconMap = buildLessonIconMap(lessons);
+
+// Icon/color assignment is always derived from the English titles so it stays
+// consistent across locales (lesson ids are shared between collections).
+const iconMap = buildLessonIconMap(enLessons);
 ---
 
 <button type="button" class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar" aria-expanded="false">
@@ -18,14 +29,14 @@ const iconMap = buildLessonIconMap(lessons);
 <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
 
 <aside class="sidebar" id="sidebar">
-  <a href="/" class="logo">
+  <a href={prefix || "/"} class="logo">
     <img src={logo.src} width={logo.width} height={logo.height} alt="Hebrew Tips & Notes" />
   </a>
   <nav>
     <ul>
       {
         lessons.map((lesson) => {
-          const href = `/lessons/${lesson.id}`;
+          const href = `${prefix}/lessons/${lesson.id}`;
           const isActive = pathname === href || pathname === `${href}/`;
           const { icon, color } = iconMap.get(lesson.id)!;
           const LessonIcon = ICONS[icon as keyof typeof ICONS];
