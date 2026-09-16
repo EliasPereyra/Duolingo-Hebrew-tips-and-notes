@@ -4,12 +4,6 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const contentDir = join(root, 'src', 'content', 'lessons');
-const sourceFile = join(root, '..', 'content', 'hebrew-tips-and-notes.md');
-
-mkdirSync(contentDir, { recursive: true });
-
-const md = readFileSync(sourceFile, 'utf-8');
 
 // Use the lessons.ts slugs for clean URLs
 const slugMap = {
@@ -83,36 +77,46 @@ const slugMap = {
 
 const headingRegex = /^# <a name="([^"]+)">([^<]+)<\/a>\n\n/gm;
 
-let match;
+function parseLessons(sourceFile, contentDir) {
+  mkdirSync(contentDir, { recursive: true });
 
-while ((match = headingRegex.exec(md)) !== null) {
-  const anchor = match[1];
-  const title = match[2];
-  const contentStart = headingRegex.lastIndex;
+  const md = readFileSync(sourceFile, 'utf-8');
 
-  const nextMatch = headingRegex.exec(md);
-  const contentEnd = nextMatch ? nextMatch.index : md.length;
+  let match;
+  headingRegex.lastIndex = 0;
 
-  let body = md.slice(contentStart, contentEnd).trim();
+  while ((match = headingRegex.exec(md)) !== null) {
+    const anchor = match[1];
+    const title = match[2];
+    const contentStart = headingRegex.lastIndex;
 
-  body = body.replace(/\n---+\s*$/, '');
-  body = body.replace(/\n\[Content Table\].*$/s, '');
+    const nextMatch = headingRegex.exec(md);
+    const contentEnd = nextMatch ? nextMatch.index : md.length;
 
-  const slug = slugMap[anchor];
-  if (!slug) {
-    console.warn(`No slug mapping for anchor: ${anchor}`);
-    continue;
-  }
+    let body = md.slice(contentStart, contentEnd).trim();
 
-  const escapedTitle = title.replace(/"/g, '\\"');
-  const content = `---
+    body = body.replace(/\n---+\s*$/, '');
+    body = body.replace(/\n\[(Content Table|Índice)\].*$/s, '');
+
+    const slug = slugMap[anchor];
+    if (!slug) {
+      console.warn(`No slug mapping for anchor: ${anchor} (${sourceFile})`);
+      continue;
+    }
+
+    const escapedTitle = title.replace(/"/g, '\\"');
+    const content = `---
 title: "${escapedTitle}"
 ---
 
 ${body}\n`;
 
-  writeFileSync(join(contentDir, `${slug}.md`), content, 'utf-8');
-  headingRegex.lastIndex = nextMatch ? nextMatch.index : md.length;
+    writeFileSync(join(contentDir, `${slug}.md`), content, 'utf-8');
+    headingRegex.lastIndex = nextMatch ? nextMatch.index : md.length;
+  }
+
+  console.log(`Extracted lessons to ${contentDir}`);
 }
 
-console.log(`Extracted lessons to ${contentDir}`);
+parseLessons(join(root, '..', 'content', 'hebrew-tips-and-notes.md'), join(root, 'src', 'content', 'lessons'));
+parseLessons(join(root, '..', 'content', 'hebrew-tips-and-notes.es.md'), join(root, 'src', 'content', 'lessons-es'));
