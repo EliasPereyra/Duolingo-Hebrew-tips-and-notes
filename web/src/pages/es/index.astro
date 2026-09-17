@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import LessonSearch from "../../components/LessonSearch.astro";
 
 const lessons = await getCollection("lessonsEs");
 lessons.sort((a, b) => a.data.title.localeCompare(b.data.title));
@@ -16,10 +17,11 @@ lessons.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
     <section>
       <h2>Todas las lecciones</h2>
-      <ul class="lesson-list">
+      <LessonSearch placeholder="Buscar lecciones..." noResultsText="No se encontraron lecciones." />
+      <ul class="lesson-list" id="lesson-list">
         {
           lessons.map((lesson) => (
-            <li>
+            <li data-title={lesson.data.title.toLowerCase()}>
               <a href={`/es/lessons/${lesson.id}`}>{lesson.data.title}</a>
             </li>
           ))
