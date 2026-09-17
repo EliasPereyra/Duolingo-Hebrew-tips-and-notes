@@ -1,0 +1,95 @@
+---
+import { Search } from "reicon-astro";
+
+interface Props {
+  placeholder: string;
+  noResultsText: string;
+}
+
+const { placeholder, noResultsText } = Astro.props;
+---
+
+<div class="lesson-search-wrapper">
+  <input
+    type="search"
+    id="lesson-search"
+    class="lesson-search"
+    placeholder={placeholder}
+    aria-label={placeholder}
+  />
+  <Search size={18} class="lesson-search-icon" />
+</div>
+<p class="no-results" id="no-results" hidden>{noResultsText}</p>
+
+<script>
+  function initLessonSearch() {
+    const input = document.getElementById("lesson-search") as HTMLInputElement | null;
+    const list = document.getElementById("lesson-list");
+    const noResults = document.getElementById("no-results");
+    if (!input || !list || !noResults) return;
+
+    const items = Array.from(list.querySelectorAll<HTMLLIElement>("li[data-title]"));
+
+    const filter = () => {
+      const query = input.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      items.forEach((item) => {
+        const matches = query === "" || (item.dataset.title ?? "").includes(query);
+        item.hidden = !matches;
+        if (matches) visibleCount++;
+      });
+
+      noResults.hidden = visibleCount !== 0;
+    };
+
+    let debounceTimer: ReturnType<typeof setTimeout>;
+    input.addEventListener("input", () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(filter, 200);
+    });
+
+    filter();
+  }
+
+  document.addEventListener("astro:page-load", initLessonSearch);
+</script>
+
+<style>
+  .lesson-search-wrapper {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .lesson-search {
+    display: block;
+    width: 100%;
+    padding: 0.65rem 2.5rem 0.65rem 1rem;
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    color: #24292e;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+
+  .lesson-search:focus {
+    outline: none;
+    border-color: #0366d6;
+    background: #fff;
+  }
+
+  .lesson-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 0.85rem;
+    transform: translateY(-50%);
+    color: #586069;
+    pointer-events: none;
+  }
+
+  .no-results {
+    color: #586069;
+    margin-top: 1rem;
+  }
+</style>
