@@ -11,10 +11,12 @@
     "check": "astro check",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "tts:generate": "node scripts/generate-tts.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/markdown-remark": "^7.2.0",
     "astro": "^6.4.8",
     "reicon-astro": "^1.0.0",
     "typescript": "^5.7.3",
@@ -25,6 +27,9 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.5.0",
     "eslint-plugin-astro": "^2.0.0",
-    "typescript-eslint": "^8.62.0"
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "typescript-eslint": "^8.62.0",
+    "unified": "^11.0.5"
   }
 }
