@@ -6,8 +6,10 @@ En esta lección presentamos el imperativo de nifál y algunos imperativos más 
 
 Para decir "vamos a [verbo]" en hebreo, literalmente decimos "ven, vamos a [verbo]". El imperativo "ven" debe concordar con la persona a la que le estás diciendo "vamos a":
 
-vamos (a un hombre) - בוא נלך  
-vamos (a una mujer) - בואי נלך  
+vamos (a un hombre) - בוא נלך
+
+vamos (a una mujer) - בואי נלך
+
 vamos (a un grupo) - בואו נלך
 
 * * *

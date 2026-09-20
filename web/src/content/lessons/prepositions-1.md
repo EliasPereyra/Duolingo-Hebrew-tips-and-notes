@@ -138,7 +138,8 @@ etc.
 
 **Notice** that some prepositions have different stand-alone forms. A prime example is עם (with) which turns into -אית when suffixes are added:
 
-with the dog - עם הכלב  
+with the dog - עם הכלב
+
 with him - איתו
 
 _The reason for this is that originally we had עם (along with עימי, עימך, עימנו etc. which have since become rare) and את (et), functioning as "with", not as the direct object marker. Nowadays, את is only ever used as the direct object marker._
@@ -247,6 +248,7 @@ The preposition בתוך (inside) cannot be used alone (without an object) in an
 
 In order to translate the adverb "inside", you need to use a different word, which will be introduced properly in Prepositions 2\. This word, בפנים _bifním_ does not require (and actually cannot have) a preposition attached to it.
 
-I am inside - אני בפנים  
+I am inside - אני בפנים
+
 I am inside the house - אני בתוך הבית
 

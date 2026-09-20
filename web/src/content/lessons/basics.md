@@ -170,7 +170,8 @@ If we want to refer to the same apple in another sentence, we will say:
 
 הוא טעים - hu taim (_lit:_ he is tasty)
 
-In English, one says "_it_ is tasty".  
+In English, one says "_it_ is tasty".
+
 The same goes for _all_ nouns.
 
 * * *

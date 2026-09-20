@@ -232,7 +232,8 @@ As in the verb "to change" (transitive):
 
 מבקר (mevakér) can mean both "visit" and "criticize". Aside from context, the two meanings can be differentiated by their respective prepositions. מבקר meaning "criticize" or "critique" is followed by את (et), while מבקר as "visit" is followed by -ב when visiting places and followed by את when visiting people.
 
-*   She visits the restaurant - היא מבקרת **ב**מסעדה  
+*   She visits the restaurant - היא מבקרת **ב**מסעדה
+
 
 *   She visits Tal - היא מבקרת **את** טל
 *   She critiques the restaurant - היא מבקרת **את ה**מסעדה

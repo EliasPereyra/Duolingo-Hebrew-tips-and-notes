@@ -62,7 +62,8 @@ Los colores negro (שחור shakhór) y gris (אפור afór) siguen un patrón 
 
 ## Patrón o -> o:
 
-Usando שחור como ejemplo:  
+Usando שחור como ejemplo:
+
 
 <table>
 

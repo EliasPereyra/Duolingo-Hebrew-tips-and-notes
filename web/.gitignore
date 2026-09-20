@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local Piper TTS tooling (python venv + downloaded voice model)
+.tts-tools/

@@ -1,4 +1,5 @@
 import { defineConfig, fontProviders } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import rehypeExamples from "./src/rehype-plugins/rehype-examples.mjs";
 import rehypeWrapTables from "./src/rehype-plugins/rehype-wrap-tables.mjs";
 
@@ -13,7 +14,9 @@ export default defineConfig({
     },
   },
   markdown: {
-    rehypePlugins: [rehypeExamples, rehypeWrapTables],
+    processor: unified({
+      rehypePlugins: [rehypeExamples, rehypeWrapTables],
+    }),
   },
   fonts: [
     {

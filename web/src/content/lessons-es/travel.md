@@ -14,7 +14,9 @@ En las abreviaturas hebreas, se eligen algunas letras representativas, a menudo 
 
 Al igual que en español, no todas las abreviaturas se pronuncian como palabras.
 
-La NASA, por ejemplo, **se** pronuncia "na-sa": נאס"א.  
-Pero los EE.UU., ארה"ב, se pronuncia igual que ארצות הברית: artsót habrít.  
+La NASA, por ejemplo, **se** pronuncia "na-sa": נאס"א.
+
+Pero los EE.UU., ארה"ב, se pronuncia igual que ארצות הברית: artsót habrít.
+
 A diferencia del español, es poco común deletrear las abreviaturas (como EE.UU.: i-i-yu-yu).
 

@@ -4,43 +4,52 @@ title: "Numbers 1"
 
 In Hebrew, numbers have both masculine and feminine forms:
 
-שלוש (shalosh - three, feminine)  
+שלוש (shalosh - three, feminine)
+
 שלושה (shlosha - three, masculine)
 
 Notice that contrary to what you might expect, the form ending in ה ("a") is the **_masculine_** form:
 
-three girls - שלוש ילדות  
+three girls - שלוש ילדות
+
 three boys/children - שלושה ילדים
 
 It is also important to note that the form used for neutral numbers which aren't describing any real objects (for example when one counts), is the **_feminine_** form:
 
-...שלוש, ארבע, חמש, שש  
+...שלוש, ארבע, חמש, שש
+
 three, four, five, six...
 
 ## **Number One**
 
 Most numbers in Hebrew come before the noun, as in English. The number "one" is an exception. "One" always comes after the noun:
 
-One boy - ילד אחד  
+One boy - ילד אחד
+
 One girl - ילדה אחת
 
 ## **Number Two**
 
 The number "two" is also a little bit special in Hebrew. The forms of the word used when they are not followed by a noun are:
 
-שתיים (feminine/neutral)  
+שתיים (feminine/neutral)
+
 שניים (masculine)
 
 For example:
 
-?כמה פלפלים אתה רוצה  
-.שניים  
-How many peppers do you want?  
+?כמה פלפלים אתה רוצה
+
+.שניים
+
+How many peppers do you want?
+
 Two.
 
 Different forms are used when the number is followed by a noun:
 
-Two peppers - שני פלפלים (shnei pilpelim)  
+Two peppers - שני פלפלים (shnei pilpelim)
+
 Two bananas - שתי בננות (shtei bananot)
 
 ## **Number Eight**
@@ -94,6 +103,7 @@ The numbers twenty (עשרים - esrim) and zero (אפס - efes) are neutral, i.
 
 The word "than" is represented by adding the preposition -מ, which more commonly translates as "from":
 
-ארבע זה יותר **מ**שלוש  
+ארבע זה יותר **מ**שלוש
+
 Four is more **than** three.
 

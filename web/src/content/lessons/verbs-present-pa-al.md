@@ -12,8 +12,10 @@ Some roots are expressed in several of the binyanim, while others only exist in 
 
 This skill will focus on verbs in the binyan called פָעַל (pa'al) in the present tense, which is the most basic and most commonly used binyan, and includes most of the basic verbs. This binyan is **active and transitive**.
 
-The most common pattern of the construction pa'al in the present tense is:  
-**(XoXeX) XXוֹX**  
+The most common pattern of the construction pa'al in the present tense is:
+
+**(XoXeX) XXוֹX**
+
 (the "X" is replaced by the root letters):
 
 <table>
@@ -212,9 +214,11 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 ## ישן, גדל
 
-One more slightly strange one. A very small number of verbs which are considered related to this binyan are conjugated slightly differently:  
+One more slightly strange one. A very small number of verbs which are considered related to this binyan are conjugated slightly differently:
 
-*   גָדֵל, גְדֵלה, גְדֵלים, גְדֵלות _gadel_, _gdela_, _gdelim_, _gdelot_ ("grow", "growing")  
+
+*   גָדֵל, גְדֵלה, גְדֵלים, גְדֵלות _gadel_, _gdela_, _gdelim_, _gdelot_ ("grow", "growing")
+
 
 *   יָשֵן, יְשֵנה, יְשֵנים, יְשֵנות _yashen_, _yeshena_, _yeshenim_, _yeshenot_ ("sleep", "sleeping")
 

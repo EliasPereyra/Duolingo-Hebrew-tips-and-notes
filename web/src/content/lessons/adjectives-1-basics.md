@@ -8,19 +8,26 @@ When we want to define a **general** feature of an object (i.e. lemons are sour)
 
 In simple terms, the copula is like the English verb "to be".
 
-The copula in Hebrew uses the third person pronouns to describe objects (i.e.  
-he/it הוא  
-she/it היא  
-they (m) הם  
+The copula in Hebrew uses the third person pronouns to describe objects (i.e.
+
+he/it הוא
+
+she/it היא
+
+they (m) הם
+
 they (f) הן).
 
 For example:
 
 Fish **are** tasty = דגים **הם** טעימים (literally - fish **they (are)** tasty).
 
-This allows you to differentiate between:  
-דגים טעימים - tasty fish  
-and  
+This allows you to differentiate between:
+
+דגים טעימים - tasty fish
+
+and
+
 דגים הם טעימים - fish are tasty.
 
 ## **Definite articles with adjectives**
@@ -33,7 +40,8 @@ The big dog = **ה**כלב **ה**גדול (**ha**kélev **ha**gadól).
 
 This rule is also applicable when we use more than one adjective for the same noun.
 
-The big beautiful dog = **ה**כלב **ה**גדול **וה**יפה (**ha**kélev **ha**gadól **ve'ha**yafé).  
+The big beautiful dog = **ה**כלב **ה**גדול **וה**יפה (**ha**kélev **ha**gadól **ve'ha**yafé).
+
 Note that we say "big _and_ beautiful". הגדול היפה is not as natural as "big beautiful" as in English.
 
 So now you can differentiate between:
@@ -46,7 +54,8 @@ So now you can differentiate between:
 
 When you have a noun, an (attributive) adjective and a possessive, the possessive comes after both the noun and the adjective:
 
-הכלב החדש שלי  
+הכלב החדש שלי
+
 My new dog
 
 _not_ הכלב שלי החדש

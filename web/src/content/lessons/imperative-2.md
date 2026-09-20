@@ -6,8 +6,10 @@ In this skill we introduce the nif'al imperative and a few more imperatives of p
 
 To say "let's [verb]" in Hebrew, we literally say "come we will [verb]". The "come" imperative must agree with whoever you are saying the "let's" to:
 
-let's go (to a male) - בוא נלך  
-let's go (to a female) - בואי נלך  
+let's go (to a male) - בוא נלך
+
+let's go (to a female) - בואי נלך
+
 let's go (to a group) - בואו נלך
 
 * * *

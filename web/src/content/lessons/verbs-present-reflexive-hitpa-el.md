@@ -6,7 +6,8 @@ title: "Verbs: Present Reflexive - Hitpa'el"
 
 Now we move onto the 4th binyan: hitpa'el (התפעל). This binyan is often used for verbs which express a **reflexive action** (something you do to yourself), or describe a certain **procedure**, often translated into English using verbs such as "get" or "become" + the adjective. For example:
 
-I shave (myself) - אני מתגלח  
+I shave (myself) - אני מתגלח
+
 He gets stronger - הוא מתחזק
 
 And as before, there are some words that do not seem to fit either description, but are still part of the binyan (in the past the connection may have been more obvious, and the meaning or usage may have changed since then). An example of this is the verb "to use". Note also that this verb requires the preposition ב:

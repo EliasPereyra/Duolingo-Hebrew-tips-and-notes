@@ -14,7 +14,8 @@ En esta lección enseñamos dos de las tres construcciones pasivas (binianím). 
 
 # Pa'ul
 
-En las lecciones 1 y 2 de esta lección también presentamos el **pa'ul**, que es el patrón para formar participios pasados, como "amado", "escrito", "querido".  
+En las lecciones 1 y 2 de esta lección también presentamos el **pa'ul**, que es el patrón para formar participios pasados, como "amado", "escrito", "querido".
+
 Pa'ul es la **forma pasiva presente** del binián pa'al y por lo tanto, todas las palabras de esta forma provienen originalmente del binián pa'al.
 
 Por ejemplo:
@@ -46,12 +47,14 @@ Este es mi libro favorito - זה הספר האהוב עליי
 
 En las lecciones 3 y 4 presentamos el tiempo presente del binián pasivo **pu'al**, nuestro quinto binián de siete. Pu'al es el equivalente pasivo del binián activo pi'el:
 
-cocina (mevashél) מבשל  
+cocina (mevashél) מבשל
+
 está cocinado (mevushál) מבושל
 
 Ya te habrás dado cuenta de que la distinción entre sustantivo, verbo y adjetivo no es del todo clara en hebreo. Considerá estas oraciones:
 
-La comida **está cocinada** (verbo) por los cocineros - האוכל **מבושל** על ידי טבחים  
+La comida **está cocinada** (verbo) por los cocineros - האוכל **מבושל** על ידי טבחים
+
 Quiero verduras **cocidas** (adjetivo) - אני רוצה ירקות **מבושלים**
 
 El binián pu'al tiene conjugaciones de futuro y pasado, así que podés considerarlo un verbo en esos casos, pero los verbos pu'al en presente también pueden funcionar como adjetivos, como vimos arriba. Los tiempos futuro y pasado de pu'al, junto con el siguiente binián, hufál, no son muy comunes en el hebreo moderno y son bastante formales, así que no los vamos a cubrir en este curso.
@@ -128,7 +131,8 @@ Notá que todos los verbos en presente de este binián empiezan con "me-".
 
 En las lecciones 5 y 6 vemos hufál, nuestro sexto binián, el equivalente pasivo de hifíl:
 
-explica (masbír) מסביר  
+explica (masbír) מסביר
+
 se explica (musbár) מוסבר
 
 Acá está su patrón para el tiempo presente:

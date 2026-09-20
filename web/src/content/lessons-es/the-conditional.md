@@ -26,8 +26,10 @@ De forma similar al "sería"/"solía" en español, היה en hebreo puede expres
 
 > אם הייתה לי הזדמנות לברוח, הייתי בורח. = Si tuviera la oportunidad de escapar, escaparía.
 
-Según el contexto, esto puede significar:  
-a) Si tuviera la oportunidad de escapar, la aprovecharía (aunque nunca recibió una hasta ahora).  
+Según el contexto, esto puede significar:
+
+a) Si tuviera la oportunidad de escapar, la aprovecharía (aunque nunca recibió una hasta ahora).
+
 b) En las ocasiones en las que pudo escapar, tenía el hábito de hacerlo.
 
 * * *
@@ -36,7 +38,8 @@ b) En las ocasiones en las que pudo escapar, tenía el hábito de hacerlo.
 
 *   לוּ e אִילו (lu e ilu; no las confundas con "lo" y "eylu", "a él" y "esos/esas", que se escriben igual sin nikud): significan lo mismo que אם, aunque se usan solo para eventos que no ocurrieron o no pueden ocurrir. También son más formales y menos comunes que אם (probablemente nunca las escuches en una conversación diaria).
 
-*   לולא e אילולא (lule e ilule) son sus contrapartes negativas, "si no". También se usan en expresiones como "si no fuera por...":  
+*   לולא e אילולא (lule e ilule) son sus contrapartes negativas, "si no". También se usan en expresiones como "si no fuera por...":
+
     si no fuera por mí, no estarías acá:
 
     > אילולא אני, לא היית פה

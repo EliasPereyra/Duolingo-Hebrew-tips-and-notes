@@ -32,14 +32,18 @@ En esta lección presentamos dos nombres israelíes comunes:
 
 Como en español, hay varias formas de preguntarle a alguien cómo está o qué está pasando. Acá presentamos las siguientes:
 
-?מה קורה  
+?מה קורה
+
 Literalmente: "¿Qué está pasando?" Similar a "¿Qué onda?", "¿Cómo andás?"
 
-?מה נשמע  
+?מה נשמע
+
 Literalmente: "¿Qué se escucha?" Se usa de la misma forma que מה קורה.
 
-?מה שלומך  
-(al dirigirse a un hombre: מה שלומךָ (ma shlomkhá), al dirigirse a una mujer: מה שלומךְ (ma shlomékh))  
+?מה שלומך
+
+(al dirigirse a un hombre: מה שלומךָ (ma shlomkhá), al dirigirse a una mujer: מה שלומךְ (ma shlomékh))
+
 Literalmente significa "¿cuál es tu paz/bienestar?". Esta es la forma estándar y formal de preguntar "¿cómo estás?".
 
 * * *

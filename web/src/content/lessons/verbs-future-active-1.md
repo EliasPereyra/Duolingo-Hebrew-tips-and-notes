@@ -128,26 +128,36 @@ You will notice light variations on this, depending on the verb, and as usual th
 
 ## Usage of Pronouns
 
-*   אני, הוא/היא, הם/הן - Try to include these pronouns along with the future tense.  
+*   אני, הוא/היא, הם/הן - Try to include these pronouns along with the future tense.
 
-*   אתה/את, אנחנו, אתם/אתן - Try _not_ to include these pronouns with the future tense, the conjugation of the verb is enough. Using these pronouns with the future tense will sound stilted, unless they are being used for emphasis.  
 
-*   In this way it is easy to tell the difference between תכתוב (you will write) and היא תכתוב (she will write).  
+*   אתה/את, אנחנו, אתם/אתן - Try _not_ to include these pronouns with the future tense, the conjugation of the verb is enough. Using these pronouns with the future tense will sound stilted, unless they are being used for emphasis.
 
-Here is a full, "natural", conjugation for לכתוב:  
 
-*   אני אכתוב  
+*   In this way it is easy to tell the difference between תכתוב (you will write) and היא תכתוב (she will write).
+
+
+Here is a full, "natural", conjugation for לכתוב:
+
+
+*   אני אכתוב
+
 
 *   תכתוב
-*   תכתבי  
+*   תכתבי
 
-*   הוא יכתוב  
 
-*   היא תכתוב  
+*   הוא יכתוב
 
-*   נכתוב  
 
-*   תכתבו  
+*   היא תכתוב
+
+
+*   נכתוב
+
+
+*   תכתבו
+
 
 *   הם/הן יכתבו
 
@@ -275,9 +285,12 @@ Like in the past tense, the verb "to be" exists in the future tense as well:
 
 The verb "to have" in the future works like it does in the past. It must agree with the possessed object(s) in gender and number. For example:
 
-I will have a (male) dog - יהיה לי כלב  
-I will have a (female) dog - תהיה לי כלבה  
-I will have dogs - יהיו לי כלבים  
+I will have a (male) dog - יהיה לי כלב
+
+I will have a (female) dog - תהיה לי כלבה
+
+I will have dogs - יהיו לי כלבים
+
 
 There is also a rarer and formal version of the feminine form of "they will be": הן תהיינה. Here you will learn to recognise this form, but try to use הן יהיו in everyday speech. This goes for all verbs. That is, there is a conjugation of הן ת---נה, but almost always the masculine/mixed form is used even for entirely female groups of people or things.
 
@@ -287,7 +300,8 @@ There is also a rarer and formal version of the feminine form of "they will be":
 
 In Hebrew, the usage of the future is more closely related to its actual meaning than in English. For example, in English we say "when you get there, give them this", with "get" in the present tense. However, this is a future action, and in Hebrew the future tense is required:
 
-כשתגיע לשם, תן להם את זה  
+כשתגיע לשם, תן להם את זה
+
 Literally: "When you **will** arrive to there, give to them this".
 
 (But make sure to remember that if "when" is followed by a habitual action, such as in "when I eat dinner, I watch TV", the future is not required:
@@ -300,13 +314,16 @@ Literally: "When you **will** arrive to there, give to them this".
 
 The future tense is also used in sentences such as "I want you to...":
 
-אני רוצה שתיתן לי את זה  
+אני רוצה שתיתן לי את זה
+
 I want you to give me that. Literally "I want that you will give to me that".
 
 (But do not use the future if the person wanting something is the same as the person doing the action, the infinitive is used here like in English:
 
-אני רוצה לתת לך את זה  
-I want to give this to you. Literally "I want to give to you this".  
+אני רוצה לתת לך את זה
+
+I want to give this to you. Literally "I want to give to you this".
+
 _Not אני רוצה שאני אתן לך את זה_)
 
 * * *

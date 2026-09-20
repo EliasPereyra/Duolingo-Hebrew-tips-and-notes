@@ -62,7 +62,8 @@ The colors black (שחור shakhór) and gray (אפור afór) follow a slightly
 
 ## o -> o pattern:
 
-Using שחור as an example:  
+Using שחור as an example:
+
 
 <table>
 

@@ -26,8 +26,10 @@ Similar to the English "would", היה in Hebrew can express both a hypothetical
 
 > אם הייתה לי הזדמנות לברוח, הייתי בורח. = If I had an opportunity to run away, I would run away.
 
-According to the context, this can mean either:  
-a) Given an opportunity to escape, he would take it (although he hasn't ever received one thus far).  
+According to the context, this can mean either:
+
+a) Given an opportunity to escape, he would take it (although he hasn't ever received one thus far).
+
 b) On the occasions that he was able to escape, he had the habit of doing so.
 
 * * *
@@ -36,7 +38,8 @@ b) On the occasions that he was able to escape, he had the habit of doing so.
 
 *   לוּ and אִילו (lu and ilu - don't confuse with "lo" and "eylu", "to him" and "those", which are spelt the same way without nikkud): these mean the same as אם, although they are used only for events that haven't or can't happen. They are also more formal and less common than אם (you will probably never hear them in daily conversation).
 
-*   לולא and אילולא (lule and ilule) are their negative counterparts - "if not". They are also used in expressions such as "if not for...":  
+*   לולא and אילולא (lule and ilule) are their negative counterparts - "if not". They are also used in expressions such as "if not for...":
+
     if not for me, you wouldn't be here:
 
     > אילולא אני, לא היית פה

@@ -4,16 +4,19 @@ title: "Infinitivos 2"
 
 **Patrón Hifíl**
 
-lehaXXiX  
+lehaXXiX
+
 por ejemplo, lehagdíl - להגדיל
 
 **Patrón Hitpa'el**
 
-lehitXaXeX  
+lehitXaXeX
+
 por ejemplo, lehitgabér - להתגבר
 
 **Patrón Nif'al**
 
-lehiXaXeX  
+lehiXaXeX
+
 por ejemplo, lehisha'ér - להישאר (o להשאר)
 

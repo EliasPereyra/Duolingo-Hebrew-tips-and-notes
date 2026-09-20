@@ -80,7 +80,8 @@ Las palabras נא y אנא son formas formales de decir "por favor" en hebreo. E
 
 Por ejemplo:
 
-Por favor conservá el boleto - נא לשמור את הכרטיס  
+Por favor conservá el boleto - נא לשמור את הכרטיס
+
 Por favor escuchen - אנא הקשיבו
 
 * * *
@@ -249,12 +250,14 @@ Ya dije eso - כבר אמרתי זאת
 
 Se omite la ה tanto del sustantivo como del demostrativo en "este...", "ese...":
 
-Esta manzana no es roja - תפוח זה אינו אדום  
+Esta manzana no es roja - תפוח זה אינו אדום
+
 (=התפוח הזה לא אדום=)
 
 El uso de כי en lugar de ש al introducir citas o cláusulas de contenido declarativo:
 
-Él dijo que no lo hizo - הוא אמר כי הוא לא עשה זאת  
+Él dijo que no lo hizo - הוא אמר כי הוא לא עשה זאת
+
 Ella dijo "este es un buen resultado" - היא אמרה כי "זאת תוצאה טובה"
 
 El uso de אשר en lugar de ש al introducir cláusulas relativas:
@@ -271,7 +274,8 @@ Se puede colocar ה al principio de la primera palabra de una oración para indi
 
 ה también se puede usar de forma similar a ש o אשר:
 
-El niño que come huevos - הילד האוכל ביצים  
+El niño que come huevos - הילד האוכל ביצים
+
 (como: הילד שאוכל ביצים/הילד אשר אוכל ביצים)
 
 * * *

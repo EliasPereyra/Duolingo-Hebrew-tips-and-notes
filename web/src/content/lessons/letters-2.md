@@ -546,7 +546,8 @@ As well as denoting vowels, dots can be used to explicitly distinguish between l
 
 In technical terms the letters with the dot are plosives, and are usually used at the start of a syllable, while the letters without the dot are fricatives and are usually used at the end of a syllable. In writing without nikud, a letter without a dot could have either pronunciation, but its position in the syllable will help you guess the right pronunciation. For example:
 
-kélev כלב (start of syllable)  
+kélev כלב (start of syllable)
+
 mélekh מלך (end of syllable)
 
 The letter שׁ, with a dot at the top right represents "sh", while שׂ, with the dot at the top left, represents "s".

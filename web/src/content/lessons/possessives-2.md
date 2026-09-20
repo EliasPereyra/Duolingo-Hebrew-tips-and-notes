@@ -162,6 +162,7 @@ For example :
 
 When words have possessive endings attached to them, they are always definite, so when in an object position, they must be preceded by את:
 
-אני רואה **את** סוסך  
+אני רואה **את** סוסך
+
 I (can) see your horse.
 

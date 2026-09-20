@@ -6,7 +6,8 @@ title: "Verbos: Presente Reflexivo - Hitpa'el"
 
 Ahora pasamos al 4to binián: hitpaél (התפעל). Este binián se usa a menudo para verbos que expresan una **acción reflexiva** (algo que te hacés a vos mismo), o describen un **proceso** determinado, a menudo traducidos al español usando verbos como "ponerse" o "volverse" + el adjetivo. Por ejemplo:
 
-Me afeito - אני מתגלח  
+Me afeito - אני מתגלח
+
 Él se pone más fuerte - הוא מתחזק
 
 Y como antes, hay algunas palabras que no parecen encajar en ninguna de las dos descripciones, pero igual son parte del binián (en el pasado la conexión pudo haber sido más obvia, y el significado o uso puede haber cambiado desde entonces). Un ejemplo de esto es el verbo "usar". Notá también que este verbo requiere la preposición ב:

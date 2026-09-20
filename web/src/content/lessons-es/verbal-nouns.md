@@ -8,8 +8,10 @@ En hebreo hay varias estrategias de este tipo, dependiendo del binián del verbo
 
 Los verbos **pa'al** a menudo siguen la estructura XXiXa:
 
-escritura (ktivá) כתיבה  
-compra (kniyá) קנייה  
+escritura (ktivá) כתיבה
+
+compra (kniyá) קנייה
+
 pensamiento (khashivá) חשיבה
 
 Los verbos **pi'el** a menudo siguen la estructura XiXuX:

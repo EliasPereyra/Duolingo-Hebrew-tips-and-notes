@@ -30,7 +30,8 @@ For example:
 
 When using question words as conjunctions, ש is essential:
 
-I go **where** you go אני הולך **לאן ש**אתה הולך  
+I go **where** you go אני הולך **לאן ש**אתה הולך
+
 
 ## **The conjunction word "בגלל"**
 
