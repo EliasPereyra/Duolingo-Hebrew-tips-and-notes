@@ -8,8 +8,10 @@ In Hebrew there are several such strategies, depending on the binyan of the verb
 
 **Pa'al** verbs often follow the structure XXiXa:
 
-writing (ktivá) כתיבה  
-buying/purchase (kniyá) קנייה  
+writing (ktivá) כתיבה
+
+buying/purchase (kniyá) קנייה
+
 thinking/thought (khashivá) חשיבה
 
 **Pi'el** verbs often follow the structure XiXuX:

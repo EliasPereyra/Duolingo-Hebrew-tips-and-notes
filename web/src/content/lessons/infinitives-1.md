@@ -6,19 +6,23 @@ Infinitives in Hebrew work in much the same way as in English. The infinitive fo
 
 We have seen the binyanim pa'al and pi'el so far. This is how both conjugate in the infinitive:
 
-**Pa'al**  
+**Pa'al**
 
-liXXoX  
+
+liXXoX
+
 eg. likhtóv - לכתוב
 
 **Pi'el**
 
-leXaXeX  
+leXaXeX
+
 eg. leshalém - לשלם
 
 Verbs which end in ה in the singular present, end in ות in the infinitive:
 
-*   to swim - liskhót - לשחות  
+*   to swim - liskhót - לשחות
+
 
 *   to change - leshanót - לשנות
 

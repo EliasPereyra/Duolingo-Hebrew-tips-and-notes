@@ -30,7 +30,8 @@ Por ejemplo:
 
 Cuando se usan palabras interrogativas como conjunciones, ש es imprescindible:
 
-Voy **a donde** vos vas אני הולך **לאן ש**אתה הולך  
+Voy **a donde** vos vas אני הולך **לאן ש**אתה הולך
+
 
 ## **La palabra de conjunción "בגלל"**
 

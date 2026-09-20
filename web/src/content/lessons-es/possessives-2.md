@@ -162,6 +162,7 @@ Por ejemplo:
 
 Cuando las palabras tienen terminaciones posesivas pegadas, siempre son definidas, así que cuando están en posición de objeto, deben ir precedidas por את:
 
-אני רואה **את** סוסך  
+אני רואה **את** סוסך
+
 (Puedo) ver tu caballo.
 

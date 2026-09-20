@@ -22,8 +22,10 @@ Ejemplos usando את _et_:
 
 **ה**ילד אוכל **_את ה_**תפוח - **El** niño come **_la_** manzana.
 
-Si el objeto directo es un nombre propio, את sigue siendo necesario, pero no agregamos ה:  
-הילד אוכל את יוסי  
+Si el objeto directo es un nombre propio, את sigue siendo necesario, pero no agregamos ה:
+
+הילד אוכל את יוסי
+
 ¡El niño se come a Yosi!
 
 ## _et_ vs _at_

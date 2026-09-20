@@ -138,7 +138,8 @@ etc.
 
 **Notá** que algunas preposiciones tienen formas independientes distintas. Un ejemplo claro es עם (con), que se convierte en -אית cuando se le agregan sufijos:
 
-con el perro - עם הכלב  
+con el perro - עם הכלב
+
 con él - איתו
 
 _La razón de esto es que originalmente teníamos עם (junto con עימי, עימך, עימנו, etc., que ya se volvieron poco comunes) y את (et), que funcionaba como "con", no como marcador de objeto directo. Hoy en día, את solo se usa como marcador de objeto directo._
@@ -247,6 +248,7 @@ La preposición בתוך (adentro de) no se puede usar sola (sin un objeto) en n
 
 Para traducir el adverbio "adentro", necesitás usar una palabra distinta, que se presentará más adelante en Preposiciones 2\. Esta palabra, בפנים _bifním_, no requiere (y de hecho no puede tener) una preposición pegada.
 
-Estoy adentro - אני בפנים  
+Estoy adentro - אני בפנים
+
 Estoy adentro de la casa - אני בתוך הבית
 

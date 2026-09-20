@@ -128,26 +128,36 @@ Vas a notar pequeñas variaciones en esto, dependiendo del verbo, y como es habi
 
 ## Uso de los pronombres
 
-*   אני, הוא/היא, הם/הן - Tratá de incluir estos pronombres junto con el tiempo futuro.  
+*   אני, הוא/היא, הם/הן - Tratá de incluir estos pronombres junto con el tiempo futuro.
 
-*   אתה/את, אנחנו, אתם/אתן - Tratá de _no_ incluir estos pronombres con el tiempo futuro; la conjugación del verbo ya alcanza. Usar estos pronombres con el tiempo futuro va a sonar forzado, a menos que se usen para dar énfasis.  
 
-*   De esta manera es fácil notar la diferencia entre תכתוב (tú escribirás) e היא תכתוב (ella escribirá).  
+*   אתה/את, אנחנו, אתם/אתן - Tratá de _no_ incluir estos pronombres con el tiempo futuro; la conjugación del verbo ya alcanza. Usar estos pronombres con el tiempo futuro va a sonar forzado, a menos que se usen para dar énfasis.
 
-Acá está la conjugación completa y "natural" de לכתוב:  
 
-*   אני אכתוב  
+*   De esta manera es fácil notar la diferencia entre תכתוב (tú escribirás) e היא תכתוב (ella escribirá).
+
+
+Acá está la conjugación completa y "natural" de לכתוב:
+
+
+*   אני אכתוב
+
 
 *   תכתוב
-*   תכתבי  
+*   תכתבי
 
-*   הוא יכתוב  
 
-*   היא תכתוב  
+*   הוא יכתוב
 
-*   נכתוב  
 
-*   תכתבו  
+*   היא תכתוב
+
+
+*   נכתוב
+
+
+*   תכתבו
+
 
 *   הם/הן יכתבו
 
@@ -275,9 +285,12 @@ Al igual que en el pasado, el verbo "ser/estar" también existe en el futuro:
 
 El verbo "tener" en futuro funciona igual que en pasado. Debe concordar con el objeto poseído (o no poseído) en género y número. Por ejemplo:
 
-Voy a tener un perro (macho) - יהיה לי כלב  
-Voy a tener una perra - תהיה לי כלבה  
-Voy a tener perros - יהיו לי כלבים  
+Voy a tener un perro (macho) - יהיה לי כלב
+
+Voy a tener una perra - תהיה לי כלבה
+
+Voy a tener perros - יהיו לי כלבים
+
 
 También existe una versión más rara y formal de la forma femenina de "ellas serán": הן תהיינה. Acá vas a aprender a reconocer esta forma, pero tratá de usar הן יהיו en el habla cotidiana. Esto aplica para todos los verbos. Es decir, existe una conjugación de הן ת---נה, pero casi siempre se usa la forma masculina/mixta incluso para grupos enteramente femeninos de personas o cosas.
 
@@ -287,7 +300,8 @@ También existe una versión más rara y formal de la forma femenina de "ellas s
 
 En hebreo, el uso del futuro está más estrechamente relacionado con su significado real que en español. Por ejemplo, en español decimos "cuando llegues ahí, dales esto", con "llegues" en subjuntivo/presente. Sin embargo, esta es una acción futura, y en hebreo se requiere el tiempo futuro:
 
-כשתגיע לשם, תן להם את זה  
+כשתגיע לשם, תן להם את זה
+
 Literalmente: "Cuando **llegarás** ahí, da a ellos esto".
 
 (Pero recordá que si "cuando" va seguido de una acción habitual, como en "cuando ceno, miro TV", no se requiere el futuro:
@@ -300,13 +314,16 @@ Literalmente: "Cuando **llegarás** ahí, da a ellos esto".
 
 El tiempo futuro también se usa en oraciones como "quiero que vos...":
 
-אני רוצה שתיתן לי את זה  
+אני רוצה שתיתן לי את זה
+
 Quiero que me des eso. Literalmente "Quiero que darás a mí eso".
 
 (Pero no uses el futuro si la persona que quiere algo es la misma que realiza la acción; ahí se usa el infinitivo, como en español:
 
-אני רוצה לתת לך את זה  
-Quiero darte esto. Literalmente "Quiero dar a ti esto".  
+אני רוצה לתת לך את זה
+
+Quiero darte esto. Literalmente "Quiero dar a ti esto".
+
 _No אני רוצה שאני אתן לך את זה_)
 
 * * *

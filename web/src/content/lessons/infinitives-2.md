@@ -4,16 +4,19 @@ title: "Infinitives 2"
 
 **Hiph'il Pattern**
 
-lehaXXiX  
+lehaXXiX
+
 eg. lehagdíl - להגדיל
 
 **Hitpa'el Pattern**
 
-lehitXaXeX  
+lehitXaXeX
+
 eg. lehitgabér - להתגבר
 
 **Nif'al Pattern**
 
-lehiXaXeX  
+lehiXaXeX
+
 eg. lehisha'ér - להישאר (or להשאר)
 

@@ -156,7 +156,8 @@ It is most natural to leave out the pronoun when using a verb in the past tense.
 
 **However**, the pronoun is not often left out for the _third person_, so you should always try to say:
 
-הוא אמר/היא אמרה  
+הוא אמר/היא אמרה
+
 הם/הן אמרו
 
 * * *
@@ -301,13 +302,16 @@ Let's have a look at the conjugations of the verb "to be" in the past tense (ה�
 
 In the present tense, we use -יש ל and -אין ל to express "have" and "does not have". In the past tense (and future), we replace יש and אין with appropriate past forms of the verb "to be". The form of the verb must agree with the thing possessed or not possessed:
 
-היה לי כלב  
+היה לי כלב
+
 I had a dog. Literally "(he/it) was to me dog".
 
-הייתה לי מכונית  
+הייתה לי מכונית
+
 I had a car. Literally "(she) was to me car", because מכונית is feminine.
 
-לא היו לי שמלות  
+לא היו לי שמלות
+
 I did not have dresses. Literally "not (they) were to me dresses".
 
 * * *

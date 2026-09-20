@@ -164,15 +164,21 @@ Generalmente el orden de las palabras en oraciones que expresan posesión es el 
 
 cosa poseída + poseedor + יש + ל
 
-Por ejemplo:  
-יש לילד תפוח  
+Por ejemplo:
+
+יש לילד תפוח
+
 אין לילד תפוח
 
-Un orden alternativo coloca al poseedor al principio de la oración, así:  
-לילד יש תפוח  
+Un orden alternativo coloca al poseedor al principio de la oración, así:
+
+לילד יש תפוח
+
 Esto tiene el efecto de poner más énfasis en el poseedor que en el objeto poseído: "el **niño** (es el niño, y no la niña, ni la rana) tiene una manzana".
 
-Este ejemplo te puede ayudar a entender la diferencia:  
-לילד יש תפוח, אבל לי אין  
+Este ejemplo te puede ayudar a entender la diferencia:
+
+לילד יש תפוח, אבל לי אין
+
 **_El niño_** tiene una manzana, pero **_yo_** no.
 

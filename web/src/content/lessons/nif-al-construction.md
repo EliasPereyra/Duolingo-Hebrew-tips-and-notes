@@ -6,7 +6,8 @@ title: "Nif'al Construction"
 
 Nif'al, our final binyan, is the passive equivalent of pa'al:
 
-I close the door - אני סוגר את הדלת  
+I close the door - אני סוגר את הדלת
+
 The door closes (or "is closed") - הדלת נסגרת
 
 Not all nif'al verbs are passive. Some are active, such as נכנס:
@@ -15,12 +16,14 @@ I enter the house - אני נכנס לבית.
 
 And as you can see from the example above of the door closing, the distinction between passive and active is not always clear-cut. Compare:
 
-The door closes like this - הדלת נסגרת ככה  
+The door closes like this - הדלת נסגרת ככה
+
 The door is closed by the cook - הדלת נסגרת על ידי הטבח
 
 And נראה, meaning literally "is seen" often means "seems" or "looks", while נשמע, literally "is heard", often means "sounds":
 
-This looks good - זה נראה טוב  
+This looks good - זה נראה טוב
+
 This sounds good - זה נשמע טוב
 
 * * *

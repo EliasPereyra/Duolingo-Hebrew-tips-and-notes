@@ -8,6 +8,7 @@ If you want to create a construct within a construct, the last word is always th
 
 For example:
 
-Birthday cake - עוגת יום הולדת  
+Birthday cake - עוגת יום הולדת
+
 The birthday cake - עוגת יום **ה**הולדת
 

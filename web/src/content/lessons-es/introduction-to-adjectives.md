@@ -110,8 +110,10 @@ La conjugación de los adjetivos es casi idéntica a la conjugación en presente
 
 ## Resumen de estructuras de frases simples
 
-El libro es bueno - הספר טוב  
-El libro bueno - הספר הטוב  
+El libro es bueno - הספר טוב
+
+El libro bueno - הספר הטוב
+
 Un libro bueno - ספר טוב
 
 ¿Cómo decimos "un libro es bueno"? Usamos los pronombres personales como una especie de verbo "ser":
@@ -126,6 +128,7 @@ Estas son oraciones bastante inusuales, poco comunes, tanto en hebreo como en es
 
 Y por supuesto, se necesita el plural para sustantivos plurales:
 
-Los niños/chicos son buenos - ילדים הם טובים  
+Los niños/chicos son buenos - ילדים הם טובים
+
 Las niñas son buenas - ילדות הן טובות
 

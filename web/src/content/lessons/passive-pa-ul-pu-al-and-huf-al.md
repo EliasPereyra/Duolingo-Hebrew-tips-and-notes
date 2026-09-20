@@ -14,7 +14,8 @@ In this skill we teach two of the three passive constructions (binyanim). Each p
 
 # Pa'ul
 
-In lessons 1 &2 of this skill we also introduce **pa'ul**, which is the pattern for building past participles, such as "loved", "written", "wanted".  
+In lessons 1 &2 of this skill we also introduce **pa'ul**, which is the pattern for building past participles, such as "loved", "written", "wanted".
+
 Pa'ul is the **present passive form** of binyan pa'al and therefore, all words of this form are originally from binyan pa'al.
 
 For example:
@@ -46,12 +47,14 @@ This is my favorite book - זה הספר האהוב עליי
 
 In lessons 3 & 4 we introduce the present tense of the passive binyan **pu'al**, our fifth binyan of seven. Pu'al is the passive equivalent of the active binyan pi'el:
 
-cook (mevashél) מבשל  
+cook (mevashél) מבשל
+
 is cooked (mevushál) מבושל
 
 You may have noticed by now that the distinction between noun, verb and adjective is not entirely clear-cut in Hebrew. Consider these sentences:
 
-The food **is cooked** (verb) by chefs - האוכל **מבושל** על ידי טבחים  
+The food **is cooked** (verb) by chefs - האוכל **מבושל** על ידי טבחים
+
 I want **cooked** (adjective) vegetables - אני רוצה ירקות **מבושלים**
 
 The binyan pu'al has future and past conjugations, so you can consider it a verb in those cases, but pu'al verbs in the present can also function as adjectives as seen above. The future and past tenses of pu'al, along with the next binyan, huf'al, are not very common in modern Hebrew and are fairly formal, so we will not cover them in this course.
@@ -128,7 +131,8 @@ Note that all present tense verbs in this binyan begin with "me-".
 
 In lessons 5 & 6 we look at huf'al, our sixth binyan, the passive equivalent of hiph'il:
 
-explain (masbír) מסביר  
+explain (masbír) מסביר
+
 is explained (musbár) מוסבר
 
 Here is its pattern for the present tense:

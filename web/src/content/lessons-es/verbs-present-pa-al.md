@@ -12,8 +12,10 @@ Algunas raíces se expresan en varios de los binianím, mientras que otras solo 
 
 Esta lección se va a enfocar en verbos del binián llamado פָעַל (pa'al) en tiempo presente, que es el binián más básico y más usado, e incluye la mayoría de los verbos básicos. Este binián es **activo y transitivo**.
 
-El patrón más común de la construcción pa'al en tiempo presente es:  
-**(XoXeX) XXוֹX**  
+El patrón más común de la construcción pa'al en tiempo presente es:
+
+**(XoXeX) XXוֹX**
+
 (la "X" se reemplaza por las letras de la raíz):
 
 <table>
@@ -212,9 +214,11 @@ Usando la raíz "א כ ל" que corresponde a palabras relacionadas con comer, te
 
 ## ישן, גדל
 
-Uno más un poco raro. Un número muy pequeño de verbos que se consideran relacionados con este binián se conjugan de forma ligeramente distinta:  
+Uno más un poco raro. Un número muy pequeño de verbos que se consideran relacionados con este binián se conjugan de forma ligeramente distinta:
 
-*   גָדֵל, גְדֵלה, גְדֵלים, גְדֵלות _gadel_, _gdela_, _gdelim_, _gdelot_ ("crecer", "creciendo")  
+
+*   גָדֵל, גְדֵלה, גְדֵלים, גְדֵלות _gadel_, _gdela_, _gdelim_, _gdelot_ ("crecer", "creciendo")
+
 
 *   יָשֵן, יְשֵנה, יְשֵנים, יְשֵנות _yashen_, _yeshena_, _yeshenim_, _yeshenot_ ("dormir", "durmiendo")
 

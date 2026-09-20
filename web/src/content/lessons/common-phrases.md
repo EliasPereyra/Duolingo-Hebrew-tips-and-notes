@@ -32,14 +32,18 @@ In this lesson we introduce two common Israeli names:
 
 As in English, there are various ways to ask someone how they are, or what's going on. Here we introduce the following:
 
-?מה קורה  
+?מה קורה
+
 Literally: "What's happening?" Similar to "What's up?", "How are you doing?"
 
-?מה נשמע  
+?מה נשמע
+
 Literally: "What is heard?" Used in the same way as מה קורה.
 
-?מה שלומך  
-(when addressing a male: מה שלומךָ (ma shlomkhá), when addressing a female: מה שלומךְ (ma shlomékh))  
+?מה שלומך
+
+(when addressing a male: מה שלומךָ (ma shlomkhá), when addressing a female: מה שלומךְ (ma shlomékh))
+
 Literally this means "what is your peace/well-being/welfare?". This is the standard, formal way of asking "how are you?".
 
 * * *

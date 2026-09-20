@@ -6,19 +6,23 @@ Los infinitivos en hebreo funcionan de manera muy similar al español. La forma 
 
 Vimos hasta ahora los binianím pa'al y pi'el. Así es como se conjugan ambos en el infinitivo:
 
-**Pa'al**  
+**Pa'al**
 
-liXXoX  
+
+liXXoX
+
 por ejemplo, likhtóv - לכתוב
 
 **Pi'el**
 
-leXaXeX  
+leXaXeX
+
 por ejemplo, leshalém - לשלם
 
 Los verbos que terminan en ה en singular presente, terminan en ות en el infinitivo:
 
-*   nadar - liskhót - לשחות  
+*   nadar - liskhót - לשחות
+
 
 *   cambiar - leshanót - לשנות
 

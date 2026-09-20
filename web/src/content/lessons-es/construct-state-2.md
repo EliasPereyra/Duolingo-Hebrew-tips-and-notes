@@ -8,6 +8,7 @@ Si querés crear un constructo dentro de otro constructo, la última palabra sie
 
 Por ejemplo:
 
-Torta de cumpleaños - עוגת יום הולדת  
+Torta de cumpleaños - עוגת יום הולדת
+
 La torta de cumpleaños - עוגת יום **ה**הולדת
 

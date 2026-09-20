@@ -6,7 +6,8 @@ title: "Construcción Nif'al"
 
 Nifál, nuestro último binián, es el equivalente pasivo de pa'al:
 
-Cierro la puerta - אני סוגר את הדלת  
+Cierro la puerta - אני סוגר את הדלת
+
 La puerta se cierra (o "es cerrada") - הדלת נסגרת
 
 No todos los verbos nifál son pasivos. Algunos son activos, como נכנס:
@@ -15,12 +16,14 @@ Entro a la casa - אני נכנס לבית.
 
 Y como podés ver en el ejemplo de arriba de la puerta cerrándose, la distinción entre pasivo y activo no siempre es tan clara. Comparemos:
 
-La puerta se cierra así - הדלת נסגרת ככה  
+La puerta se cierra así - הדלת נסגרת ככה
+
 La puerta es cerrada por el cocinero - הדלת נסגרת על ידי הטבח
 
 Y נראה, que significa literalmente "es visto", a menudo significa "parece" o "se ve", mientras que נשמע, literalmente "es oído", a menudo significa "suena":
 
-Esto se ve bien - זה נראה טוב  
+Esto se ve bien - זה נראה טוב
+
 Esto suena bien - זה נשמע טוב
 
 * * *

@@ -170,7 +170,8 @@ Si queremos referirnos a esa misma manzana en otra oración, diremos:
 
 הוא טעים - hu taim (_lit:_ él es rico)
 
-En español uno diría "_ella_ es rica" (refiriéndose a la manzana).  
+En español uno diría "_ella_ es rica" (refiriéndose a la manzana).
+
 Lo mismo pasa con _todos_ los sustantivos.
 
 * * *

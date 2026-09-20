@@ -80,7 +80,8 @@ The words נא and אנא are formal ways of saying "please" in Hebrew. You are 
 
 For example:
 
-Please keep the ticket - נא לשמור את הכרטיס  
+Please keep the ticket - נא לשמור את הכרטיס
+
 Please listen - אנא הקשיבו
 
 * * *
@@ -249,12 +250,14 @@ I have already said that - כבר אמרתי זאת
 
 Dropping of ה from both the noun and the demonstrative in "this ...", "that ...":
 
-This apple is not red - תפוח זה אינו אדום  
+This apple is not red - תפוח זה אינו אדום
+
 (=התפוח הזה לא אדום=)
 
 The use of כי instead of ש when introducing quotes or declarative content clauses:
 
-He said that he did not do it - הוא אמר כי הוא לא עשה זאת  
+He said that he did not do it - הוא אמר כי הוא לא עשה זאת
+
 She said "this is a good result" - היא אמרה כי "זאת תוצאה טובה"
 
 The use of אשר instead of ש when introducing relative clauses:
@@ -271,7 +274,8 @@ Did you know? - ?הידעתם
 
 ה can also be used in a similar way to ש or אשר:
 
-The boy that eats eggs - הילד האוכל ביצים  
+The boy that eats eggs - הילד האוכל ביצים
+
 (like: הילד שאוכל ביצים/הילד אשר אוכל ביצים)
 
 * * *

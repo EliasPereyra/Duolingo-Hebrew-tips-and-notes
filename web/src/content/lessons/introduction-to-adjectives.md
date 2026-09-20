@@ -110,8 +110,10 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 ## Summary of Simple Phrase Structures
 
-The book is good - הספר טוב  
-The good book - הספר הטוב  
+The book is good - הספר טוב
+
+The good book - הספר הטוב
+
 A good book - ספר טוב
 
 How do we say "a book is good"? We use the personal pronouns kind of like a "to be" verb:
@@ -126,6 +128,7 @@ These a fairly unusual, uncommon sentences in both Hebrew and English, but they 
 
 And of course, you need the plural for plural nouns:
 
-Children/Boys are good - ילדים הם טובים  
+Children/Boys are good - ילדים הם טובים
+
 Girls are good - ילדות הן טובות
 

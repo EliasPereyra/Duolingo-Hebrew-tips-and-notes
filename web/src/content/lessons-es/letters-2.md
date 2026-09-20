@@ -546,7 +546,8 @@ Además de marcar vocales, los puntos se pueden usar para distinguir explícitam
 
 En términos técnicos, las letras con el punto son plosivas y generalmente se usan al principio de una sílaba, mientras que las letras sin el punto son fricativas y generalmente se usan al final de una sílaba. Al escribir sin nikud, una letra sin punto podría tener cualquiera de las dos pronunciaciones, pero su posición en la sílaba te ayudará a adivinar la pronunciación correcta. Por ejemplo:
 
-kélev כלב (principio de sílaba)  
+kélev כלב (principio de sílaba)
+
 mélekh מלך (final de sílaba)
 
 La letra שׁ, con un punto arriba a la derecha, representa "sh", mientras que שׂ, con el punto arriba a la izquierda, representa "s".

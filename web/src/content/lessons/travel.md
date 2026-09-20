@@ -14,7 +14,9 @@ In Hebrew abbreviations, some representative letters are chosen, often depending
 
 Like in English, not all abbreviations are pronounced as words.
 
-NASA, for example, **is** pronounced "na-sa": נאס"א.  
-But the USA, ארה"ב is pronounced the same way as ארצות הברית: artsót habrít.  
+NASA, for example, **is** pronounced "na-sa": נאס"א.
+
+But the USA, ארה"ב is pronounced the same way as ארצות הברית: artsót habrít.
+
 Unlike in English, it is uncommon to spell out abbreviations (like USA: yu-ess-aye).
 

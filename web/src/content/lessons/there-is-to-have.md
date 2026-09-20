@@ -164,15 +164,21 @@ Usually the word order for sentences referring to possession is as follows (read
 
 thing possessed + possessor + יש + ל
 
-For example:  
-יש לילד תפוח  
+For example:
+
+יש לילד תפוח
+
 אין לילד תפוח
 
-An alternative order places the possessor at the start of the sentence, as follows:  
-לילד יש תפוח  
+An alternative order places the possessor at the start of the sentence, as follows:
+
+לילד יש תפוח
+
 This has the effect of placing more emphasis on the possessor than on the object possessed: "the **boy** (it's the boy, and not the girl, or the frog) has an apple".
 
-This example may help you to understand the difference:  
-לילד יש תפוח, אבל לי אין  
+This example may help you to understand the difference:
+
+לילד יש תפוח, אבל לי אין
+
 **_the boy_** has an apple, but **_I_** don't.
 

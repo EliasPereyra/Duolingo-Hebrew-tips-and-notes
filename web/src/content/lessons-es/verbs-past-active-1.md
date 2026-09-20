@@ -156,7 +156,8 @@ Lo más natural es omitir el pronombre cuando se usa un verbo en tiempo pasado. 
 
 **Sin embargo**, el pronombre no se suele omitir en la _tercera persona_, así que siempre deberías tratar de decir:
 
-הוא אמר/היא אמרה  
+הוא אמר/היא אמרה
+
 הם/הן אמרו
 
 * * *
@@ -301,13 +302,16 @@ Veamos las conjugaciones del verbo "ser/estar" en tiempo pasado (היה):
 
 En tiempo presente, usamos -יש ל y -אין ל para expresar "tener" y "no tener". En tiempo pasado (y futuro), reemplazamos יש y אין por las formas correspondientes del pasado del verbo "ser/estar". La forma del verbo debe concordar con lo poseído o no poseído:
 
-היה לי כלב  
+היה לי כלב
+
 Tenía un perro. Literalmente "(él/eso) era a mí perro".
 
-הייתה לי מכונית  
+הייתה לי מכונית
+
 Tenía un auto. Literalmente "(ella) era a mí auto", porque מכונית es femenino.
 
-לא היו לי שמלות  
+לא היו לי שמלות
+
 No tenía vestidos. Literalmente "no (ellos) eran a mí vestidos".
 
 * * *
