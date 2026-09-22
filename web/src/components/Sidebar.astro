@@ -98,13 +98,13 @@ const iconMap = buildLessonIconMap(enLessons);
 
 <style>
   .sidebar {
-    width: 280px;
-    min-width: 280px;
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
     height: 100vh;
     overflow-y: auto;
-    background: #1a1d23;
-    color: #c9d1d9;
-    padding: 1rem 0;
+    background: var(--color-surface-dark);
+    color: var(--color-text-inverse);
+    padding: var(--space-9) 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -112,9 +112,9 @@ const iconMap = buildLessonIconMap(enLessons);
 
   .logo {
     display: block;
-    padding: 0.75rem 1.25rem;
-    border-bottom: 1px solid #30363d;
-    margin-bottom: 0.5rem;
+    padding: var(--space-7) var(--space-11);
+    border-bottom: 1px solid var(--color-border-dark);
+    margin-bottom: var(--space-4);
   }
 
   .logo img {
@@ -136,72 +136,74 @@ const iconMap = buildLessonIconMap(enLessons);
   nav a {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.4rem 1.25rem;
-    color: #8b949e;
-    font-size: 0.875rem;
-    transition: color 0.15s, background 0.15s;
+    gap: var(--space-4);
+    padding: var(--space-3) var(--space-11);
+    color: var(--color-text-subtle);
+    font-size: var(--font-size-sm-alt);
+    transition:
+      color var(--transition-fast),
+      background var(--transition-fast);
+
+    &:hover {
+      color: var(--color-text-inverse);
+      background: var(--color-surface-dark-hover);
+    }
+
+    &.active {
+      color: var(--color-text-inverse-strong);
+      background: var(--color-accent);
+      font-weight: var(--font-weight-semibold);
+    }
   }
 
   .lesson-icon {
     flex-shrink: 0;
   }
 
-  nav a:hover {
-    color: #c9d1d9;
-    background: #21262d;
-  }
-
-  nav a.active {
-    color: #fff;
-    background: #0366d6;
-    font-weight: 600;
-  }
-
   .sidebar-toggle {
     display: none;
     position: fixed;
-    top: 0.75rem;
-    left: 1rem;
+    top: var(--space-7);
+    left: var(--space-9);
     z-index: 1001;
     width: 42px;
     height: 42px;
     align-items: center;
     justify-content: center;
-    background: #1a1d23;
-    color: #c9d1d9;
+    background: var(--color-surface-dark);
+    color: var(--color-text-inverse);
     border: none;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     cursor: pointer;
-    transition: left 0.25s ease;
-  }
+    transition: left var(--transition-slow);
 
-  .sidebar-toggle[aria-expanded="true"] {
-    left: 226px;
-  }
+    &[aria-expanded="true"] {
+      left: 226px;
 
-  .sidebar-toggle :global(.icon-close) {
-    display: none;
-  }
+      :global(.icon-open) {
+        display: none;
+      }
 
-  .sidebar-toggle[aria-expanded="true"] :global(.icon-open) {
-    display: none;
-  }
+      :global(.icon-close) {
+        display: block;
+      }
+    }
 
-  .sidebar-toggle[aria-expanded="true"] :global(.icon-close) {
-    display: block;
+    :global(.icon-close) {
+      display: none;
+    }
   }
 
   .sidebar-backdrop {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--color-overlay);
     z-index: 999;
-  }
 
-  .sidebar-backdrop.visible {
-    display: block;
+    &.visible {
+      display: block;
+    }
   }
 
   @media (max-width: 768px) {
@@ -211,13 +213,13 @@ const iconMap = buildLessonIconMap(enLessons);
 
     .sidebar {
       transform: translateX(-100%);
-      transition: transform 0.25s ease;
+      transition: transform var(--transition-slow);
       z-index: 1000;
-      box-shadow: 2px 0 16px rgba(0, 0, 0, 0.35);
-    }
+      box-shadow: var(--shadow-lg);
 
-    .sidebar.open {
-      transform: translateX(0);
+      &.open {
+        transform: translateX(0);
+      }
     }
   }
 </style>
