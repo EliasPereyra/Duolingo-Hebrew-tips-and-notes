@@ -1,0 +1,86 @@
+:root {
+  /* Typography */
+  --font-size-xs: 0.8rem;
+  --font-size-sm: 0.85rem;
+  --font-size-sm-alt: 0.875rem;
+  --font-size-base: 0.9rem;
+  --font-size-md: 0.95rem;
+  --font-size-lg: 1.05rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-base: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.35rem;
+  --space-3: 0.4rem;
+  --space-4: 0.5rem;
+  --space-5: 0.6rem;
+  --space-6: 0.65rem;
+  --space-7: 0.75rem;
+  --space-8: 0.85rem;
+  --space-9: 1rem;
+  --space-10: 1.1rem;
+  --space-11: 1.25rem;
+  --space-12: 1.5rem;
+  --space-13: 1.75rem;
+  --space-14: 2rem;
+  --space-15: 2.5rem;
+  --space-16: 3rem;
+
+  /* Colors - semantic */
+  --color-bg: hsla(0, 0%, 100%, 1);
+  --color-bg-subtle: hsla(210, 29%, 97%, 1);
+  --color-bg-hover: hsla(210, 25%, 98%, 1);
+  --color-surface-dark: hsla(220, 15%, 12%, 1);
+  --color-surface-dark-hover: hsla(215, 15%, 15%, 1);
+
+  --color-border: hsla(214, 13%, 90%, 1);
+  --color-border-subtle: hsla(215, 27%, 91%, 1);
+  --color-border-dark: hsla(212, 12%, 21%, 1);
+
+  --color-text: hsla(213, 13%, 16%, 1);
+  --color-text-heading: hsla(210, 13%, 12%, 1);
+  --color-text-muted: hsla(212, 9%, 38%, 1);
+  --color-text-subtle: hsla(212, 9%, 58%, 1);
+  --color-text-inverse: hsla(210, 17%, 82%, 1);
+  --color-text-inverse-strong: hsla(0, 0%, 100%, 1);
+  --color-text-disabled: hsla(208, 9%, 64%, 1);
+
+  --color-accent: hsla(212, 97%, 43%, 1);
+  --color-accent-bg: hsla(215, 75%, 94%, 1);
+  --color-accent-bg-hover: hsla(213, 81%, 90%, 1);
+  --color-accent-bg-active: hsla(213, 82%, 85%, 1);
+  --color-accent-subtle-bg: hsla(212, 100%, 97%, 1);
+
+  --color-quote-border: hsla(208, 100%, 74%, 1);
+  --color-quote-bg: hsla(213, 69%, 97%, 1);
+
+  --color-disabled-bg: hsla(210, 19%, 94%, 1);
+
+  --color-overlay: rgb(0 0 0 / 0.5);
+  --color-shadow: rgb(0 0 0 / 0.12);
+  --color-shadow-strong: rgb(0 0 0 / 0.35);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-full: 50%;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 16px var(--color-shadow);
+  --shadow-lg: 2px 0 16px var(--color-shadow-strong);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.25s ease;
+
+  /* Layout sizing */
+  --sidebar-width: 280px;
+}

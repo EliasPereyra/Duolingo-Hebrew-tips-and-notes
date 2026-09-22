@@ -22,7 +22,7 @@ Static site built with Astro that preserves the Tips & Notes from the Duolingo H
 - **Language:** TypeScript (strict mode via `astro/tsconfigs/strict`)
 - **Package Manager:** pnpm
 - **Content:** Astro Content Collections with markdown files
-- **Styling:** Scoped `<style>` tags inside `.astro` files
+- **Styling:** Scoped `<style>` tags inside `.astro` files, plus a global stylesheet for base/reset rules and design tokens
 - **Build Output:** Fully static HTML (no client-side JS)
 
 ## Project Structure
@@ -64,11 +64,11 @@ web/
 - Use `<slot />` for child content in layouts.
 
 ### CSS / Styling
-- All styles go inside `<style>` tags in `.astro` files (no CSS modules, no external CSS files).
-- Use Astro's built-in scoped styles by default (`<style>` without `is:global`).
-- Use `<style is:global>` only in layouts for base resets and global rules.
+- Use Astro's built-in scoped `<style>` tags (no `is:global`) inside `.astro` files for component/page-specific styles. No CSS modules.
+- Global, cross-cutting styles (resets, base element rules, layout chrome shared across the whole app) and the design system live as plain `.css` files under `src/styles/` and are imported directly in the relevant `.astro` frontmatter (e.g. `import "../styles/tokens.css";`), per [Astro's styling guide](https://docs.astro.build/en/guides/styling/). This keeps layout components focused on markup/logic instead of mixing them with large global CSS blocks.
+- Design tokens (CSS custom properties) live in `src/styles/tokens.css`; base/reset rules live in `src/styles/global.css`. Both are imported once from `Layout.astro`.
 - Follow BEM-like class naming for clarity (e.g., `.lesson-header`, `.lesson-content`). But avoid using very log BEM-like classes, to keep the code clear.
-- Use CSS custom properties sparingly via `<style is:global>`.
+- Prefer CSS custom properties (from the design system) over hardcoded colors, sizes, and other magic values.
 
 ### TypeScript
 - Follow strict mode (no implicit `any`, strict null checks).
