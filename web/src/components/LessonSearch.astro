@@ -58,38 +58,38 @@ const { placeholder, noResultsText } = Astro.props;
 <style>
   .lesson-search-wrapper {
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-9);
   }
 
   .lesson-search {
     display: block;
     width: 100%;
-    padding: 0.65rem 2.5rem 0.65rem 1rem;
-    background: #f6f8fa;
-    border: 1px solid #e1e4e8;
-    border-radius: 6px;
-    color: #24292e;
-    font-size: 0.9rem;
+    padding: var(--space-6) var(--space-15) var(--space-6) var(--space-9);
+    background: var(--color-bg-subtle);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    color: var(--color-text);
+    font-size: var(--font-size-base);
     box-sizing: border-box;
-  }
 
-  .lesson-search:focus {
-    outline: none;
-    border-color: #0366d6;
-    background: #fff;
+    &:focus {
+      outline: none;
+      border-color: var(--color-accent);
+      background: var(--color-bg);
+    }
   }
 
   .lesson-search-icon {
     position: absolute;
     top: 50%;
-    right: 0.85rem;
+    right: var(--space-8);
     transform: translateY(-50%);
-    color: #586069;
+    color: var(--color-text-muted);
     pointer-events: none;
   }
 
   .no-results {
-    color: #586069;
-    margin-top: 1rem;
+    color: var(--color-text-muted);
+    margin-top: var(--space-9);
   }
 </style>
