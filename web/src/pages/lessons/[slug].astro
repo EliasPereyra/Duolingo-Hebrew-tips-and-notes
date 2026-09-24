@@ -2,22 +2,26 @@
 import { getCollection, render } from "astro:content";
 import { ArrowLeft } from "reicon-astro";
 import Layout from "../../layouts/Layout.astro";
+import Practice from "../../components/Practice.astro";
+import { buildPracticeIndex } from "../../utils/practice-data";
 import { TIPS_AND_NOTES_MD, ORIGINAL_HTML_VERSION } from "../../constants/external-links";
 
 export async function getStaticPaths() {
   const lessons = await getCollection("lessons");
+  const practiceIndex = await buildPracticeIndex(lessons, "en");
   return lessons.map((lesson) => ({
     params: { slug: lesson.id },
-    props: { lesson },
+    props: { lesson, practice: practiceIndex.get(lesson.id) },
   }));
 }
 
-const { lesson } = Astro.props;
+const { lesson, practice } = Astro.props;
 
 const { Content } = await render(lesson);
 ---
 
 <Layout title={`${lesson.data.title} - Hebrew Tips & Notes`}>
+  <div class:list={["lesson-layout", { "has-practice": practice }]}>
   <article class="lesson">
     <div class="lesson-header">
       <a href="/" class="back-link">
@@ -34,6 +38,15 @@ const { Content } = await render(lesson);
       <Content />
     </div>
   </article>
+
+  {
+    practice && (
+      <aside class="lesson-practice">
+        <Practice data={practice} />
+      </aside>
+    )
+  }
+  </div>
 </Layout>
 
 <style is:global>
@@ -41,6 +54,44 @@ const { Content } = await render(lesson);
     max-width: 800px;
     margin: 0 auto;
     padding: var(--space-14);
+  }
+
+  /* Below the two-column breakpoint the practice panel sits under the lesson. */
+  .lesson-practice {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--space-14) var(--space-14);
+  }
+
+  @media (min-width: 1280px) {
+    .lesson-layout.has-practice {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 22rem;
+      gap: var(--space-15);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 var(--space-14);
+
+      .lesson {
+        max-width: none;
+        margin: 0;
+        padding-inline: 0;
+      }
+
+      /* Starts below the fixed language switcher and follows the reader down the lesson. */
+      .lesson-practice {
+        max-width: none;
+        margin: 0;
+        padding: calc(var(--space-16) + var(--space-9)) 0 var(--space-14);
+      }
+
+      .practice {
+        position: sticky;
+        top: calc(var(--space-16) + var(--space-9));
+        max-height: calc(100vh - var(--space-16) - var(--space-14));
+        overflow-y: auto;
+      }
+    }
   }
 
   .lesson-header {
@@ -73,6 +124,10 @@ const { Content } = await render(lesson);
   @media (max-width: 768px) {
     .lesson {
       padding: var(--space-11);
+    }
+
+    .lesson-practice {
+      padding: 0 var(--space-11) var(--space-11);
     }
 
     .lesson-header {

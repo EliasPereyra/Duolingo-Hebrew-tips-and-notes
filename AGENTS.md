@@ -15,6 +15,8 @@ Static site built with Astro that preserves the Tips & Notes from the Duolingo H
 | `pnpm lint` | Lint with ESLint |
 | `pnpm format` | Format with Prettier |
 | `pnpm format:check` | Check formatting with Prettier |
+| `pnpm tts:generate` | Generate audio for Hebrew examples and approved practice sentences |
+| `pnpm sentences:generate` | Generate practice sentence candidates for review (`--status`, `--pool`, `--count`) |
 
 ## Tech Stack
 
@@ -98,6 +100,7 @@ web/
 - Run `node scripts/parse-lessons.mjs` to regenerate lesson files from the master.
 - The `lessons` content collection globs `src/content/lessons/*.md`.
 - Each lesson markdown file has a single `title` frontmatter field.
+- Pronunciation audio and practice sentences are generated offline and committed; see `docs/audio-and-practice.md`.
 
 ## CI / Deployment
 

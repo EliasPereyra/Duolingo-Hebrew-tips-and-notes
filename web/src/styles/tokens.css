@@ -53,6 +53,7 @@
   --color-text-disabled: hsla(208, 9%, 64%, 1);
 
   --color-accent: hsla(212, 97%, 43%, 1);
+  --color-accent-hover: hsla(212, 97%, 36%, 1);
   --color-accent-bg: hsla(215, 75%, 94%, 1);
   --color-accent-bg-hover: hsla(213, 81%, 90%, 1);
   --color-accent-bg-active: hsla(213, 82%, 85%, 1);
@@ -62,6 +63,11 @@
   --color-quote-bg: hsla(213, 69%, 97%, 1);
 
   --color-disabled-bg: hsla(210, 19%, 94%, 1);
+
+  --color-success: hsla(145, 63%, 32%, 1);
+  --color-success-bg: hsla(140, 60%, 94%, 1);
+  --color-error: hsla(0, 70%, 45%, 1);
+  --color-error-bg: hsla(0, 85%, 96%, 1);
 
   --color-overlay: rgb(0 0 0 / 0.5);
   --color-shadow: rgb(0 0 0 / 0.12);

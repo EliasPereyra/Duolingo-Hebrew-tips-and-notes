@@ -11,7 +11,15 @@ The complete **Tips and Notes** from Duolingo's Hebrew course, preserved here as
 ## Contents
 
 - [`content/hebrew-tips-and-notes.md`](./content/hebrew-tips-and-notes.md) — Full markdown with all lessons (~8,300 lines)
-- [`web/`](./web/) — Astro application with individual lesson pages
+- [`web/`](./web/) — Astro application with individual lesson pages, in English and Spanish
+
+## Features
+
+- **Lesson pages** for all 66 Tips & Notes lessons, with navigation and search.
+- **Pronunciation audio**: Hebrew examples have a play button. The audio is generated offline with [Piper](https://github.com/OHF-Voice/piper1-gpl).
+- **Practice exercises**: a panel next to each lesson with listening and fill-in-the-blank questions, built from the lesson's examples and a hand-reviewed bank of extra sentences. At the end it shows your score and replays the phrases you missed.
+
+The site is fully static: audio and practice sentences are generated ahead of time and committed. See [`docs/audio-and-practice.md`](./docs/audio-and-practice.md) to regenerate audio, add practice sentences, or review them.
 
 ## Local development (Astro)
 
@@ -28,13 +36,19 @@ pnpm preview    # preview the build
 ```
 ├── content/
 │   └── hebrew-tips-and-notes.md    # Source of truth (all lessons in one file)
+├── docs/
+│   └── audio-and-practice.md       # How audio and practice sentences are generated
 ├── README.md
 └── web/                            # Astro application
+    ├── public/audio/he/            # Generated pronunciation audio
     ├── src/
     │   ├── content/lessons/        # Individual lesson files (Content Collections)
+    │   ├── content/lessons-es/     # Spanish translations
+    │   ├── components/             # Sidebar, search, practice panel
+    │   ├── generated/              # Audio manifest + practice sentence bank
     │   ├── layouts/                # Layout component
     │   └── pages/                  # Index + dynamic lesson routes
-    ├── scripts/                    # Extraction script (see below)
+    ├── scripts/                    # Lesson extraction, audio and sentence generation
     ├── astro.config.mjs
     └── package.json
 ```

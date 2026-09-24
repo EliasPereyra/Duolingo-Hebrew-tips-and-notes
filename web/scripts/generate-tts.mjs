@@ -16,6 +16,7 @@ const root = join(__dirname, "..");
 const CONTENT_DIRS = ["src/content/lessons", "src/content/lessons-es"];
 const AUDIO_DIR = join(root, "public", "audio", "he");
 const MANIFEST_PATH = join(root, "src", "generated", "tts-manifest.json");
+const SENTENCE_BANK_PATH = join(root, "src", "generated", "sentence-bank.json");
 const PIPER_BIN = process.env.PIPER_BIN ?? join(root, ".tts-tools", "venv", "bin", "piper");
 const VOICE_MODEL = process.env.PIPER_VOICE ?? join(root, ".tts-tools", "voices", "he_IL-saspeech-medium.onnx");
 
@@ -61,6 +62,17 @@ async function extractHebrewExamples() {
   return allTexts;
 }
 
+// Reviewed practice sentences (see generate-sentences.mjs) need audio too; pending and
+// rejected ones don't.
+function collectApprovedSentences() {
+  if (!existsSync(SENTENCE_BANK_PATH)) return [];
+  const bank = JSON.parse(readFileSync(SENTENCE_BANK_PATH, "utf-8"));
+  return Object.values(bank)
+    .flat()
+    .filter((sentence) => sentence.status === "approved")
+    .map((sentence) => sentence.hebrew);
+}
+
 function generateAudio(text, outputPath) {
   const result = spawnSync(PIPER_BIN, ["--model", VOICE_MODEL, "--output_file", outputPath], {
     input: text,
@@ -74,11 +86,11 @@ function generateAudio(text, outputPath) {
 
 async function main() {
   if (!existsSync(PIPER_BIN)) {
-    console.error(`piper binary not found at ${PIPER_BIN}. See web/scripts/README-tts.md for setup.`);
+    console.error(`piper binary not found at ${PIPER_BIN}. See docs/audio-and-practice.md for setup.`);
     process.exit(1);
   }
   if (!existsSync(VOICE_MODEL)) {
-    console.error(`voice model not found at ${VOICE_MODEL}. See web/scripts/README-tts.md for setup.`);
+    console.error(`voice model not found at ${VOICE_MODEL}. See docs/audio-and-practice.md for setup.`);
     process.exit(1);
   }
 
@@ -86,6 +98,7 @@ async function main() {
   mkdirSync(dirname(MANIFEST_PATH), { recursive: true });
 
   const texts = await extractHebrewExamples();
+  for (const text of collectApprovedSentences()) texts.add(text);
   const manifest = existsSync(MANIFEST_PATH) ? JSON.parse(readFileSync(MANIFEST_PATH, "utf-8")) : {};
 
   let generated = 0;
