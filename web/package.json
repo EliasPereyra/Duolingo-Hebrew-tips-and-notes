@@ -12,7 +12,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "tts:generate": "node scripts/generate-tts.mjs"
+    "tts:generate": "node scripts/generate-tts.mjs",
+    "sentences:generate": "node --env-file-if-exists=.env scripts/generate-sentences.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -24,6 +25,7 @@
   },
   "packageManager": "pnpm@11.0.9",
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.5.0",
     "eslint-plugin-astro": "^2.0.0",
