@@ -1,0 +1,4049 @@
+{
+  "adjectives": [
+    {
+      "id": "a2be35ec4cfb",
+      "hebrew": "הכלב החדש שלי גדול",
+      "translit": "ha-kélev he-khadásh shelí gadól",
+      "gloss": {
+        "en": "My new dog is big.",
+        "es": "Mi perro nuevo es grande."
+      },
+      "sourceWords": [
+        "חדש",
+        "שלי",
+        "גדול"
+      ],
+      "sourceLessons": [
+        "adjectives-1-basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "bab9400218ff",
+      "hebrew": "הספר הישן טוב",
+      "translit": "ha-séfer ha-yashán tov",
+      "gloss": {
+        "en": "The old book is good.",
+        "es": "El libro viejo es bueno."
+      },
+      "sourceWords": [
+        "ישן",
+        "ספר",
+        "טוב"
+      ],
+      "sourceLessons": [
+        "adjectives-2",
+        "introduction-to-adjectives"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cee739cb481f",
+      "hebrew": "הגבר הזקן אוכל תפוח",
+      "translit": "ha-géver ha-zakén okhél tapúakh",
+      "gloss": {
+        "en": "The old man eats an apple.",
+        "es": "El hombre viejo come una manzana."
+      },
+      "sourceWords": [
+        "זקן",
+        "גבר",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "adjectives-2",
+        "occupations",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "0c4c858fa192",
+      "hebrew": "ציפורים הן יפות",
+      "translit": "tsiporím hen yafót",
+      "gloss": {
+        "en": "Birds are beautiful.",
+        "es": "Los pájaros son hermosos."
+      },
+      "sourceWords": [
+        "ציפורים",
+        "הן",
+        "יפות"
+      ],
+      "sourceLessons": [
+        "introduction-to-adjectives",
+        "animals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5d621f6ac149",
+      "hebrew": "החתולה השחורה קטנה",
+      "translit": "ha-khatulá ha-shkhorá ktaná",
+      "gloss": {
+        "en": "The black cat is small.",
+        "es": "La gata negra es pequeña."
+      },
+      "sourceWords": [
+        "חתולה",
+        "שחורה",
+        "קטנה"
+      ],
+      "sourceLessons": [
+        "introduction-to-adjectives",
+        "animals",
+        "colors"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3daa02309914",
+      "hebrew": "הסלט הזה לא גרוע",
+      "translit": "ha-salát ha-zé lo garúa",
+      "gloss": {
+        "en": "This salad isn't bad.",
+        "es": "Esta ensalada no está mala."
+      },
+      "sourceWords": [
+        "סלט",
+        "גרוע"
+      ],
+      "sourceLessons": [
+        "adjectives-3"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "adverbs": [
+    {
+      "id": "516c1354dd8d",
+      "hebrew": "הילד אוכל באופן עצמאי",
+      "translit": "ha-yéled okhél be-ófen atsma'í",
+      "gloss": {
+        "en": "The boy eats independently.",
+        "es": "El niño come de forma independiente."
+      },
+      "sourceWords": [
+        "באופן",
+        "עצמאי",
+        "אוכל"
+      ],
+      "sourceLessons": [
+        "adverbs",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "b955f61d7e65",
+      "hebrew": "התלמידה החדשה עצמאית",
+      "translit": "ha-talmidá ha-khadashá atsma'ít",
+      "gloss": {
+        "en": "The new student is independent.",
+        "es": "La alumna nueva es independiente."
+      },
+      "sourceWords": [
+        "עצמאי",
+        "תלמידה",
+        "חדש"
+      ],
+      "sourceLessons": [
+        "adverbs",
+        "education",
+        "business"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e0a37fb92637",
+      "hebrew": "הבמאי המבוגר עצמאי",
+      "translit": "ha-bamái ha-mevugár atsma'í",
+      "gloss": {
+        "en": "The older director is independent.",
+        "es": "El director mayor es independiente."
+      },
+      "sourceWords": [
+        "עצמאי",
+        "במאי",
+        "מבוגר"
+      ],
+      "sourceLessons": [
+        "adverbs",
+        "occupations",
+        "people"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "basics": [
+    {
+      "id": "180d6e7e8b4d",
+      "hebrew": "אני אוהבת מים",
+      "translit": "aní ohévet máyim",
+      "gloss": {
+        "en": "I (f) love water.",
+        "es": "Me encanta el agua. (f)"
+      },
+      "sourceWords": [
+        "אני",
+        "אוהבת",
+        "מים"
+      ],
+      "sourceLessons": [
+        "basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9e2f782b9492",
+      "hebrew": "הם אוכלים תפוח",
+      "translit": "hem okhlím tapúakh",
+      "gloss": {
+        "en": "They eat an apple.",
+        "es": "Ellos comen una manzana."
+      },
+      "sourceWords": [
+        "הם",
+        "אוכל",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "ba1457ec0124",
+      "hebrew": "אנחנו אוהבים מים",
+      "translit": "anákhnu ohavím máyim",
+      "gloss": {
+        "en": "We love water.",
+        "es": "Nos encanta el agua."
+      },
+      "sourceWords": [
+        "אנחנו",
+        "אוהב",
+        "מים"
+      ],
+      "sourceLessons": [
+        "basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1f2923d50aa3",
+      "hebrew": "הוא בא, היא לא באה",
+      "translit": "hu ba, hi lo ba'á",
+      "gloss": {
+        "en": "He is coming, she isn't.",
+        "es": "Él viene, ella no."
+      },
+      "sourceWords": [
+        "הוא",
+        "היא",
+        "בא"
+      ],
+      "sourceLessons": [
+        "basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "4ddd753f739b",
+      "hebrew": "אתן אוכלות תפוח",
+      "translit": "atén okhlót tapúakh",
+      "gloss": {
+        "en": "You (f. pl.) eat an apple.",
+        "es": "Ustedes (f.) comen una manzana."
+      },
+      "sourceWords": [
+        "אתן",
+        "אוכל",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e5ebdb19b336",
+      "hebrew": "גם המים טעימים",
+      "translit": "gam ha-máyim te'imím",
+      "gloss": {
+        "en": "The water is tasty too.",
+        "es": "El agua también está rica."
+      },
+      "sourceWords": [
+        "מים",
+        "טעים"
+      ],
+      "sourceLessons": [
+        "basics"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "clothing": [
+    {
+      "id": "9f687857329e",
+      "hebrew": "הילדה לובשת חולצה סגולה",
+      "translit": "ha-yaldá lovéshet khultsá sgulá",
+      "gloss": {
+        "en": "The girl is wearing a purple shirt.",
+        "es": "La niña lleva una camisa morada."
+      },
+      "sourceWords": [
+        "ללבוש",
+        "חולצה",
+        "סגולה"
+      ],
+      "sourceLessons": [
+        "clothing",
+        "colors"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "b32c5e60534c",
+      "hebrew": "אני נועל נעליים שחורות",
+      "translit": "aní noél na'aláyim shkhorót",
+      "gloss": {
+        "en": "I'm wearing black shoes.",
+        "es": "Llevo zapatos negros."
+      },
+      "sourceWords": [
+        "לנעול",
+        "נעליים"
+      ],
+      "sourceLessons": [
+        "clothing",
+        "colors"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "de49dcdc5e6f",
+      "hebrew": "אני אוהב ללבוש ג'ינס",
+      "translit": "aní ohév lilbósh jins",
+      "gloss": {
+        "en": "I like to wear jeans.",
+        "es": "Me gusta usar jeans."
+      },
+      "sourceWords": [
+        "ללבוש",
+        "ג'ינס"
+      ],
+      "sourceLessons": [
+        "clothing"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "33936c36a271",
+      "hebrew": "היא לא לובשת שמלה",
+      "translit": "hi lo lovéshet simlá",
+      "gloss": {
+        "en": "She isn't wearing a dress.",
+        "es": "Ella no lleva vestido."
+      },
+      "sourceWords": [
+        "ללבוש",
+        "שמלה"
+      ],
+      "sourceLessons": [
+        "clothing"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "841d07daa934",
+      "hebrew": "הגבר המבוגר מרכיב משקפיים",
+      "translit": "ha-géver ha-mevugár markív mishkafáyim",
+      "gloss": {
+        "en": "The older man wears glasses.",
+        "es": "El señor mayor usa anteojos."
+      },
+      "sourceWords": [
+        "להרכיב",
+        "משקפיים"
+      ],
+      "sourceLessons": [
+        "clothing",
+        "people"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "common-phrases": [
+    {
+      "id": "c5b87fdd5a77",
+      "hebrew": "ברוכים הבאים לישראל",
+      "translit": "brukhím haba'ím le-israél",
+      "gloss": {
+        "en": "Welcome to Israel.",
+        "es": "Bienvenidos a Israel."
+      },
+      "sourceWords": [
+        "ברוכים הבאים"
+      ],
+      "sourceLessons": [
+        "common-phrases"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "feb61a6b20a3",
+      "hebrew": "מה שלומך, יוסי?",
+      "translit": "ma shlomkhá, yósi?",
+      "gloss": {
+        "en": "How are you, Yossi?",
+        "es": "¿Cómo estás, Yossi?"
+      },
+      "sourceWords": [
+        "מה שלומך",
+        "יוסי"
+      ],
+      "sourceLessons": [
+        "common-phrases"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "93133470a454",
+      "hebrew": "מזל טוב לטל",
+      "translit": "mazál tov le-tál",
+      "gloss": {
+        "en": "Congratulations to Tal.",
+        "es": "Felicitaciones a Tal."
+      },
+      "sourceWords": [
+        "מזל טוב",
+        "טל"
+      ],
+      "sourceLessons": [
+        "common-phrases"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e82705fdd180",
+      "hebrew": "ברוכה הבאה, טל",
+      "translit": "brukhá haba'á, tal",
+      "gloss": {
+        "en": "Welcome, Tal (f).",
+        "es": "Bienvenida, Tal."
+      },
+      "sourceWords": [
+        "ברוכה הבאה"
+      ],
+      "sourceLessons": [
+        "common-phrases"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e7e34d5ed783",
+      "hebrew": "בהצלחה ליוסי",
+      "translit": "be-hatslakhá le-yósi",
+      "gloss": {
+        "en": "Good luck to Yossi.",
+        "es": "Buena suerte a Yossi."
+      },
+      "sourceWords": [
+        "בהצלחה"
+      ],
+      "sourceLessons": [
+        "common-phrases"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "de5dfec89ed2",
+      "hebrew": "מה נשמע, טל?",
+      "translit": "ma nishmá, tal?",
+      "gloss": {
+        "en": "What's up, Tal?",
+        "es": "¿Qué tal, Tal?"
+      },
+      "sourceWords": [
+        "מה נשמע"
+      ],
+      "sourceLessons": [
+        "common-phrases"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "comparison": [
+    {
+      "id": "d005f1b46684",
+      "hebrew": "התפוח הזה הכי טעים",
+      "translit": "ha-tapúakh ha-zé hakhí ta'ím",
+      "gloss": {
+        "en": "This apple is the tastiest.",
+        "es": "Esta manzana es la más rica."
+      },
+      "sourceWords": [
+        "הכי",
+        "טעים"
+      ],
+      "sourceLessons": [
+        "comparison",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6c42a895ae48",
+      "hebrew": "זה הספר הטוב ביותר",
+      "translit": "ze ha-séfer ha-tov beyotér",
+      "gloss": {
+        "en": "This is the best book.",
+        "es": "Este es el mejor libro."
+      },
+      "sourceWords": [
+        "ביותר",
+        "טוב"
+      ],
+      "sourceLessons": [
+        "comparison"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "0f38ec08624d",
+      "hebrew": "החתולה שלי הכי יפה",
+      "translit": "ha-khatulá shelí hakhí yafá",
+      "gloss": {
+        "en": "My cat is the prettiest.",
+        "es": "Mi gata es la más linda."
+      },
+      "sourceWords": [
+        "הכי",
+        "חתולה"
+      ],
+      "sourceLessons": [
+        "comparison",
+        "animals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "332b4cc3493d",
+      "hebrew": "הכלב הגדול ביותר שחור",
+      "translit": "ha-kélev ha-gadól beyotér shakhór",
+      "gloss": {
+        "en": "The biggest dog is black.",
+        "es": "El perro más grande es negro."
+      },
+      "sourceWords": [
+        "ביותר",
+        "שחור"
+      ],
+      "sourceLessons": [
+        "comparison",
+        "colors"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9006159395cc",
+      "hebrew": "היא התלמידה הכי טובה",
+      "translit": "hi ha-talmidá hakhí tová",
+      "gloss": {
+        "en": "She is the best student.",
+        "es": "Ella es la mejor alumna."
+      },
+      "sourceWords": [
+        "הכי",
+        "תלמידה"
+      ],
+      "sourceLessons": [
+        "comparison",
+        "education"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "conjunctions": [
+    {
+      "id": "e6a4938d1bdf",
+      "hebrew": "אני חושבת שהחתול ישן",
+      "translit": "aní khoshévet she-ha-khatúl yashén",
+      "gloss": {
+        "en": "I (f) think that the cat is sleeping.",
+        "es": "Creo que el gato está durmiendo. (f)"
+      },
+      "sourceWords": [
+        "ש"
+      ],
+      "sourceLessons": [
+        "conjunctions",
+        "animals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a71061fe19bc",
+      "hebrew": "הוא אוכל בזמן שאני ישנה",
+      "translit": "hu okhél bi-zmán she-aní yeshená",
+      "gloss": {
+        "en": "He eats while I (f) sleep.",
+        "es": "Él come mientras yo duermo. (f)"
+      },
+      "sourceWords": [
+        "בזמן ש"
+      ],
+      "sourceLessons": [
+        "conjunctions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5d9f3c7bab3c",
+      "hebrew": "היא הולכת לאן שהוא הולך",
+      "translit": "hi holékhet le'án she-hú holékh",
+      "gloss": {
+        "en": "She goes wherever he goes.",
+        "es": "Ella va adonde él va."
+      },
+      "sourceWords": [
+        "לאן ש"
+      ],
+      "sourceLessons": [
+        "conjunctions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e0fc33129bc2",
+      "hebrew": "אנחנו לא ישנים בגללך",
+      "translit": "anákhnu lo yeshením biglalkhá",
+      "gloss": {
+        "en": "We don't sleep because of you (m).",
+        "es": "No dormimos por tu culpa. (m)"
+      },
+      "sourceWords": [
+        "בגללך"
+      ],
+      "sourceLessons": [
+        "conjunctions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1fbb595f7a53",
+      "hebrew": "הילדה לא אוכלת בגלל הכלב",
+      "translit": "ha-yaldá lo okhélet biglál ha-kélev",
+      "gloss": {
+        "en": "The girl doesn't eat because of the dog.",
+        "es": "La niña no come por culpa del perro."
+      },
+      "sourceWords": [
+        "בגלל"
+      ],
+      "sourceLessons": [
+        "conjunctions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "25e1632e4ba4",
+      "hebrew": "אני הולך מתי שהיא הולכת",
+      "translit": "aní holékh matái she-hí holékhet",
+      "gloss": {
+        "en": "I go whenever she goes.",
+        "es": "Voy cuando ella va."
+      },
+      "sourceWords": [
+        "מתי ש"
+      ],
+      "sourceLessons": [
+        "conjunctions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "construct-state": [
+    {
+      "id": "b4e57504642e",
+      "hebrew": "אני רוצה כוס קפה",
+      "translit": "aní rotsé kos kafé",
+      "gloss": {
+        "en": "I want a cup of coffee.",
+        "es": "Quiero una taza de café."
+      },
+      "sourceWords": [
+        "כוס קפה"
+      ],
+      "sourceLessons": [
+        "construct-state-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "52408cdbd9d7",
+      "hebrew": "עוגת השוקולד טעימה",
+      "translit": "ugát ha-shokolád te'imá",
+      "gloss": {
+        "en": "The chocolate cake is tasty.",
+        "es": "La torta de chocolate está rica."
+      },
+      "sourceWords": [
+        "עוגת שוקולד"
+      ],
+      "sourceLessons": [
+        "construct-state-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3e329c125008",
+      "hebrew": "עורכי דין אוכלים עוגה",
+      "translit": "orkhéi din okhlím ugá",
+      "gloss": {
+        "en": "Lawyers eat cake.",
+        "es": "Los abogados comen torta."
+      },
+      "sourceWords": [
+        "עורכי דין",
+        "עוגה"
+      ],
+      "sourceLessons": [
+        "construct-state-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a1af5465bdab",
+      "hebrew": "בית הספר גדול",
+      "translit": "beit ha-séfer gadól",
+      "gloss": {
+        "en": "The school is big.",
+        "es": "La escuela es grande."
+      },
+      "sourceWords": [
+        "בית ספר"
+      ],
+      "sourceLessons": [
+        "construct-state-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cc285bad7c22",
+      "hebrew": "הילד בבית החולים",
+      "translit": "ha-yéled be-veit ha-kholím",
+      "gloss": {
+        "en": "The boy is in the hospital.",
+        "es": "El niño está en el hospital."
+      },
+      "sourceWords": [
+        "בית חולים"
+      ],
+      "sourceLessons": [
+        "construct-state-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "99ad95822dba",
+      "hebrew": "זאת עוגת יום ההולדת שלי",
+      "translit": "zot ugát yom ha-hulédet shelí",
+      "gloss": {
+        "en": "This is my birthday cake.",
+        "es": "Esta es mi torta de cumpleaños."
+      },
+      "sourceWords": [
+        "עוגת יום הולדת"
+      ],
+      "sourceLessons": [
+        "construct-state-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "dates-and-time": [
+    {
+      "id": "be260e27b629",
+      "hebrew": "הם עוזבים השבוע",
+      "translit": "hem ozvím ha-shavúa",
+      "gloss": {
+        "en": "They're leaving this week.",
+        "es": "Ellos se van esta semana."
+      },
+      "sourceWords": [
+        "השבוע",
+        "עוזב"
+      ],
+      "sourceLessons": [
+        "dates-and-time"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9a83ccb9c8f3",
+      "hebrew": "יש לי שעתיים",
+      "translit": "yesh li sha'atáyim",
+      "gloss": {
+        "en": "I have two hours.",
+        "es": "Tengo dos horas."
+      },
+      "sourceWords": [
+        "שעתיים"
+      ],
+      "sourceLessons": [
+        "dates-and-time"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "336fe879a9c7",
+      "hebrew": "היא עוזבת הלילה",
+      "translit": "hi ozévet ha-láila",
+      "gloss": {
+        "en": "She is leaving tonight.",
+        "es": "Ella se va esta noche."
+      },
+      "sourceWords": [
+        "הלילה",
+        "עוזב"
+      ],
+      "sourceLessons": [
+        "dates-and-time"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cc51316852d9",
+      "hebrew": "יום שישי הוא יום טוב",
+      "translit": "yom shishí hu yom tov",
+      "gloss": {
+        "en": "Friday is a good day.",
+        "es": "El viernes es un buen día."
+      },
+      "sourceWords": [
+        "יום שישי"
+      ],
+      "sourceLessons": [
+        "dates-and-time"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2f81de7ee24c",
+      "hebrew": "השנה עוברת",
+      "translit": "ha-shaná ovéret",
+      "gloss": {
+        "en": "The year is passing.",
+        "es": "El año pasa."
+      },
+      "sourceWords": [
+        "השנה",
+        "עובר"
+      ],
+      "sourceLessons": [
+        "dates-and-time"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6334dde23902",
+      "hebrew": "הם בישראל כבר חודשיים",
+      "translit": "hem be-israél kvar khodsháyim",
+      "gloss": {
+        "en": "They've been in Israel for two months already.",
+        "es": "Hace ya dos meses que están en Israel."
+      },
+      "sourceWords": [
+        "חודשיים"
+      ],
+      "sourceLessons": [
+        "dates-and-time"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "determiners": [
+    {
+      "id": "389a12fae3c9",
+      "hebrew": "הכלבים האלה גדולים",
+      "translit": "ha-klavím ha-éle gdolím",
+      "gloss": {
+        "en": "These dogs are big.",
+        "es": "Estos perros son grandes."
+      },
+      "sourceWords": [
+        "האלה"
+      ],
+      "sourceLessons": [
+        "determiners"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "881fcb9138cc",
+      "hebrew": "כל יום אני אוכל תפוח",
+      "translit": "kol yom aní okhél tapúakh",
+      "gloss": {
+        "en": "Every day I eat an apple.",
+        "es": "Todos los días como una manzana."
+      },
+      "sourceWords": [
+        "כל"
+      ],
+      "sourceLessons": [
+        "determiners"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5dfe7b5b8755",
+      "hebrew": "הילד ישן כל הלילה",
+      "translit": "ha-yéled yashén kol ha-láila",
+      "gloss": {
+        "en": "The boy sleeps all night.",
+        "es": "El niño duerme toda la noche."
+      },
+      "sourceWords": [
+        "כל ה"
+      ],
+      "sourceLessons": [
+        "determiners"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "efb3e6e042af",
+      "hebrew": "אנחנו רואים את אותו הכלב",
+      "translit": "anákhnu ro'ím et otó ha-kélev",
+      "gloss": {
+        "en": "We see the same dog.",
+        "es": "Vemos al mismo perro."
+      },
+      "sourceWords": [
+        "אותו ה"
+      ],
+      "sourceLessons": [
+        "determiners"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cc7232f5e353",
+      "hebrew": "הוא לא אוכל שום דבר",
+      "translit": "hu lo okhél shum davár",
+      "gloss": {
+        "en": "He doesn't eat anything.",
+        "es": "Él no come nada."
+      },
+      "sourceWords": [
+        "שום דבר"
+      ],
+      "sourceLessons": [
+        "determiners"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6e8c28edc179",
+      "hebrew": "בבית מדברים עברית",
+      "translit": "ba-báyit medabrím ivrít",
+      "gloss": {
+        "en": "At home we speak Hebrew.",
+        "es": "En casa se habla hebreo."
+      },
+      "sourceWords": [
+        "מדברים",
+        "עברית"
+      ],
+      "sourceLessons": [
+        "determiners"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "diminutives": [
+    {
+      "id": "d07e8e0b042d",
+      "hebrew": "יש לי כלבלב קטנטן",
+      "translit": "yesh li klavláv ktantán",
+      "gloss": {
+        "en": "I have a tiny puppy.",
+        "es": "Tengo un cachorrito chiquitito."
+      },
+      "sourceWords": [
+        "כלבלב",
+        "קטנטן"
+      ],
+      "sourceLessons": [
+        "diminutives"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "7bf9d2293fc0",
+      "hebrew": "לילדה יש דובון",
+      "translit": "la-yaldá yesh dubón",
+      "gloss": {
+        "en": "The girl has a teddy bear.",
+        "es": "La niña tiene un osito de peluche."
+      },
+      "sourceWords": [
+        "דובון"
+      ],
+      "sourceLessons": [
+        "diminutives"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6d0dde7a95cc",
+      "hebrew": "הכלבלב אוכל תפוח",
+      "translit": "ha-klavláv okhél tapúakh",
+      "gloss": {
+        "en": "The puppy eats an apple.",
+        "es": "El cachorro come una manzana."
+      },
+      "sourceWords": [
+        "כלבלב"
+      ],
+      "sourceLessons": [
+        "diminutives"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "11f88f903866",
+      "hebrew": "המלונית הזאת קטנה",
+      "translit": "ha-melonít ha-zót ktaná",
+      "gloss": {
+        "en": "This motel is small.",
+        "es": "Este motel es pequeño."
+      },
+      "sourceWords": [
+        "מלונית"
+      ],
+      "sourceLessons": [
+        "diminutives"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2d5217179fd3",
+      "hebrew": "הדוב גדול והדובון קטן",
+      "translit": "ha-dov gadól ve-ha-dubón katán",
+      "gloss": {
+        "en": "The bear is big and the teddy bear is small.",
+        "es": "El oso es grande y el osito de peluche es pequeño."
+      },
+      "sourceWords": [
+        "דוב",
+        "דובון"
+      ],
+      "sourceLessons": [
+        "diminutives"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "direct-object": [
+    {
+      "id": "0ff5484e539c",
+      "hebrew": "אני אוהב אותך",
+      "translit": "aní ohév otkhá",
+      "gloss": {
+        "en": "I love you (m).",
+        "es": "Te quiero. (a un hombre)"
+      },
+      "sourceWords": [
+        "אוהב",
+        "אותך"
+      ],
+      "sourceLessons": [
+        "direct-object"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9e3d845e6b80",
+      "hebrew": "טל אוהבת אותו",
+      "translit": "tal ohévet otó",
+      "gloss": {
+        "en": "Tal loves him.",
+        "es": "Tal lo quiere."
+      },
+      "sourceWords": [
+        "טל",
+        "אוהבת",
+        "אותו"
+      ],
+      "sourceLessons": [
+        "direct-object"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "41fc5625195a",
+      "hebrew": "אמא שלי אוהבת אותנו",
+      "translit": "íma shelí ohévet otánu",
+      "gloss": {
+        "en": "My mom loves us.",
+        "es": "Mi mamá nos quiere."
+      },
+      "sourceWords": [
+        "אמא",
+        "אוהבת",
+        "אותנו"
+      ],
+      "sourceLessons": [
+        "direct-object"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6518057de8ec",
+      "hebrew": "הם אוהבים אתכם",
+      "translit": "hem ohavím etkhém",
+      "gloss": {
+        "en": "They love you (pl).",
+        "es": "Ellos los quieren a ustedes."
+      },
+      "sourceWords": [
+        "אוהב",
+        "אתכם"
+      ],
+      "sourceLessons": [
+        "direct-object"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "baaa24236269",
+      "hebrew": "אני אוהבת את אבא שלי",
+      "translit": "aní ohévet et ába shelí",
+      "gloss": {
+        "en": "I (f) love my dad.",
+        "es": "Quiero a mi papá. (f)"
+      },
+      "sourceWords": [
+        "את",
+        "אבא",
+        "אוהבת"
+      ],
+      "sourceLessons": [
+        "direct-object"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "83e193d072e1",
+      "hebrew": "טל אוהב אותה",
+      "translit": "tal ohév otá",
+      "gloss": {
+        "en": "Tal loves her.",
+        "es": "Tal la quiere."
+      },
+      "sourceWords": [
+        "טל",
+        "אוהב",
+        "אותה"
+      ],
+      "sourceLessons": [
+        "direct-object"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "formal": [
+    {
+      "id": "3e7035ea4cda",
+      "hebrew": "כיצד לשמור את הכרטיס?",
+      "translit": "keytsád lishmór et ha-kartís?",
+      "gloss": {
+        "en": "How does one keep the ticket?",
+        "es": "¿Cómo se guarda el boleto?"
+      },
+      "sourceWords": [
+        "כיצד",
+        "כרטיס"
+      ],
+      "sourceLessons": [
+        "formal"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "4e519bec676e",
+      "hebrew": "איני אוכל ביצים",
+      "translit": "eyní okhél beytsím",
+      "gloss": {
+        "en": "I do not eat eggs.",
+        "es": "No como huevos."
+      },
+      "sourceWords": [
+        "איני",
+        "ביצים"
+      ],
+      "sourceLessons": [
+        "formal"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "56fae4310527",
+      "hebrew": "נא לא לגעת",
+      "translit": "na lo lagá'at",
+      "gloss": {
+        "en": "Please do not touch.",
+        "es": "Por favor, no tocar."
+      },
+      "sourceWords": [
+        "נא"
+      ],
+      "sourceLessons": [
+        "formal",
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "81e47145b537",
+      "hebrew": "היכן הכרטיס?",
+      "translit": "heykhán ha-kartís?",
+      "gloss": {
+        "en": "Where is the ticket?",
+        "es": "¿Dónde está el boleto?"
+      },
+      "sourceWords": [
+        "היכן",
+        "כרטיס"
+      ],
+      "sourceLessons": [
+        "formal"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a9dbebd5a382",
+      "hebrew": "הוא אינו תלמיד",
+      "translit": "hu eynó talmíd",
+      "gloss": {
+        "en": "He is not a student.",
+        "es": "Él no es alumno."
+      },
+      "sourceWords": [
+        "אינו"
+      ],
+      "sourceLessons": [
+        "formal",
+        "education"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "719c56ccdc67",
+      "hebrew": "ספר זה אינו חדש",
+      "translit": "séfer ze eynó khadásh",
+      "gloss": {
+        "en": "This book is not new.",
+        "es": "Este libro no es nuevo."
+      },
+      "sourceWords": [
+        "ספר זה",
+        "אינו"
+      ],
+      "sourceLessons": [
+        "formal"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "future-nif-al": [
+    {
+      "id": "383632a45202",
+      "hebrew": "אני אכנס לבית",
+      "translit": "aní ekanés la-báyit",
+      "gloss": {
+        "en": "I will go into the house.",
+        "es": "Voy a entrar a la casa."
+      },
+      "sourceWords": [
+        "אכנס"
+      ],
+      "sourceLessons": [
+        "future-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6c8687849a82",
+      "hebrew": "גם היא תיכנס",
+      "translit": "gam hi tikanés",
+      "gloss": {
+        "en": "She will come in too.",
+        "es": "Ella también va a entrar."
+      },
+      "sourceWords": [
+        "תיכנס"
+      ],
+      "sourceLessons": [
+        "future-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "441b66cbd4e9",
+      "hebrew": "הם לא ייכנסו",
+      "translit": "hem lo yikansú",
+      "gloss": {
+        "en": "They won't come in.",
+        "es": "Ellos no van a entrar."
+      },
+      "sourceWords": [
+        "ייכנסו"
+      ],
+      "sourceLessons": [
+        "future-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "ef6573caa275",
+      "hebrew": "את תיכנסי והוא לא",
+      "translit": "at tikansí ve-hú lo",
+      "gloss": {
+        "en": "You (f) will go in and he won't.",
+        "es": "Tú vas a entrar y él no."
+      },
+      "sourceWords": [
+        "תיכנסי"
+      ],
+      "sourceLessons": [
+        "future-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "group-a": [
+    {
+      "id": "f08d636dbf3b",
+      "hebrew": "הסטודנטית אוכלת את התפוח",
+      "translit": "ha-studéntit okhélet et ha-tapúakh",
+      "gloss": {
+        "en": "The (female) student eats the apple.",
+        "es": "La estudiante come la manzana."
+      },
+      "sourceWords": [
+        "סטודנטית",
+        "אוכלת",
+        "את",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "education",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "af68e6e488c4",
+      "hebrew": "לתלמיד יש ארנבת אפורה",
+      "translit": "la-talmíd yesh arnévet aforá",
+      "gloss": {
+        "en": "The student has a gray (female) rabbit.",
+        "es": "El alumno tiene una coneja gris."
+      },
+      "sourceWords": [
+        "תלמיד",
+        "ארנבת",
+        "אפור"
+      ],
+      "sourceLessons": [
+        "education",
+        "animals",
+        "colors"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "82597e398f58",
+      "hebrew": "הבמאית לא טועה",
+      "translit": "ha-bamáit lo to'á",
+      "gloss": {
+        "en": "The (female) director isn't wrong.",
+        "es": "La directora no se equivoca."
+      },
+      "sourceWords": [
+        "במאית",
+        "טועה"
+      ],
+      "sourceLessons": [
+        "occupations",
+        "discussions-and-decisions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e22bce2cccb9",
+      "hebrew": "ציפורים שחורות שרות",
+      "translit": "tsiporím shkhorót sharót",
+      "gloss": {
+        "en": "Black birds are singing.",
+        "es": "Unos pájaros negros cantan."
+      },
+      "sourceWords": [
+        "ציפורים",
+        "שחורות",
+        "שרות"
+      ],
+      "sourceLessons": [
+        "animals",
+        "colors"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "95f11c737c33",
+      "hebrew": "לבן הדוד שלי כואב הראש",
+      "translit": "le-ven ha-dód shelí ko'év ha-rósh",
+      "gloss": {
+        "en": "My cousin's head hurts.",
+        "es": "A mi primo le duele la cabeza."
+      },
+      "sourceWords": [
+        "בן דוד",
+        "כואב",
+        "ראש"
+      ],
+      "sourceLessons": [
+        "family",
+        "medical"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "dd60db67a186",
+      "hebrew": "הגבר המבוגר אוכל תפוח",
+      "translit": "ha-géver ha-mevugár okhél tapúakh",
+      "gloss": {
+        "en": "The older man eats an apple.",
+        "es": "El señor mayor come una manzana."
+      },
+      "sourceWords": [
+        "גבר",
+        "מבוגר",
+        "אוכל",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "occupations",
+        "people",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "imperatives": [
+    {
+      "id": "98e47b03634d",
+      "hebrew": "בואו נאכל תפוח",
+      "translit": "bó'u nokhál tapúakh",
+      "gloss": {
+        "en": "Let's eat an apple (to a group).",
+        "es": "Comamos una manzana. (a un grupo)"
+      },
+      "sourceWords": [
+        "בואו",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "imperative-2",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2030fd4bcda4",
+      "hebrew": "קנו שני תפוחים",
+      "translit": "knu shnei tapukhím",
+      "gloss": {
+        "en": "Buy two apples (pl).",
+        "es": "Compren dos manzanas."
+      },
+      "sourceWords": [
+        "קנו",
+        "תפוחים"
+      ],
+      "sourceLessons": [
+        "imperative-1",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "22a8deb6233a",
+      "hebrew": "הקשיבו לתלמידה",
+      "translit": "hakshívu la-talmidá",
+      "gloss": {
+        "en": "Listen to the student (pl).",
+        "es": "Escuchen a la alumna."
+      },
+      "sourceWords": [
+        "הקשיבו",
+        "תלמידה"
+      ],
+      "sourceLessons": [
+        "imperative-1",
+        "education"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "912de1479cef",
+      "hebrew": "אל תכתבי את זה",
+      "translit": "al tikhtevi et ze",
+      "gloss": {
+        "en": "Don't write that (f).",
+        "es": "No escribas eso. (f)"
+      },
+      "sourceWords": [
+        "אל",
+        "תכתבי"
+      ],
+      "sourceLessons": [
+        "negative-imperatives",
+        "imperative-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "38052eae0226",
+      "hebrew": "דבר עם הבמאי",
+      "translit": "dabér im ha-bamái",
+      "gloss": {
+        "en": "Talk to the director (m).",
+        "es": "Habla con el director."
+      },
+      "sourceWords": [
+        "דבר",
+        "במאי"
+      ],
+      "sourceLessons": [
+        "imperative-1",
+        "occupations"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "19254ed0a8ab",
+      "hebrew": "התקרבו לחתולה",
+      "translit": "hitkarvú la-khatulá",
+      "gloss": {
+        "en": "Come closer to the cat (pl).",
+        "es": "Acérquense a la gata."
+      },
+      "sourceWords": [
+        "התקרבו",
+        "חתולה"
+      ],
+      "sourceLessons": [
+        "imperative-1",
+        "animals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "infinitives": [
+    {
+      "id": "322cbf984bef",
+      "hebrew": "איך לשלם בשקלים?",
+      "translit": "ekh leshalém be-shkalím?",
+      "gloss": {
+        "en": "How do I pay in shekels?",
+        "es": "¿Cómo se paga en shekels?"
+      },
+      "sourceWords": [
+        "איך",
+        "לשלם",
+        "שקלים"
+      ],
+      "sourceLessons": [
+        "infinitives-1",
+        "business"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3430f55e3368",
+      "hebrew": "הילד רוצה לשחות",
+      "translit": "ha-yéled rotsé liskhót",
+      "gloss": {
+        "en": "The boy wants to swim.",
+        "es": "El niño quiere nadar."
+      },
+      "sourceWords": [
+        "לשחות"
+      ],
+      "sourceLessons": [
+        "infinitives-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3a2701e0002d",
+      "hebrew": "אני רוצה לתת לך תפוח",
+      "translit": "aní rotsé latét lekhá tapúakh",
+      "gloss": {
+        "en": "I want to give you an apple.",
+        "es": "Quiero darte una manzana."
+      },
+      "sourceWords": [
+        "לתת",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "infinitives-1",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2369eac137fd",
+      "hebrew": "הבמאית רוצה להישאר",
+      "translit": "ha-bamáit rotsá lehisha'ér",
+      "gloss": {
+        "en": "The director (f) wants to stay.",
+        "es": "La directora quiere quedarse."
+      },
+      "sourceWords": [
+        "להישאר",
+        "במאית"
+      ],
+      "sourceLessons": [
+        "infinitives-2",
+        "occupations"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "0d6638e07eaf",
+      "hebrew": "הסטודנט רוצה לקחת את התפוח",
+      "translit": "ha-studént rotsé lakákhat et ha-tapúakh",
+      "gloss": {
+        "en": "The student wants to take the apple.",
+        "es": "El estudiante quiere tomar la manzana."
+      },
+      "sourceWords": [
+        "לקחת",
+        "סטודנט",
+        "תפוח"
+      ],
+      "sourceLessons": [
+        "infinitives-1",
+        "education",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2ff4b53e90f7",
+      "hebrew": "קשה להתגבר על זה",
+      "translit": "kashé lehitgabér al ze",
+      "gloss": {
+        "en": "It's hard to get over this.",
+        "es": "Es difícil superar esto."
+      },
+      "sourceWords": [
+        "להתגבר"
+      ],
+      "sourceLessons": [
+        "infinitives-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "letters-1": [
+    {
+      "id": "3312b91fa586",
+      "hebrew": "הילד והילדה באים",
+      "translit": "ha-yéled ve-ha-yaldá ba'ím",
+      "gloss": {
+        "en": "The boy and the girl are coming.",
+        "es": "El niño y la niña vienen."
+      },
+      "sourceWords": [
+        "ילד",
+        "ילדה",
+        "ו",
+        "בא"
+      ],
+      "sourceLessons": [
+        "letters-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "256b0cfde951",
+      "hebrew": "הילדה אוהבת את אבא",
+      "translit": "ha-yaldá ohévet et ába",
+      "gloss": {
+        "en": "The girl loves dad.",
+        "es": "La niña quiere a papá."
+      },
+      "sourceWords": [
+        "ילדה",
+        "אוהבת",
+        "אבא"
+      ],
+      "sourceLessons": [
+        "letters-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5a64f1f969cd",
+      "hebrew": "אבא בא?",
+      "translit": "ába ba?",
+      "gloss": {
+        "en": "Is dad coming?",
+        "es": "¿Viene papá?"
+      },
+      "sourceWords": [
+        "אבא",
+        "בא"
+      ],
+      "sourceLessons": [
+        "letters-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "f9c23be47ef4",
+      "hebrew": "האם הילד בא?",
+      "translit": "ha-ím ha-yéled ba?",
+      "gloss": {
+        "en": "Is the boy coming?",
+        "es": "¿Viene el niño?"
+      },
+      "sourceWords": [
+        "האם",
+        "ילד",
+        "בא"
+      ],
+      "sourceLessons": [
+        "letters-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "modals": [
+    {
+      "id": "33d4ff51e8a4",
+      "hebrew": "מומלץ לאכול תפוחים",
+      "translit": "mumláts le'ekhól tapukhím",
+      "gloss": {
+        "en": "It's recommended to eat apples.",
+        "es": "Se recomienda comer manzanas."
+      },
+      "sourceWords": [
+        "מומלץ",
+        "תפוחים"
+      ],
+      "sourceLessons": [
+        "modals",
+        "food-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a1e9ff6f0c20",
+      "hebrew": "מומלץ לא לאכול את זה",
+      "translit": "mumláts lo le'ekhól et ze",
+      "gloss": {
+        "en": "It's recommended not to eat that.",
+        "es": "Se recomienda no comer eso."
+      },
+      "sourceWords": [
+        "מומלץ"
+      ],
+      "sourceLessons": [
+        "modals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "82848e70ff7d",
+      "hebrew": "מומלץ להישאר בבית",
+      "translit": "mumláts lehisha'ér ba-báyit",
+      "gloss": {
+        "en": "It's recommended to stay home.",
+        "es": "Se recomienda quedarse en casa."
+      },
+      "sourceWords": [
+        "מומלץ"
+      ],
+      "sourceLessons": [
+        "modals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "42a55900e377",
+      "hebrew": "מותר לשחות?",
+      "translit": "mutár liskhót?",
+      "gloss": {
+        "en": "Is swimming allowed?",
+        "es": "¿Se puede nadar?"
+      },
+      "sourceWords": [
+        "מותר"
+      ],
+      "sourceLessons": [
+        "modals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "nif-al-construction": [
+    {
+      "id": "23ccea439647",
+      "hebrew": "הדלת לא נסגרת",
+      "translit": "ha-délet lo nisgéret",
+      "gloss": {
+        "en": "The door doesn't close.",
+        "es": "La puerta no se cierra."
+      },
+      "sourceWords": [
+        "נסגרת",
+        "דלת"
+      ],
+      "sourceLessons": [
+        "nif-al-construction"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9ec0103c82f7",
+      "hebrew": "העוגה נראית טובה",
+      "translit": "ha-ugá nir'ét tová",
+      "gloss": {
+        "en": "The cake looks good.",
+        "es": "La torta se ve bien."
+      },
+      "sourceWords": [
+        "נראה"
+      ],
+      "sourceLessons": [
+        "nif-al-construction"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "969069ff9bcf",
+      "hebrew": "הדלתות נסגרות",
+      "translit": "ha-dlatót nisgarót",
+      "gloss": {
+        "en": "The doors close.",
+        "es": "Las puertas se cierran."
+      },
+      "sourceWords": [
+        "נסגרות"
+      ],
+      "sourceLessons": [
+        "nif-al-construction"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "df57d13515ee",
+      "hebrew": "הוא נכנס לבית הספר",
+      "translit": "hu nikhnás le-veit ha-séfer",
+      "gloss": {
+        "en": "He goes into the school.",
+        "es": "Él entra a la escuela."
+      },
+      "sourceWords": [
+        "נכנס"
+      ],
+      "sourceLessons": [
+        "nif-al-construction",
+        "construct-state-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5eb582648837",
+      "hebrew": "זה לא נשמע טוב",
+      "translit": "ze lo nishmá tov",
+      "gloss": {
+        "en": "That doesn't sound good.",
+        "es": "Eso no suena bien."
+      },
+      "sourceWords": [
+        "נשמע"
+      ],
+      "sourceLessons": [
+        "nif-al-construction"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "27c5c03fecf3",
+      "hebrew": "העוגה נאכלת על ידי הילדים",
+      "translit": "ha-ugá ne'ekhélet al yedéi ha-yeladím",
+      "gloss": {
+        "en": "The cake is being eaten by the children.",
+        "es": "Los niños se están comiendo la torta."
+      },
+      "sourceWords": [
+        "על ידי"
+      ],
+      "sourceLessons": [
+        "nif-al-construction"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "numbers-1": [
+    {
+      "id": "13fbe66d0fb8",
+      "hebrew": "יש לי שלושה כלבים",
+      "translit": "yesh li shloshá klavím",
+      "gloss": {
+        "en": "I have three dogs.",
+        "es": "Tengo tres perros."
+      },
+      "sourceWords": [
+        "שלושה"
+      ],
+      "sourceLessons": [
+        "numbers-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "048fcb1243a7",
+      "hebrew": "שתי ילדות אוכלות",
+      "translit": "shtéi yeladót okhlót",
+      "gloss": {
+        "en": "Two girls are eating.",
+        "es": "Dos niñas están comiendo."
+      },
+      "sourceWords": [
+        "שתי"
+      ],
+      "sourceLessons": [
+        "numbers-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "f7c88a7772d6",
+      "hebrew": "יש לנו חתול אחד",
+      "translit": "yesh lánu khatúl ekhád",
+      "gloss": {
+        "en": "We have one cat.",
+        "es": "Tenemos un gato."
+      },
+      "sourceWords": [
+        "אחד"
+      ],
+      "sourceLessons": [
+        "numbers-1",
+        "animals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "826401e41f8f",
+      "hebrew": "חמש זה יותר מארבע",
+      "translit": "khamésh ze yotér me-arbá",
+      "gloss": {
+        "en": "Five is more than four.",
+        "es": "Cinco es más que cuatro."
+      },
+      "sourceWords": [
+        "חמש",
+        "ארבע",
+        "יותר מ"
+      ],
+      "sourceLessons": [
+        "numbers-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3f3e096e7f72",
+      "hebrew": "כמה בננות את רוצה?",
+      "translit": "káma bananót at rotsá?",
+      "gloss": {
+        "en": "How many bananas do you (f) want?",
+        "es": "¿Cuántas bananas quieres? (f)"
+      },
+      "sourceWords": [
+        "כמה",
+        "בננות"
+      ],
+      "sourceLessons": [
+        "numbers-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a88235f42264",
+      "hebrew": "יש שלושה עשר ילדים",
+      "translit": "yesh shloshá asár yeladím",
+      "gloss": {
+        "en": "There are thirteen children.",
+        "es": "Hay trece niños."
+      },
+      "sourceWords": [
+        "שלושה עשר"
+      ],
+      "sourceLessons": [
+        "numbers-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "numbers-2": [
+    {
+      "id": "8794573de30b",
+      "hebrew": "שלוש הפרות אוכלות",
+      "translit": "shlosh ha-parót okhlót",
+      "gloss": {
+        "en": "The three cows are eating.",
+        "es": "Las tres vacas están comiendo."
+      },
+      "sourceWords": [
+        "שלוש ה"
+      ],
+      "sourceLessons": [
+        "numbers-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "89d59a9a4358",
+      "hebrew": "שבעת הילדים באים",
+      "translit": "shiv'át ha-yeladím ba'ím",
+      "gloss": {
+        "en": "The seven boys are coming.",
+        "es": "Los siete niños vienen."
+      },
+      "sourceWords": [
+        "שבעת ה"
+      ],
+      "sourceLessons": [
+        "numbers-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6e8c52bec62f",
+      "hebrew": "הוא בן שישים שנה",
+      "translit": "hu ben shishím shaná",
+      "gloss": {
+        "en": "He is sixty years old.",
+        "es": "Él tiene sesenta años."
+      },
+      "sourceWords": [
+        "שישים שנה"
+      ],
+      "sourceLessons": [
+        "numbers-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a927a946aa8a",
+      "hebrew": "יש לי עשרים שקל",
+      "translit": "yesh li esrím shékel",
+      "gloss": {
+        "en": "I have twenty shekels.",
+        "es": "Tengo veinte shekels."
+      },
+      "sourceWords": [
+        "עשרים",
+        "שקל"
+      ],
+      "sourceLessons": [
+        "numbers-2",
+        "business"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "dfef32624dd3",
+      "hebrew": "ארבעים וחמישה ילדים באים",
+      "translit": "arba'ím ve-khamishá yeladím ba'ím",
+      "gloss": {
+        "en": "Forty-five children are coming.",
+        "es": "Vienen cuarenta y cinco niños."
+      },
+      "sourceWords": [
+        "ארבעים וחמישה"
+      ],
+      "sourceLessons": [
+        "numbers-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "passive-pa-ul-pu-al-and-huf-al": [
+    {
+      "id": "cf2da40ae8ab",
+      "hebrew": "זאת העוגה האהובה עליי",
+      "translit": "zot ha-ugá ha-ahuvá alái",
+      "gloss": {
+        "en": "This is my favorite cake.",
+        "es": "Esta es mi torta favorita."
+      },
+      "sourceWords": [
+        "אהוב על"
+      ],
+      "sourceLessons": [
+        "passive-pa-ul-pu-al-and-huf-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "ad3e5685e017",
+      "hebrew": "הספר הזה כתוב יפה",
+      "translit": "ha-séfer ha-zé katúv yafé",
+      "gloss": {
+        "en": "This book is nicely written.",
+        "es": "Este libro está bien escrito."
+      },
+      "sourceWords": [
+        "כתוב"
+      ],
+      "sourceLessons": [
+        "passive-pa-ul-pu-al-and-huf-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "d821ec968cb1",
+      "hebrew": "הירקות מבושלים",
+      "translit": "ha-yerakót mevushalím",
+      "gloss": {
+        "en": "The vegetables are cooked.",
+        "es": "Las verduras están cocidas."
+      },
+      "sourceWords": [
+        "מבושלים",
+        "ירקות"
+      ],
+      "sourceLessons": [
+        "passive-pa-ul-pu-al-and-huf-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1dbb641b70db",
+      "hebrew": "הדגים מבושלים על ידי הטבח",
+      "translit": "ha-dagím mevushalím al yedéi ha-tabákh",
+      "gloss": {
+        "en": "The fish are cooked by the cook.",
+        "es": "El cocinero cocina el pescado."
+      },
+      "sourceWords": [
+        "מבושלים",
+        "על ידי"
+      ],
+      "sourceLessons": [
+        "passive-pa-ul-pu-al-and-huf-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "60ad1d7c8188",
+      "hebrew": "זה מוסבר בספר",
+      "translit": "ze musbár ba-séfer",
+      "gloss": {
+        "en": "This is explained in the book.",
+        "es": "Esto está explicado en el libro."
+      },
+      "sourceWords": [
+        "מוסבר"
+      ],
+      "sourceLessons": [
+        "passive-pa-ul-pu-al-and-huf-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "ecebbb2bf9e5",
+      "hebrew": "התפוח אכול",
+      "translit": "ha-tapúakh akhúl",
+      "gloss": {
+        "en": "The apple is eaten.",
+        "es": "La manzana está comida."
+      },
+      "sourceWords": [
+        "אכול"
+      ],
+      "sourceLessons": [
+        "passive-pa-ul-pu-al-and-huf-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "past-nif-al": [
+    {
+      "id": "53178ff0bac2",
+      "hebrew": "אני נכנסתי לבית",
+      "translit": "aní nikhnásti la-báyit",
+      "gloss": {
+        "en": "I went into the house.",
+        "es": "Entré a la casa."
+      },
+      "sourceWords": [
+        "נכנסתי"
+      ],
+      "sourceLessons": [
+        "past-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "4640c665aae9",
+      "hebrew": "נכנסנו לבית של אמא",
+      "translit": "nikhnásnu la-báyit shel íma",
+      "gloss": {
+        "en": "We went into mom's house.",
+        "es": "Entramos a la casa de mamá."
+      },
+      "sourceWords": [
+        "נכנסנו"
+      ],
+      "sourceLessons": [
+        "past-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "d13e2d360fe2",
+      "hebrew": "היא נכנסה והוא לא",
+      "translit": "hi nikhnesá ve-hú lo",
+      "gloss": {
+        "en": "She went in and he didn't.",
+        "es": "Ella entró y él no."
+      },
+      "sourceWords": [
+        "נכנסה"
+      ],
+      "sourceLessons": [
+        "past-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e9b6c39d49e9",
+      "hebrew": "זה נשמע לי טוב",
+      "translit": "ze nishmá li tov",
+      "gloss": {
+        "en": "It sounds (or sounded) good to me.",
+        "es": "Me suena (o me sonó) bien."
+      },
+      "sourceWords": [
+        "נשמע"
+      ],
+      "sourceLessons": [
+        "past-nif-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "plurals": [
+    {
+      "id": "1c0eb37e6f7a",
+      "hebrew": "היינות האלה טעימים",
+      "translit": "ha-yeinót ha-éle te'imím",
+      "gloss": {
+        "en": "These wines are tasty.",
+        "es": "Estos vinos son sabrosos."
+      },
+      "sourceWords": [
+        "יינות",
+        "טעימים"
+      ],
+      "sourceLessons": [
+        "plurals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cb2aedd838ea",
+      "hebrew": "יש לי שני עיתונים",
+      "translit": "yesh li shnei itoním",
+      "gloss": {
+        "en": "I have two newspapers.",
+        "es": "Tengo dos periódicos."
+      },
+      "sourceWords": [
+        "עיתונים"
+      ],
+      "sourceLessons": [
+        "plurals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6a17d5a41502",
+      "hebrew": "יש פרות וחתולים",
+      "translit": "yesh parót ve-khatulím",
+      "gloss": {
+        "en": "There are cows and cats.",
+        "es": "Hay vacas y gatos."
+      },
+      "sourceWords": [
+        "פרות",
+        "חתולים"
+      ],
+      "sourceLessons": [
+        "plurals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "f066c70235cd",
+      "hebrew": "יש לנו שתי פרות",
+      "translit": "yesh lánu shtei parót",
+      "gloss": {
+        "en": "We have two cows.",
+        "es": "Tenemos dos vacas."
+      },
+      "sourceWords": [
+        "פרות"
+      ],
+      "sourceLessons": [
+        "plurals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "c1d50e5811f6",
+      "hebrew": "זה יין טעים",
+      "translit": "ze yáyin ta'ím",
+      "gloss": {
+        "en": "This is a tasty wine.",
+        "es": "Este es un vino sabroso."
+      },
+      "sourceWords": [
+        "יין",
+        "טעים"
+      ],
+      "sourceLessons": [
+        "plurals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cf79640d7359",
+      "hebrew": "יש דבורים ביין",
+      "translit": "yesh dvorím ba-yáyin",
+      "gloss": {
+        "en": "There are bees in the wine.",
+        "es": "Hay abejas en el vino."
+      },
+      "sourceWords": [
+        "דבורים",
+        "יין"
+      ],
+      "sourceLessons": [
+        "plurals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "possessives-1": [
+    {
+      "id": "3551f6948344",
+      "hebrew": "התפוח של יוסי אדום",
+      "translit": "ha-tapúakh shel yósi adóm",
+      "gloss": {
+        "en": "Yossi's apple is red.",
+        "es": "La manzana de Yossi es roja."
+      },
+      "sourceWords": [
+        "של"
+      ],
+      "sourceLessons": [
+        "possessives-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2f2c5b412958",
+      "hebrew": "הכלב שלנו גדול",
+      "translit": "ha-kélev shelánu gadól",
+      "gloss": {
+        "en": "Our dog is big.",
+        "es": "Nuestro perro es grande."
+      },
+      "sourceWords": [
+        "שלנו"
+      ],
+      "sourceLessons": [
+        "possessives-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "c744a6e40ba2",
+      "hebrew": "אח שלי חכם",
+      "translit": "akh shelí khakhám",
+      "gloss": {
+        "en": "My brother is smart.",
+        "es": "Mi hermano es inteligente."
+      },
+      "sourceWords": [
+        "אח",
+        "שלי"
+      ],
+      "sourceLessons": [
+        "possessives-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "699db4bf14b6",
+      "hebrew": "הספר הזה שייך לה",
+      "translit": "ha-séfer ha-zé shayákh la",
+      "gloss": {
+        "en": "This book belongs to her.",
+        "es": "Este libro le pertenece a ella."
+      },
+      "sourceWords": [
+        "שייך"
+      ],
+      "sourceLessons": [
+        "possessives-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "94e2b0e29634",
+      "hebrew": "הכלבים שייכים לילדה",
+      "translit": "ha-klavím shayakhím la-yaldá",
+      "gloss": {
+        "en": "The dogs belong to the girl.",
+        "es": "Los perros le pertenecen a la niña."
+      },
+      "sourceWords": [
+        "שייכים"
+      ],
+      "sourceLessons": [
+        "possessives-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "31de468ca927",
+      "hebrew": "בוקר טוב, חתולה שלי",
+      "translit": "bóker tov, khatulá shelí",
+      "gloss": {
+        "en": "Good morning, my cat.",
+        "es": "Buenos días, gatita mía."
+      },
+      "sourceWords": [
+        "שלי"
+      ],
+      "sourceLessons": [
+        "possessives-1",
+        "animals"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "possessives-2": [
+    {
+      "id": "304325532cf7",
+      "hebrew": "סוסיו אוכלים תפוחים",
+      "translit": "susáv okhlím tapukhím",
+      "gloss": {
+        "en": "His horses eat apples.",
+        "es": "Sus caballos comen manzanas. (de él)"
+      },
+      "sourceWords": [
+        "סוסיו"
+      ],
+      "sourceLessons": [
+        "possessives-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "fa21a34d53e4",
+      "hebrew": "סוסנו שחור ויפה",
+      "translit": "susénu shakhór ve-yafé",
+      "gloss": {
+        "en": "Our horse is black and beautiful.",
+        "es": "Nuestro caballo es negro y hermoso."
+      },
+      "sourceWords": [
+        "סוסנו"
+      ],
+      "sourceLessons": [
+        "possessives-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "eb38a43e9657",
+      "hebrew": "אני אוהב את סוסי",
+      "translit": "aní ohév et susí",
+      "gloss": {
+        "en": "I love my horse.",
+        "es": "Quiero a mi caballo."
+      },
+      "sourceWords": [
+        "סוסי",
+        "את"
+      ],
+      "sourceLessons": [
+        "possessives-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "0fe2d1c417ac",
+      "hebrew": "אחותי תלמידה",
+      "translit": "akhotí talmidá",
+      "gloss": {
+        "en": "My sister is a student.",
+        "es": "Mi hermana es alumna."
+      },
+      "sourceWords": [
+        "אחותי"
+      ],
+      "sourceLessons": [
+        "possessives-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1df6a8c27fd8",
+      "hebrew": "הם רואים את סוסיהם",
+      "translit": "hem ro'ím et susehém",
+      "gloss": {
+        "en": "They see their horses.",
+        "es": "Ellos ven sus caballos."
+      },
+      "sourceWords": [
+        "סוסיהם",
+        "את"
+      ],
+      "sourceLessons": [
+        "possessives-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "prepositions-1": [
+    {
+      "id": "28755afdfe59",
+      "hebrew": "התפוח הזה בשבילך",
+      "translit": "ha-tapúakh ha-zé bishvilkhá",
+      "gloss": {
+        "en": "This apple is for you (m).",
+        "es": "Esta manzana es para ti. (m)"
+      },
+      "sourceWords": [
+        "בשביל"
+      ],
+      "sourceLessons": [
+        "prepositions-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "89ef07c7148d",
+      "hebrew": "אני הולך איתו",
+      "translit": "aní holékh itó",
+      "gloss": {
+        "en": "I'm going with him.",
+        "es": "Voy con él."
+      },
+      "sourceWords": [
+        "איתו"
+      ],
+      "sourceLessons": [
+        "prepositions-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "63b82ffbedf5",
+      "hebrew": "החתול ליד הכלב",
+      "translit": "ha-khatúl leyád ha-kélev",
+      "gloss": {
+        "en": "The cat is next to the dog.",
+        "es": "El gato está al lado del perro."
+      },
+      "sourceWords": [
+        "ליד"
+      ],
+      "sourceLessons": [
+        "prepositions-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "afcac37015ab",
+      "hebrew": "הילדה בתוך הבית",
+      "translit": "ha-yaldá be-tókh ha-báyit",
+      "gloss": {
+        "en": "The girl is inside the house.",
+        "es": "La niña está dentro de la casa."
+      },
+      "sourceWords": [
+        "בתוך"
+      ],
+      "sourceLessons": [
+        "prepositions-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "088b9c99a846",
+      "hebrew": "הם נגד זה",
+      "translit": "hem néged ze",
+      "gloss": {
+        "en": "They are against it.",
+        "es": "Ellos están en contra de eso."
+      },
+      "sourceWords": [
+        "נגד"
+      ],
+      "sourceLessons": [
+        "prepositions-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "8523791ab30f",
+      "hebrew": "גם הכלב בפנים",
+      "translit": "gam ha-kélev bifním",
+      "gloss": {
+        "en": "The dog is inside too.",
+        "es": "El perro también está adentro."
+      },
+      "sourceWords": [
+        "בפנים"
+      ],
+      "sourceLessons": [
+        "prepositions-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "prepositions-2": [
+    {
+      "id": "06e6def06fe7",
+      "hebrew": "החתול נמצא בחוץ",
+      "translit": "ha-khatúl nimtsá ba-khúts",
+      "gloss": {
+        "en": "The cat is outside.",
+        "es": "El gato está afuera."
+      },
+      "sourceWords": [
+        "נמצא",
+        "בחוץ"
+      ],
+      "sourceLessons": [
+        "prepositions-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "c355239353ba",
+      "hebrew": "הילדה באה אליי",
+      "translit": "ha-yaldá ba'á elái",
+      "gloss": {
+        "en": "The girl comes to me.",
+        "es": "La niña viene hacia mí."
+      },
+      "sourceWords": [
+        "אליי"
+      ],
+      "sourceLessons": [
+        "prepositions-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "06df2f9f76c3",
+      "hebrew": "הכלב רץ אליו",
+      "translit": "ha-kélev rats eláv",
+      "gloss": {
+        "en": "The dog runs toward him.",
+        "es": "El perro corre hacia él."
+      },
+      "sourceWords": [
+        "אליו"
+      ],
+      "sourceLessons": [
+        "prepositions-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "8e15bddaa073",
+      "hebrew": "התלמידים באים אלינו",
+      "translit": "ha-talmidím ba'ím eléinu",
+      "gloss": {
+        "en": "The students are coming to us.",
+        "es": "Los alumnos vienen hacia nosotros."
+      },
+      "sourceWords": [
+        "אלינו"
+      ],
+      "sourceLessons": [
+        "prepositions-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "56679a881ef9",
+      "hebrew": "הספר נמצא בבית",
+      "translit": "ha-séfer nimtsá ba-báyit",
+      "gloss": {
+        "en": "The book is in the house.",
+        "es": "El libro está en la casa."
+      },
+      "sourceWords": [
+        "נמצא"
+      ],
+      "sourceLessons": [
+        "prepositions-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "66b173f793f9",
+      "hebrew": "אמא שלי כותבת אליה",
+      "translit": "íma shelí kotévet eléha",
+      "gloss": {
+        "en": "My mom writes to her.",
+        "es": "Mi mamá le escribe a ella."
+      },
+      "sourceWords": [
+        "אליה"
+      ],
+      "sourceLessons": [
+        "prepositions-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "c552ce2f6d7f",
+      "hebrew": "איזו עוגה את רוצה?",
+      "translit": "éyzo ugá at rotsá?",
+      "gloss": {
+        "en": "Which cake do you (f) want?",
+        "es": "¿Qué torta quieres? (f)"
+      },
+      "sourceWords": [
+        "איזו"
+      ],
+      "sourceLessons": [
+        "questions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "74792036a6ea",
+      "hebrew": "אילו ספרים הם אוהבים?",
+      "translit": "éylu sfarím hem ohavím?",
+      "gloss": {
+        "en": "Which books do they like?",
+        "es": "¿Qué libros les gustan?"
+      },
+      "sourceWords": [
+        "אילו"
+      ],
+      "sourceLessons": [
+        "questions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "36512073b080",
+      "hebrew": "האם זה הכלב שלך?",
+      "translit": "ha-ím ze ha-kélev shelkhá?",
+      "gloss": {
+        "en": "Is this your dog?",
+        "es": "¿Este es tu perro?"
+      },
+      "sourceWords": [
+        "האם"
+      ],
+      "sourceLessons": [
+        "questions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "38eee6eb0a3d",
+      "hebrew": "מי אוכלת את העוגה?",
+      "translit": "mi okhélet et ha-ugá?",
+      "gloss": {
+        "en": "Who (f) is eating the cake?",
+        "es": "¿Quién se está comiendo la torta? (f)"
+      },
+      "sourceWords": [
+        "מי"
+      ],
+      "sourceLessons": [
+        "questions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "4230f2594c1e",
+      "hebrew": "איזה ספר טוב?",
+      "translit": "éyze séfer tov?",
+      "gloss": {
+        "en": "Which book is good?",
+        "es": "¿Qué libro es bueno?"
+      },
+      "sourceWords": [
+        "איזה"
+      ],
+      "sourceLessons": [
+        "questions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "cd18da11c4bb",
+      "hebrew": "האם היא באה או לא?",
+      "translit": "ha-ím hi ba'á o lo?",
+      "gloss": {
+        "en": "Is she coming or not?",
+        "es": "¿Viene o no?"
+      },
+      "sourceWords": [
+        "האם",
+        "או"
+      ],
+      "sourceLessons": [
+        "questions"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "the-conditional": [
+    {
+      "id": "7722105b3b06",
+      "hebrew": "אם הייתי יודע, הייתי בא",
+      "translit": "im hayíti yodéa, hayíti ba",
+      "gloss": {
+        "en": "If I had known, I would have come.",
+        "es": "Si lo hubiera sabido, habría venido."
+      },
+      "sourceWords": [
+        "אם",
+        "הייתי"
+      ],
+      "sourceLessons": [
+        "the-conditional"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "2108efc63d1e",
+      "hebrew": "אם היה לי תפוח, הייתי אוכל אותו",
+      "translit": "im hayá li tapúakh, hayíti okhél otó",
+      "gloss": {
+        "en": "If I had an apple, I would eat it.",
+        "es": "Si tuviera una manzana, me la comería."
+      },
+      "sourceWords": [
+        "אם",
+        "הייתי"
+      ],
+      "sourceLessons": [
+        "the-conditional"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1b2610fa5e9e",
+      "hebrew": "אם זה לא היה קשה, היא הייתה באה",
+      "translit": "im ze lo hayá kashé, hi haytá ba'á",
+      "gloss": {
+        "en": "If it weren't hard, she would come.",
+        "es": "Si no fuera difícil, ella vendría."
+      },
+      "sourceWords": [
+        "אם",
+        "הייתה"
+      ],
+      "sourceLessons": [
+        "the-conditional"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "f7a4097bc3bd",
+      "hebrew": "אילולא הכלב, הייתי ישן",
+      "translit": "ilulé ha-kélev, hayíti yashén",
+      "gloss": {
+        "en": "If not for the dog, I would sleep.",
+        "es": "Si no fuera por el perro, dormiría."
+      },
+      "sourceWords": [
+        "אילולא"
+      ],
+      "sourceLessons": [
+        "the-conditional"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "a6ef3a4d3aff",
+      "hebrew": "כל יום הוא היה אוכל תפוח",
+      "translit": "kol yom hu hayá okhél tapúakh",
+      "gloss": {
+        "en": "Every day he would eat an apple.",
+        "es": "Todos los días comía una manzana."
+      },
+      "sourceWords": [
+        "היה"
+      ],
+      "sourceLessons": [
+        "the-conditional"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "there-is-to-have": [
+    {
+      "id": "f834f921a793",
+      "hebrew": "יש לה שני כלבים",
+      "translit": "yesh la shnei klavím",
+      "gloss": {
+        "en": "She has two dogs.",
+        "es": "Ella tiene dos perros."
+      },
+      "sourceWords": [
+        "יש לה"
+      ],
+      "sourceLessons": [
+        "there-is-to-have"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3d4971cb0a37",
+      "hebrew": "אין לנו עוגה",
+      "translit": "eyn lánu ugá",
+      "gloss": {
+        "en": "We don't have cake.",
+        "es": "No tenemos torta."
+      },
+      "sourceWords": [
+        "אין לנו"
+      ],
+      "sourceLessons": [
+        "there-is-to-have"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "4e04d3756a9e",
+      "hebrew": "לילדה יש ספר חדש",
+      "translit": "la-yaldá yesh séfer khadásh",
+      "gloss": {
+        "en": "The girl has a new book.",
+        "es": "La niña tiene un libro nuevo."
+      },
+      "sourceWords": [
+        "ל",
+        "יש"
+      ],
+      "sourceLessons": [
+        "there-is-to-have"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "278e9779d0c2",
+      "hebrew": "יש לכם כלב?",
+      "translit": "yesh lakhém kélev?",
+      "gloss": {
+        "en": "Do you (pl) have a dog?",
+        "es": "¿Tienen perro?"
+      },
+      "sourceWords": [
+        "יש לכם"
+      ],
+      "sourceLessons": [
+        "there-is-to-have"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9ed21420d73a",
+      "hebrew": "לו יש חתול, אבל לה אין",
+      "translit": "lo yesh khatúl, avál la eyn",
+      "gloss": {
+        "en": "He has a cat, but she doesn't.",
+        "es": "Él tiene un gato, pero ella no."
+      },
+      "sourceWords": [
+        "יש",
+        "אין"
+      ],
+      "sourceLessons": [
+        "there-is-to-have"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "ce45bffe24d4",
+      "hebrew": "אין להם תפוחים",
+      "translit": "eyn lahém tapukhím",
+      "gloss": {
+        "en": "They don't have apples.",
+        "es": "Ellos no tienen manzanas."
+      },
+      "sourceWords": [
+        "אין להם"
+      ],
+      "sourceLessons": [
+        "there-is-to-have"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "travel": [
+    {
+      "id": "ec0a3f2951df",
+      "hebrew": "ישראל מדינה קטנה",
+      "translit": "israél medína ktaná",
+      "gloss": {
+        "en": "Israel is a small country.",
+        "es": "Israel es un país pequeño."
+      },
+      "sourceWords": [
+        "מדינה"
+      ],
+      "sourceLessons": [
+        "travel"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "c25fb7e7e177",
+      "hebrew": "גם אבא בחו\"ל",
+      "translit": "gam ába be-khúl",
+      "gloss": {
+        "en": "Dad is abroad too.",
+        "es": "Papá también está en el extranjero."
+      },
+      "sourceWords": [
+        "חו\"ל"
+      ],
+      "sourceLessons": [
+        "travel"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "859839590a75",
+      "hebrew": "ארה\"ב מדינה גדולה",
+      "translit": "artsót ha-brít medína gdolá",
+      "gloss": {
+        "en": "The USA is a big country.",
+        "es": "Estados Unidos es un país grande."
+      },
+      "sourceWords": [
+        "ארה\"ב",
+        "מדינה"
+      ],
+      "sourceLessons": [
+        "travel"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9eab4b59defb",
+      "hebrew": "ארץ ישראל יפה",
+      "translit": "érets israél yafá",
+      "gloss": {
+        "en": "The land of Israel is beautiful.",
+        "es": "La tierra de Israel es hermosa."
+      },
+      "sourceWords": [
+        "ארץ"
+      ],
+      "sourceLessons": [
+        "travel"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbal-nouns": [
+    {
+      "id": "cba9feff0d0f",
+      "hebrew": "הכתיבה של התלמידה יפה",
+      "translit": "ha-ktivá shel ha-talmidá yafá",
+      "gloss": {
+        "en": "The student's writing is nice.",
+        "es": "La escritura de la alumna es linda."
+      },
+      "sourceWords": [
+        "כתיבה",
+        "תלמידה"
+      ],
+      "sourceLessons": [
+        "verbal-nouns",
+        "education"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "407baa85d445",
+      "hebrew": "הבישול של הגבר טעים",
+      "translit": "ha-bishúl shel ha-géver ta'ím",
+      "gloss": {
+        "en": "The man's cooking is tasty.",
+        "es": "La comida del hombre es rica."
+      },
+      "sourceWords": [
+        "בישול",
+        "גבר"
+      ],
+      "sourceLessons": [
+        "verbal-nouns",
+        "occupations"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3f3d2a284fc1",
+      "hebrew": "הבמאית רוצה התנצלות",
+      "translit": "ha-bamáit rotsá hitnatslút",
+      "gloss": {
+        "en": "The director (f) wants an apology.",
+        "es": "La directora quiere una disculpa."
+      },
+      "sourceWords": [
+        "התנצלות",
+        "במאית"
+      ],
+      "sourceLessons": [
+        "verbal-nouns",
+        "occupations"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9f1a50351e33",
+      "hebrew": "החשיבה של הילד עצמאית",
+      "translit": "ha-khashivá shel ha-yéled atsma'ít",
+      "gloss": {
+        "en": "The boy's thinking is independent.",
+        "es": "El pensamiento del niño es independiente."
+      },
+      "sourceWords": [
+        "חשיבה"
+      ],
+      "sourceLessons": [
+        "verbal-nouns"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-future-active-1": [
+    {
+      "id": "d628f1defd73",
+      "hebrew": "אני אכתוב לך",
+      "translit": "aní ekhtóv lekhá",
+      "gloss": {
+        "en": "I will write to you (m).",
+        "es": "Te voy a escribir. (m)"
+      },
+      "sourceWords": [
+        "אכתוב"
+      ],
+      "sourceLessons": [
+        "verbs-future-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9b84416e5f50",
+      "hebrew": "הם יכתבו ספר",
+      "translit": "hem yikhtevú séfer",
+      "gloss": {
+        "en": "They will write a book.",
+        "es": "Ellos van a escribir un libro."
+      },
+      "sourceWords": [
+        "יכתבו"
+      ],
+      "sourceLessons": [
+        "verbs-future-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "f42d868920ab",
+      "hebrew": "יהיה לנו כלב",
+      "translit": "yihyé lánu kélev",
+      "gloss": {
+        "en": "We will have a dog.",
+        "es": "Vamos a tener un perro."
+      },
+      "sourceWords": [
+        "יהיה לנו"
+      ],
+      "sourceLessons": [
+        "verbs-future-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "de2f69879bdb",
+      "hebrew": "תהיה לה חתולה",
+      "translit": "tihyé la khatulá",
+      "gloss": {
+        "en": "She will have a (female) cat.",
+        "es": "Ella va a tener una gata."
+      },
+      "sourceWords": [
+        "תהיה לה"
+      ],
+      "sourceLessons": [
+        "verbs-future-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3a3f1bd4baf0",
+      "hebrew": "כשתגיעי לשם, תני לה את זה",
+      "translit": "kshe-tagí'i le-shám, tní la et ze",
+      "gloss": {
+        "en": "When you (f) get there, give her this.",
+        "es": "Cuando llegues, dale esto. (f)"
+      },
+      "sourceWords": [
+        "כשתגיעי",
+        "תני"
+      ],
+      "sourceLessons": [
+        "verbs-future-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1529568f5a03",
+      "hebrew": "אני רוצה שתכתבי לי",
+      "translit": "aní rotsé she-tikhtevi li",
+      "gloss": {
+        "en": "I want you (f) to write to me.",
+        "es": "Quiero que me escribas. (f)"
+      },
+      "sourceWords": [
+        "ש",
+        "תכתבי"
+      ],
+      "sourceLessons": [
+        "verbs-future-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-past-active-1": [
+    {
+      "id": "60a57e1658fb",
+      "hebrew": "היא כתבה ספר",
+      "translit": "hi katvá séfer",
+      "gloss": {
+        "en": "She wrote a book.",
+        "es": "Ella escribió un libro."
+      },
+      "sourceWords": [
+        "כתבה"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "f2744c1cc850",
+      "hebrew": "דיברנו עם טל",
+      "translit": "dibárnu im tal",
+      "gloss": {
+        "en": "We talked with Tal.",
+        "es": "Hablamos con Tal."
+      },
+      "sourceWords": [
+        "דיברנו"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "3d0f14aac706",
+      "hebrew": "הם שיחקו בחוץ",
+      "translit": "hem sikhakú ba-khúts",
+      "gloss": {
+        "en": "They played outside.",
+        "es": "Ellos jugaron afuera."
+      },
+      "sourceWords": [
+        "שיחקו"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "23ff068c9cc8",
+      "hebrew": "הייתה לי חתולה",
+      "translit": "haytá li khatulá",
+      "gloss": {
+        "en": "I had a (female) cat.",
+        "es": "Tenía una gata."
+      },
+      "sourceWords": [
+        "הייתה לי"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "0a8429c20ce0",
+      "hebrew": "לא היה לנו כלב",
+      "translit": "lo hayá lánu kélev",
+      "gloss": {
+        "en": "We didn't have a dog.",
+        "es": "No teníamos perro."
+      },
+      "sourceWords": [
+        "היה לנו"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "8007ec223aa0",
+      "hebrew": "היא הסבירה את זה",
+      "translit": "hi hisbíra et ze",
+      "gloss": {
+        "en": "She explained it.",
+        "es": "Ella lo explicó."
+      },
+      "sourceWords": [
+        "הסבירה"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-1"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-past-active-2": [
+    {
+      "id": "22925d3e5729",
+      "hebrew": "התנצלתי בפני החבר שלי",
+      "translit": "hitnatsálti bifnéi ha-khavér shelí",
+      "gloss": {
+        "en": "I apologized to my friend.",
+        "es": "Le pedí disculpas a mi amigo."
+      },
+      "sourceWords": [
+        "התנצלתי"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "66ebb17462f8",
+      "hebrew": "הילד לא התנצל",
+      "translit": "ha-yéled lo hitnatsél",
+      "gloss": {
+        "en": "The boy didn't apologize.",
+        "es": "El niño no pidió disculpas."
+      },
+      "sourceWords": [
+        "התנצל"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "47c01282e4a2",
+      "hebrew": "גם היא התנצלה",
+      "translit": "gam hi hitnatslá",
+      "gloss": {
+        "en": "She apologized too.",
+        "es": "Ella también pidió disculpas."
+      },
+      "sourceWords": [
+        "התנצלה"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6789e3feb71f",
+      "hebrew": "למה לא התנצלתם?",
+      "translit": "láma lo hitnatsáltem?",
+      "gloss": {
+        "en": "Why didn't you (pl) apologize?",
+        "es": "¿Por qué no pidieron disculpas?"
+      },
+      "sourceWords": [
+        "התנצלתם"
+      ],
+      "sourceLessons": [
+        "verbs-past-active-2"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-present-hiph-il": [
+    {
+      "id": "8d6dee687d00",
+      "hebrew": "אני מסכים איתך",
+      "translit": "aní maskím itkhá",
+      "gloss": {
+        "en": "I agree with you (m).",
+        "es": "Estoy de acuerdo contigo. (m)"
+      },
+      "sourceWords": [
+        "מסכים"
+      ],
+      "sourceLessons": [
+        "verbs-present-hiph-il"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e9968d34d182",
+      "hebrew": "היא מבינה עברית",
+      "translit": "hi meviná ivrít",
+      "gloss": {
+        "en": "She understands Hebrew.",
+        "es": "Ella entiende hebreo."
+      },
+      "sourceWords": [
+        "מבינה"
+      ],
+      "sourceLessons": [
+        "verbs-present-hiph-il"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "9ef3f6cca16f",
+      "hebrew": "הילד מראה לי את הספר",
+      "translit": "ha-yéled mar'é li et ha-séfer",
+      "gloss": {
+        "en": "The boy shows me the book.",
+        "es": "El niño me muestra el libro."
+      },
+      "sourceWords": [
+        "מראה"
+      ],
+      "sourceLessons": [
+        "verbs-present-hiph-il"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e4fe7557e6d2",
+      "hebrew": "אנחנו מקשיבים למוזיקה",
+      "translit": "anákhnu makshivím la-múzika",
+      "gloss": {
+        "en": "We listen to music.",
+        "es": "Escuchamos música."
+      },
+      "sourceWords": [
+        "מקשיבים"
+      ],
+      "sourceLessons": [
+        "verbs-present-hiph-il"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "81d14189e1b7",
+      "hebrew": "זה מזכיר לי את אבא",
+      "translit": "ze mazkír li et ába",
+      "gloss": {
+        "en": "This reminds me of dad.",
+        "es": "Esto me recuerda a papá."
+      },
+      "sourceWords": [
+        "מזכיר"
+      ],
+      "sourceLessons": [
+        "verbs-present-hiph-il"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1c7b90bb8688",
+      "hebrew": "הכלבה מחזירה את העיתון",
+      "translit": "ha-kalbá makhzirá et ha-itón",
+      "gloss": {
+        "en": "The (female) dog brings back the newspaper.",
+        "es": "La perra trae de vuelta el periódico."
+      },
+      "sourceWords": [
+        "מחזירה"
+      ],
+      "sourceLessons": [
+        "verbs-present-hiph-il"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-present-pa-al": [
+    {
+      "id": "0203d57125ff",
+      "hebrew": "הילדה כותבת ספר",
+      "translit": "ha-yaldá kotévet séfer",
+      "gloss": {
+        "en": "The girl is writing a book.",
+        "es": "La niña está escribiendo un libro."
+      },
+      "sourceWords": [
+        "כותבת"
+      ],
+      "sourceLessons": [
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "44fa834c69e8",
+      "hebrew": "הם שותים מים",
+      "translit": "hem shotím máyim",
+      "gloss": {
+        "en": "They drink water.",
+        "es": "Ellos toman agua."
+      },
+      "sourceWords": [
+        "שותים"
+      ],
+      "sourceLessons": [
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1e80d46a7f12",
+      "hebrew": "הילדות ישנות",
+      "translit": "ha-yeladót yeshenót",
+      "gloss": {
+        "en": "The girls are sleeping.",
+        "es": "Las niñas están durmiendo."
+      },
+      "sourceWords": [
+        "ישנות"
+      ],
+      "sourceLessons": [
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "706f835e31c7",
+      "hebrew": "אני מכיר את טל",
+      "translit": "aní makír et tal",
+      "gloss": {
+        "en": "I know Tal.",
+        "es": "Conozco a Tal."
+      },
+      "sourceWords": [
+        "מכיר"
+      ],
+      "sourceLessons": [
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5e8e6e1ba1a3",
+      "hebrew": "היא יודעת את זה",
+      "translit": "hi yodá'at et ze",
+      "gloss": {
+        "en": "She knows that.",
+        "es": "Ella lo sabe."
+      },
+      "sourceWords": [
+        "יודעת"
+      ],
+      "sourceLessons": [
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5e0fdc513670",
+      "hebrew": "הילד קורא ספר ביער",
+      "translit": "ha-yéled koré séfer ba-yá'ar",
+      "gloss": {
+        "en": "The boy reads a book in the forest.",
+        "es": "El niño lee un libro en el bosque."
+      },
+      "sourceWords": [
+        "קורא",
+        "ב",
+        "יער"
+      ],
+      "sourceLessons": [
+        "verbs-present-pa-al"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-present-pi-el": [
+    {
+      "id": "4bf44ea7d585",
+      "hebrew": "הוא משלם בשקלים",
+      "translit": "hu meshalém be-shkalím",
+      "gloss": {
+        "en": "He pays in shekels.",
+        "es": "Él paga en shekels."
+      },
+      "sourceWords": [
+        "משלם"
+      ],
+      "sourceLessons": [
+        "verbs-present-pi-el",
+        "business"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5102859118ac",
+      "hebrew": "היא מבקרת את אמא שלה",
+      "translit": "hi mevakéret et íma shelá",
+      "gloss": {
+        "en": "She visits her mom.",
+        "es": "Ella visita a su mamá."
+      },
+      "sourceWords": [
+        "מבקרת את"
+      ],
+      "sourceLessons": [
+        "verbs-present-pi-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "23b8865f61a2",
+      "hebrew": "אנחנו מבקרים בישראל",
+      "translit": "anákhnu mevakrím be-israél",
+      "gloss": {
+        "en": "We are visiting Israel.",
+        "es": "Estamos visitando Israel."
+      },
+      "sourceWords": [
+        "מבקרים ב"
+      ],
+      "sourceLessons": [
+        "verbs-present-pi-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "1f74fece7c54",
+      "hebrew": "הם משנים את זה",
+      "translit": "hem meshaním et ze",
+      "gloss": {
+        "en": "They change it.",
+        "es": "Ellos lo cambian."
+      },
+      "sourceWords": [
+        "משנים"
+      ],
+      "sourceLessons": [
+        "verbs-present-pi-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "e6f82bb8b506",
+      "hebrew": "הטבח מבקר את הסלט",
+      "translit": "ha-tabákh mevakér et ha-salát",
+      "gloss": {
+        "en": "The cook criticizes the salad.",
+        "es": "El cocinero critica la ensalada."
+      },
+      "sourceWords": [
+        "מבקר את"
+      ],
+      "sourceLessons": [
+        "verbs-present-pi-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "c7c4c364505f",
+      "hebrew": "הן מדברות עברית",
+      "translit": "hen medabrót ivrít",
+      "gloss": {
+        "en": "They (f) speak Hebrew.",
+        "es": "Ellas hablan hebreo."
+      },
+      "sourceWords": [
+        "מדברות"
+      ],
+      "sourceLessons": [
+        "verbs-present-pi-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ],
+  "verbs-present-reflexive-hitpa-el": [
+    {
+      "id": "e21fc576c096",
+      "hebrew": "אבא מתגלח כל יום",
+      "translit": "ába mitgaléakh kol yom",
+      "gloss": {
+        "en": "Dad shaves every day.",
+        "es": "Papá se afeita todos los días."
+      },
+      "sourceWords": [
+        "מתגלח"
+      ],
+      "sourceLessons": [
+        "verbs-present-reflexive-hitpa-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "09f2b57bb4de",
+      "hebrew": "הכלב מתקרב לחתול",
+      "translit": "ha-kélev mitkarév la-khatúl",
+      "gloss": {
+        "en": "The dog is getting closer to the cat.",
+        "es": "El perro se acerca al gato."
+      },
+      "sourceWords": [
+        "מתקרב"
+      ],
+      "sourceLessons": [
+        "verbs-present-reflexive-hitpa-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "659cdf76efee",
+      "hebrew": "היא משתמשת בספר",
+      "translit": "hi mishtaméshet ba-séfer",
+      "gloss": {
+        "en": "She uses the book.",
+        "es": "Ella usa el libro."
+      },
+      "sourceWords": [
+        "משתמשת ב"
+      ],
+      "sourceLessons": [
+        "verbs-present-reflexive-hitpa-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "78749e7dbad8",
+      "hebrew": "הכלב שלי מזדקן",
+      "translit": "ha-kélev shelí mizdakén",
+      "gloss": {
+        "en": "My dog is getting old.",
+        "es": "Mi perro está envejeciendo."
+      },
+      "sourceWords": [
+        "מזדקן"
+      ],
+      "sourceLessons": [
+        "verbs-present-reflexive-hitpa-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "6e3864b3b106",
+      "hebrew": "הם מתחזקים",
+      "translit": "hem mitkhazkím",
+      "gloss": {
+        "en": "They are getting stronger.",
+        "es": "Ellos se están fortaleciendo."
+      },
+      "sourceWords": [
+        "מתחזקים"
+      ],
+      "sourceLessons": [
+        "verbs-present-reflexive-hitpa-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    },
+    {
+      "id": "5bda0657da9f",
+      "hebrew": "אני מסתפר היום",
+      "translit": "aní mistapér ha-yóm",
+      "gloss": {
+        "en": "I'm getting a haircut today.",
+        "es": "Hoy me corto el pelo."
+      },
+      "sourceWords": [
+        "מסתפר"
+      ],
+      "sourceLessons": [
+        "verbs-present-reflexive-hitpa-el"
+      ],
+      "status": "approved",
+      "model": "claude-opus-5-5 (Claude Code session)"
+    }
+  ]
+}

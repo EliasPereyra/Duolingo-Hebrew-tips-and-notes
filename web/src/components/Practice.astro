@@ -1,0 +1,302 @@
+---
+import { practiceLabels } from "../constants/practice-labels";
+import type { PracticeData } from "../utils/practice-data";
+
+interface Props {
+  data: PracticeData;
+  locale?: "en" | "es";
+}
+
+const { data, locale = "en" } = Astro.props;
+const labels = practiceLabels[locale];
+const payload = JSON.stringify({ data, labels }).replace(/</g, "\\u003c");
+---
+
+<section class="practice" data-practice aria-labelledby="practice-title">
+  <h2 id="practice-title" class="practice-title">{labels.title}</h2>
+
+  <ol class="practice-track" data-track hidden></ol>
+
+  <div data-screen="start">
+    <p class="practice-text">{labels.intro}</p>
+    <button type="button" class="practice-btn" data-action="start">{labels.start}</button>
+  </div>
+
+  <div data-screen="question" hidden>
+    <p class="practice-progress" data-progress></p>
+    <div class="practice-prompt">
+      <button type="button" class="tts-btn practice-play" data-play aria-label={labels.play}></button>
+      <p class="practice-text" data-instruction></p>
+    </div>
+    <p class="practice-sentence" lang="he" dir="rtl" data-sentence hidden></p>
+    <div class="practice-options" data-options></div>
+    <p class="practice-feedback" data-feedback role="status"></p>
+    <p class="practice-translation" data-translation hidden></p>
+    <button type="button" class="practice-btn" data-action="next" hidden>{labels.next}</button>
+  </div>
+
+  <div data-screen="result" hidden>
+    <p class="practice-score" data-score tabindex="-1"></p>
+    <p class="practice-text" data-verdict></p>
+    <div class="practice-review" data-review hidden>
+      <h3 class="practice-review-title">{labels.reviewTitle}</h3>
+      <ul class="practice-review-list" data-review-list></ul>
+    </div>
+    <button type="button" class="practice-btn" data-action="restart">{labels.restart}</button>
+  </div>
+
+  <template data-option-template>
+    <button type="button" class="practice-option" lang="he" dir="rtl"></button>
+  </template>
+  <template data-step-template>
+    <li class="practice-step"></li>
+  </template>
+  <template data-review-template>
+    <li class="practice-review-item">
+      <button type="button" class="tts-btn practice-review-play" aria-label={labels.play}></button>
+      <div>
+        <p class="practice-review-hebrew" lang="he" dir="rtl"></p>
+        <p class="practice-review-gloss"></p>
+      </div>
+    </li>
+  </template>
+  <script is:inline type="application/json" data-practice-payload set:html={payload} />
+</section>
+
+<script>
+  import { initPractice } from "../utils/practice";
+
+  document.addEventListener("astro:page-load", initPractice);
+</script>
+
+<style>
+  .practice {
+    padding: var(--space-12);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-subtle);
+    color: var(--color-text);
+  }
+
+  .practice-title {
+    margin: 0 0 var(--space-7);
+    font-size: var(--font-size-xl);
+    color: var(--color-text-heading);
+  }
+
+  .practice-text {
+    margin: 0 0 var(--space-11);
+    line-height: var(--line-height-base);
+  }
+
+  .practice-track {
+    display: flex;
+    gap: var(--space-1);
+    margin: 0 0 var(--space-11);
+    padding: 0;
+    list-style: none;
+  }
+
+  .practice-step {
+    flex: 1;
+    height: var(--space-3);
+    border-radius: var(--radius-sm);
+    background: var(--color-border);
+    transition: background var(--transition-base);
+
+    &[data-state="current"] {
+      background: var(--color-accent);
+    }
+
+    &[data-state="correct"] {
+      background: var(--color-success);
+    }
+
+    &[data-state="incorrect"] {
+      background: var(--color-error);
+    }
+  }
+
+  .practice-progress {
+    margin: 0 0 var(--space-7);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+  }
+
+  .practice-prompt {
+    display: flex;
+    align-items: center;
+    gap: var(--space-7);
+
+    .practice-text {
+      margin: 0;
+    }
+  }
+
+  .practice-play,
+  .practice-review-play {
+    float: none;
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  .practice-sentence {
+    margin: var(--space-11) 0 0;
+    font-family: var(--font-david-libre), serif;
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-base);
+    color: var(--color-text-heading);
+    text-align: right;
+  }
+
+  .practice-options {
+    display: grid;
+    gap: var(--space-4);
+    margin-top: var(--space-11);
+  }
+
+  .practice-option {
+    padding: var(--space-7) var(--space-10);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-bg);
+    color: var(--color-text-heading);
+    font-family: var(--font-david-libre), serif;
+    font-size: var(--font-size-xl);
+    text-align: right;
+    cursor: pointer;
+    transition:
+      background var(--transition-fast),
+      border-color var(--transition-fast);
+
+    &:hover:not(:disabled) {
+      background: var(--color-accent-subtle-bg);
+      border-color: var(--color-accent);
+    }
+
+    &:disabled {
+      cursor: default;
+    }
+
+    &:disabled:not([data-state]) {
+      color: var(--color-text-subtle);
+    }
+
+    &[data-state="correct"] {
+      background: var(--color-success-bg);
+      border-color: var(--color-success);
+    }
+
+    &[data-state="incorrect"] {
+      background: var(--color-error-bg);
+      border-color: var(--color-error);
+    }
+  }
+
+  .practice-feedback {
+    min-height: 1lh;
+    margin: var(--space-9) 0 var(--space-3);
+    font-weight: var(--font-weight-semibold);
+
+    &[data-result="correct"] {
+      color: var(--color-success);
+    }
+
+    &[data-result="incorrect"] {
+      color: var(--color-error);
+    }
+  }
+
+  .practice-translation {
+    margin: 0 0 var(--space-9);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+  }
+
+  .practice-score {
+    margin: 0 0 var(--space-3);
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-heading);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .practice-review {
+    margin: 0 0 var(--space-11);
+    padding-top: var(--space-9);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .practice-review-title {
+    margin: 0 0 var(--space-7);
+    font-size: var(--font-size-md);
+    color: var(--color-text-heading);
+  }
+
+  .practice-review-list {
+    display: grid;
+    gap: var(--space-7);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .practice-review-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-7);
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .practice-review-hebrew {
+    font-family: var(--font-david-libre), serif;
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-base);
+    color: var(--color-text-heading);
+    text-align: start;
+  }
+
+  .practice-review-gloss {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+  }
+
+  .practice-btn {
+    padding: var(--space-5) var(--space-11);
+    border: none;
+    border-radius: var(--radius-sm);
+    background: var(--color-accent);
+    color: var(--color-text-inverse-strong);
+    font-family: inherit;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    cursor: pointer;
+
+    &:hover {
+      background: var(--color-accent-hover);
+    }
+  }
+
+  .practice-btn,
+  .practice-option,
+  .practice-play,
+  .practice-review-play {
+    &:focus-visible {
+      outline: 2px solid var(--color-accent);
+      outline-offset: 2px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .practice-step,
+    .practice-option {
+      transition: none;
+    }
+  }
+</style>

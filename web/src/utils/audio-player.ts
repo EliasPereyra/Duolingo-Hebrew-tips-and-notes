@@ -1,6 +1,6 @@
 let currentAudio: HTMLAudioElement | null = null;
 
-function playAudioFile(src: string) {
+export function playAudioFile(src: string) {
   currentAudio?.pause();
   currentAudio = new Audio(src);
   currentAudio.play();
