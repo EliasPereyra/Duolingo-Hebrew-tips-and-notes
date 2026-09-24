@@ -8,11 +8,6 @@ The complete **Tips and Notes** from Duolingo's Hebrew course, preserved here as
 > [!NOTE]
 > This project is a fork of [userscript17/Duolingo-Hebrew-tips-and-notes](https://github.com/userscript17/Duolingo-Hebrew-tips-and-notes), building on their original archival work. The goal here is to modernize it and turn it into a more usable study tool (Astro web app, better navigation/search, etc.).
 
-## Contents
-
-- [`content/hebrew-tips-and-notes.md`](./content/hebrew-tips-and-notes.md) — Full markdown with all lessons (~8,300 lines)
-- [`web/`](./web/) — Astro application with individual lesson pages, in English and Spanish
-
 ## Features
 
 - **Lesson pages** for all 66 Tips & Notes lessons, with navigation and search.
