@@ -396,6 +396,11 @@
     }
   }
 
+  /* Consecutive examples read as one group. */
+  p.example + p.example {
+    margin-top: calc(var(--space-4) - var(--space-11));
+  }
+
   /* Blockquotes read as margin notes. */
   blockquote {
     margin: var(--space-11) 0;
@@ -479,4 +484,14 @@
 /* Hebrew inside a colored cell keeps the cell's color. */
 .lesson-content :is(.mark-blue, .mark-green) :lang(he) {
   color: inherit;
+}
+
+/* Transliteration next to Hebrew, e.g. "(hakélev)" (marked by rehype-hebrew). */
+.lesson-content .translit {
+  font-style: italic;
+  color: var(--color-text-muted);
+
+  strong {
+    color: inherit;
+  }
 }
