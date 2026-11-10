@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import { Menu, X } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
+import { sortByCourseOrder } from "../utils/course-order";
 import logo from "../assets/imgs/logo.svg";
 
 interface Props {
@@ -12,8 +13,8 @@ interface Props {
 const { locale = "en" } = Astro.props;
 const prefix = locale === "es" ? "/es" : "";
 
-const enLessons = await getCollection("lessons");
-const lessons = locale === "es" ? await getCollection("lessonsEs") : enLessons;
+const enLessons = sortByCourseOrder(await getCollection("lessons"));
+const lessons = locale === "es" ? sortByCourseOrder(await getCollection("lessonsEs")) : enLessons;
 const pathname = Astro.url.pathname;
 
 // Icon/color assignment is always derived from the English titles so it stays
@@ -248,10 +249,10 @@ const iconMap = buildLessonIconMap(enLessons);
       transform: translateX(-100%);
       transition: transform var(--transition-slow);
       z-index: 1000;
-      box-shadow: var(--shadow-lg);
 
       &.open {
         transform: translateX(0);
+        box-shadow: var(--shadow-lg);
       }
     }
   }
