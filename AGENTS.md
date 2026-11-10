@@ -47,6 +47,7 @@ web/
     ├── content.config.ts     # Content collections config (lessons collection)
     ├── content/lessons/      # 66 individual lesson markdown files
     ├── components/
+    │   ├── HomePage.astro    # Home page content (shared by en/es routes)
     │   └── Sidebar.astro     # Navigation sidebar
     ├── layouts/
     │   └── Layout.astro      # Main layout (sidebar + content slot)
@@ -69,6 +70,9 @@ web/
 - Use Astro's built-in scoped `<style>` tags (no `is:global`) inside `.astro` files for component/page-specific styles. No CSS modules.
 - Global, cross-cutting styles (resets, base element rules, layout chrome shared across the whole app) and the design system live as plain `.css` files under `src/styles/` and are imported directly in the relevant `.astro` frontmatter (e.g. `import "../styles/tokens.css";`), per [Astro's styling guide](https://docs.astro.build/en/guides/styling/). This keeps layout components focused on markup/logic instead of mixing them with large global CSS blocks.
 - Design tokens (CSS custom properties) live in `src/styles/tokens.css`; base/reset rules live in `src/styles/global.css`. Both are imported once from `Layout.astro`.
+- Lesson markdown styles live in `src/styles/lesson.css` (imported by both lesson routes), since `<Content />` output doesn't get Astro scope attributes.
+- Visual direction is a "study notebook": warm paper, ink text, tekhelet accent (`--color-accent`), clay secondary accent (`--color-clay`), Frank Ruhl Libre for headings and Hebrew. Tokens have a dark-mode override in `tokens.css`; never hardcode colors.
+- Hebrew in lessons is wrapped in `<span lang="he">` by `src/rehype-plugins/rehype-hebrew.mjs`; style it with `:lang(he)`.
 - Follow BEM-like class naming for clarity (e.g., `.lesson-header`, `.lesson-content`). But avoid using very log BEM-like classes, to keep the code clear.
 - Prefer CSS custom properties (from the design system) over hardcoded colors, sizes, and other magic values.
 

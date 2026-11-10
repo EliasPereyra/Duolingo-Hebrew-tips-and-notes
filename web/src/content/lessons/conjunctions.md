@@ -63,9 +63,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**י**</td>
+<td>בגלל<strong>י</strong></td>
 
-<td>Biglal**i**</td>
+<td>Biglal<strong>i</strong></td>
 
 <td>Because of me</td>
 
@@ -73,9 +73,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ךָ**</td>
+<td>בגלל<strong>ךָ</strong></td>
 
-<td>Biglal**cha**</td>
+<td>Biglal<strong>cha</strong></td>
 
 <td>Because of you(singular masculine)</td>
 
@@ -83,9 +83,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ךְ**</td>
+<td>בגלל<strong>ךְ</strong></td>
 
-<td>Biglal**ech**</td>
+<td>Biglal<strong>ech</strong></td>
 
 <td>Because of you(singular feminine)</td>
 
@@ -93,9 +93,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ו**</td>
+<td>בגלל<strong>ו</strong></td>
 
-<td>Biglal**o**</td>
+<td>Biglal<strong>o</strong></td>
 
 <td>Because of him</td>
 
@@ -103,9 +103,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ה**</td>
+<td>בגלל<strong>ה</strong></td>
 
-<td>Biglal**a**</td>
+<td>Biglal<strong>a</strong></td>
 
 <td>Because of her</td>
 
@@ -113,9 +113,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**נו**</td>
+<td>בגלל<strong>נו</strong></td>
 
-<td>Biglal**enu**</td>
+<td>Biglal<strong>enu</strong></td>
 
 <td>Because of us</td>
 
@@ -123,9 +123,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**כם**</td>
+<td>בגלל<strong>כם</strong></td>
 
-<td>Biglal**chem**</td>
+<td>Biglal<strong>chem</strong></td>
 
 <td>Because of you(plural masculine)</td>
 
@@ -133,9 +133,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**כן**</td>
+<td>בגלל<strong>כן</strong></td>
 
-<td>Biglal**chen**</td>
+<td>Biglal<strong>chen</strong></td>
 
 <td>Because of you(plural feminine)</td>
 
@@ -143,9 +143,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ם**</td>
+<td>בגלל<strong>ם</strong></td>
 
-<td>Biglal**am**</td>
+<td>Biglal<strong>am</strong></td>
 
 <td>Because of them(masculine)</td>
 
@@ -153,9 +153,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ן**</td>
+<td>בגלל<strong>ן</strong></td>
 
-<td>Biglal**an**</td>
+<td>Biglal<strong>an</strong></td>
 
 <td>Because of them(feminine)</td>
 

@@ -1,0 +1,283 @@
+/*
+ * Lesson page layout and the typography of the rendered lesson markdown.
+ * Lives here (not in a scoped <style>) because <Content /> output does not
+ * carry Astro scope attributes. Imported by both lesson page routes.
+ */
+
+.lesson {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-14);
+}
+
+/* Below the two-column breakpoint the practice panel sits under the lesson. */
+.lesson-practice {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-14) var(--space-14);
+}
+
+@media (min-width: 1280px) {
+  .lesson-layout.has-practice {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 22rem;
+    gap: var(--space-15);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-14);
+
+    .lesson {
+      max-width: none;
+      margin: 0;
+      padding-inline: 0;
+    }
+
+    /* Starts below the fixed language switcher and follows the reader down the lesson. */
+    .lesson-practice {
+      max-width: none;
+      margin: 0;
+      padding: calc(var(--space-16) + var(--space-9)) 0 var(--space-14);
+    }
+
+    .practice {
+      position: sticky;
+      top: calc(var(--space-16) + var(--space-9));
+      max-height: calc(100vh - var(--space-16) - var(--space-14));
+      overflow-y: auto;
+    }
+  }
+}
+
+.lesson-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-14);
+  padding-bottom: var(--space-9);
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+}
+
+.external-links {
+  display: flex;
+  gap: var(--space-9);
+}
+
+.external-links a {
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 768px) {
+  .lesson {
+    padding: var(--space-11);
+  }
+
+  .lesson-practice {
+    padding: 0 var(--space-11) var(--space-11);
+  }
+
+  .lesson-header {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--space-7);
+  }
+}
+
+.lesson-content {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  color: var(--color-text);
+  counter-reset: section;
+
+  /* Sections are numbered with Hebrew letters: א, ב, ג... */
+  h2 {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-7);
+    font-size: var(--font-size-2xl);
+    margin: var(--space-16) 0 var(--space-11);
+    padding-bottom: var(--space-5);
+    border-bottom: 1px solid var(--color-border-subtle);
+    counter-increment: section;
+
+    &::before {
+      content: counter(section, hebrew);
+      flex-shrink: 0;
+      min-width: 1.2em;
+      font-family: var(--font-hebrew);
+      font-weight: var(--font-weight-normal);
+      color: var(--color-clay);
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h3 {
+    font-size: var(--font-size-xl);
+    margin: var(--space-14) 0 var(--space-8);
+  }
+
+  p {
+    margin: 0 0 var(--space-12);
+  }
+
+  strong {
+    color: var(--color-text-heading);
+  }
+
+  .table-wrapper {
+    margin: var(--space-11) 0 var(--space-12);
+    overflow-x: auto;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-example-bg);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  th,
+  td {
+    padding: var(--space-7) var(--space-10);
+    border-bottom: 1px solid var(--color-border-subtle);
+    border-right: 1px solid var(--color-border-subtle);
+    text-align: left;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  th:last-child,
+  td:last-child {
+    border-right: none;
+  }
+
+  th {
+    background: var(--color-surface);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--color-bg-subtle);
+  }
+
+  tbody tr:hover {
+    background: var(--color-accent-subtle-bg);
+  }
+
+  /* Example sentences: a card with the Hebrew as the focal point. */
+  p.example {
+    margin: var(--space-11) 0;
+    padding: var(--space-9) var(--space-11);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--radius-md);
+    background: var(--color-example-bg);
+    color: var(--color-text-muted);
+
+    :lang(he) {
+      font-size: 1.35em;
+    }
+  }
+
+  /* Blockquotes read as margin notes. */
+  blockquote {
+    margin: var(--space-11) 0;
+    padding: var(--space-9) var(--space-11);
+    border-left: 3px solid var(--color-note-border);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    background: var(--color-note-bg);
+    color: var(--color-text-heading);
+  }
+
+  p.example,
+  blockquote {
+    p {
+      margin: 0;
+
+      & + p {
+        margin-top: var(--space-4);
+      }
+    }
+  }
+
+  ul,
+  ol {
+    margin: 0 0 var(--space-10);
+    padding-left: var(--space-13);
+  }
+
+  li {
+    margin: var(--space-3) 0;
+
+    &::marker {
+      color: var(--color-clay);
+    }
+
+    p {
+      margin: 0;
+
+      & + p {
+        margin-top: var(--space-3);
+      }
+    }
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--color-border-subtle);
+    margin: var(--space-14) 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Hebrew runs, wrapped in <span lang="he"> by the rehype-hebrew plugin. */
+.lesson-content :lang(he) {
+  font-size: var(--font-size-hebrew);
+  line-height: 1;
+  color: var(--color-text-heading);
+}
+
+/* Don't compound the size when a heading already scales it up. */
+.lesson-content :is(h1, h2, h3) :lang(he) {
+  font-size: 1em;
+}
+
+.lesson-content .he-cell {
+  text-align: right;
+}
+
+/* Theme-aware replacements for the source's inline color:blue/green. */
+.lesson-content .mark-blue {
+  color: var(--color-mark-blue);
+}
+
+.lesson-content .mark-green {
+  color: var(--color-mark-green);
+}
+
+/* Hebrew inside a colored cell keeps the cell's color. */
+.lesson-content :is(.mark-blue, .mark-green) :lang(he) {
+  color: inherit;
+}

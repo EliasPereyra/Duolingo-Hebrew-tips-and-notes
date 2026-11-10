@@ -86,11 +86,11 @@ Some pa'al verbs have "a" as the vowel instead of "o" for the masculine singular
 
 <tr>
 
-<td align="center">lm**a**d*</td>
+<td align="center">lm<strong>a</strong>d*</td>
 
 <td align="center">למד</td>
 
-<td align="center">XX**a**X</td>
+<td align="center">XX<strong>a</strong>X</td>
 
 </tr>
 

@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import { Menu, X } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
+import { sortByCourseOrder } from "../utils/course-order";
 import logo from "../assets/imgs/logo.svg";
 
 interface Props {
@@ -12,8 +13,8 @@ interface Props {
 const { locale = "en" } = Astro.props;
 const prefix = locale === "es" ? "/es" : "";
 
-const enLessons = await getCollection("lessons");
-const lessons = locale === "es" ? await getCollection("lessonsEs") : enLessons;
+const enLessons = sortByCourseOrder(await getCollection("lessons"));
+const lessons = locale === "es" ? sortByCourseOrder(await getCollection("lessonsEs")) : enLessons;
 const pathname = Astro.url.pathname;
 
 // Icon/color assignment is always derived from the English titles so it stays
@@ -30,7 +31,11 @@ const iconMap = buildLessonIconMap(enLessons);
 
 <aside class="sidebar" id="sidebar">
   <a href={prefix || "/"} class="logo">
-    <img src={logo.src} width={logo.width} height={logo.height} alt="Hebrew Tips & Notes" />
+    <img src={logo.src} width={logo.width} height={logo.height} alt="" />
+    <span class="wordmark">
+      <span class="wordmark-title">{locale === "es" ? "Hebreo" : "Hebrew"}</span>
+      <span class="wordmark-sub">{locale === "es" ? "Consejos y notas" : "Tips & Notes"}</span>
+    </span>
   </a>
   <nav>
     <ul>
@@ -102,8 +107,9 @@ const iconMap = buildLessonIconMap(enLessons);
     min-width: var(--sidebar-width);
     height: 100vh;
     overflow-y: auto;
-    background: var(--color-surface-dark);
-    color: var(--color-text-inverse);
+    background: var(--color-surface);
+    border-right: 1px solid var(--color-border-subtle);
+    color: var(--color-text-muted);
     padding: var(--space-9) 0;
     position: fixed;
     left: 0;
@@ -111,16 +117,41 @@ const iconMap = buildLessonIconMap(enLessons);
   }
 
   .logo {
-    display: block;
-    padding: var(--space-7) var(--space-11);
-    border-bottom: 1px solid var(--color-border-dark);
-    margin-bottom: var(--space-4);
+    display: flex;
+    align-items: center;
+    gap: var(--space-7);
+    padding: var(--space-4) var(--space-11) var(--space-11);
+    border-bottom: 1px solid var(--color-border-subtle);
+    margin-bottom: var(--space-7);
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .logo img {
     display: block;
     height: 40px;
     width: auto;
+    border-radius: var(--radius-md);
+  }
+
+  .wordmark {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+
+  .wordmark-title {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-heading);
+  }
+
+  .wordmark-sub {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
   }
 
   nav ul {
@@ -138,20 +169,23 @@ const iconMap = buildLessonIconMap(enLessons);
     align-items: center;
     gap: var(--space-4);
     padding: var(--space-3) var(--space-11);
-    color: var(--color-text-subtle);
+    border-left: 3px solid transparent;
+    color: var(--color-text-muted);
     font-size: var(--font-size-sm-alt);
     transition:
       color var(--transition-fast),
       background var(--transition-fast);
 
     &:hover {
-      color: var(--color-text-inverse);
-      background: var(--color-surface-dark-hover);
+      color: var(--color-text-heading);
+      background: var(--color-surface-hover);
+      text-decoration: none;
     }
 
     &.active {
-      color: var(--color-text-inverse-strong);
-      background: var(--color-accent);
+      color: var(--color-accent);
+      background: var(--color-bg);
+      border-left-color: var(--color-accent);
       font-weight: var(--font-weight-semibold);
     }
   }
@@ -170,9 +204,9 @@ const iconMap = buildLessonIconMap(enLessons);
     height: 42px;
     align-items: center;
     justify-content: center;
-    background: var(--color-surface-dark);
-    color: var(--color-text-inverse);
-    border: none;
+    background: var(--color-surface);
+    color: var(--color-text-heading);
+    border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     cursor: pointer;
     transition: left var(--transition-slow);
@@ -215,10 +249,10 @@ const iconMap = buildLessonIconMap(enLessons);
       transform: translateX(-100%);
       transition: transform var(--transition-slow);
       z-index: 1000;
-      box-shadow: var(--shadow-lg);
 
       &.open {
         transform: translateX(0);
+        box-shadow: var(--shadow-lg);
       }
     }
   }

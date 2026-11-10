@@ -168,7 +168,7 @@ Here is a table of the prepositions we teach during this unit:
 
 <tr>
 
-<td>in, at (_attached_)</td>
+<td>in, at (<em>attached</em>)</td>
 
 <td>-ב</td>
 

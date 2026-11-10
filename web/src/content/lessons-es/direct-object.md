@@ -38,7 +38,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A mí</td>
 
-<td>אות**י** (ot**i**)</td>
+<td>אות<strong>י</strong> (ot<strong>i</strong>)</td>
 
 </tr>
 
@@ -46,7 +46,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ti (singular masculino)</td>
 
-<td>אות**ךָ** (ot**kha**)</td>
+<td>אות<strong>ךָ</strong> (ot<strong>kha</strong>)</td>
 
 </tr>
 
@@ -54,7 +54,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ti (singular femenino)</td>
 
-<td>אות**ךְ** (ot**akh**)</td>
+<td>אות<strong>ךְ</strong> (ot<strong>akh</strong>)</td>
 
 </tr>
 
@@ -62,7 +62,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A él</td>
 
-<td>אות**ו** (ot**o**)</td>
+<td>אות<strong>ו</strong> (ot<strong>o</strong>)</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ella</td>
 
-<td>אות**ה** (ot**a**)</td>
+<td>אות<strong>ה</strong> (ot<strong>a</strong>)</td>
 
 </tr>
 
@@ -78,7 +78,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A nosotros</td>
 
-<td>אות**נו** (ot**anu**)</td>
+<td>אות<strong>נו</strong> (ot<strong>anu</strong>)</td>
 
 </tr>
 
@@ -86,7 +86,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ustedes (plural masculino)</td>
 
-<td>את**כם** (et**khem**)</td>
+<td>את<strong>כם</strong> (et<strong>khem</strong>)</td>
 
 </tr>
 
@@ -94,7 +94,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ustedes (plural femenino)</td>
 
-<td>את**כן** (et**khen**)</td>
+<td>את<strong>כן</strong> (et<strong>khen</strong>)</td>
 
 </tr>
 
@@ -102,7 +102,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ellos (masculino)</td>
 
-<td>אות**ם** (ot**am**)</td>
+<td>אות<strong>ם</strong> (ot<strong>am</strong>)</td>
 
 </tr>
 
@@ -110,7 +110,7 @@ La palabra "את" tiene sufijos para indicar persona y número, como cualquier o
 
 <td>A ellas (femenino)</td>
 
-<td>אות**ן** (ot**an**)</td>
+<td>אות<strong>ן</strong> (ot<strong>an</strong>)</td>
 
 </tr>
 

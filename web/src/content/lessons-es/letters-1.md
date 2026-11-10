@@ -56,7 +56,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/ʔ/</td>
 
-<td>**a** (usualmente muda o similar a la letra "a" en español: un comodín para las vocales)**</td>
+<td><strong>a</strong> (usualmente muda o similar a la letra "a" en español: un comodín para las vocales)**</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/b/*,/v/</td>
 
-<td>**b**oca, **v**aca</td>
+<td><strong>b</strong>oca, <strong>v</strong>aca</td>
 
 </tr>
 
@@ -84,7 +84,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/g/</td>
 
-<td>**g**ato</td>
+<td><strong>g</strong>ato</td>
 
 </tr>
 
@@ -98,7 +98,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/d/</td>
 
-<td>**d**edo</td>
+<td><strong>d</strong>edo</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/h/</td>
 
-<td>**j**amón, suave (a menudo muda en el habla coloquial moderna)</td>
+<td><strong>j</strong>amón, suave (a menudo muda en el habla coloquial moderna)</td>
 
 </tr>
 
@@ -126,7 +126,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/v/</td>
 
-<td>**v**aca</td>
+<td><strong>v</strong>aca</td>
 
 </tr>
 
@@ -140,7 +140,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/z/</td>
 
-<td>de**s**de (sonido "z" sonoro, como en inglés "**z**oo")</td>
+<td>de<strong>s</strong>de (sonido "z" sonoro, como en inglés "<strong>z</strong>oo")</td>
 
 </tr>
 
@@ -154,7 +154,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/X/</td>
 
-<td>similar a la "j" fuerte del español (**j**ota)</td>
+<td>similar a la "j" fuerte del español (<strong>j</strong>ota)</td>
 
 </tr>
 
@@ -168,7 +168,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/t/</td>
 
-<td>**t**aza</td>
+<td><strong>t</strong>aza</td>
 
 </tr>
 
@@ -182,7 +182,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/j/</td>
 
-<td>**y**a</td>
+<td><strong>y</strong>a</td>
 
 </tr>
 
@@ -196,7 +196,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/k/*, /X/</td>
 
-<td>**c**asa, similar a la "j" fuerte del español</td>
+<td><strong>c</strong>asa, similar a la "j" fuerte del español</td>
 
 </tr>
 
@@ -210,7 +210,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/l/</td>
 
-<td>**l**una</td>
+<td><strong>l</strong>una</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/m/</td>
 
-<td>**m**ano</td>
+<td><strong>m</strong>ano</td>
 
 </tr>
 
@@ -238,7 +238,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/s/</td>
 
-<td>**s**apo</td>
+<td><strong>s</strong>apo</td>
 
 </tr>
 
@@ -266,7 +266,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**a** (sonido gutural, sin equivalente exacto en español)</td>
+<td><strong>a</strong> (sonido gutural, sin equivalente exacto en español)</td>
 
 </tr>
 
@@ -280,7 +280,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/p/*,/f/</td>
 
-<td>**p**apá, **f**oca</td>
+<td><strong>p</strong>apá, <strong>f</strong>oca</td>
 
 </tr>
 
@@ -294,7 +294,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/ts/</td>
 
-<td>pi**zz**a (sonido "ts")</td>
+<td>pi<strong>zz</strong>a (sonido "ts")</td>
 
 </tr>
 
@@ -308,7 +308,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/k/</td>
 
-<td>**c**asa</td>
+<td><strong>c</strong>asa</td>
 
 </tr>
 
@@ -336,7 +336,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**ow, **s**apo</td>
+<td><strong>sh</strong>ow, <strong>s</strong>apo</td>
 
 </tr>
 
@@ -350,7 +350,7 @@ Cada letra se presenta con su pronunciación en el Alfabeto Fonético Internacio
 
 <td>/t/</td>
 
-<td>**t**apa</td>
+<td><strong>t</strong>apa</td>
 
 </tr>
 

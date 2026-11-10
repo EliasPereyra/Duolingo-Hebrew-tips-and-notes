@@ -38,7 +38,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Me</td>
 
-<td>אות**י** (ot**i**)</td>
+<td>אות<strong>י</strong> (ot<strong>i</strong>)</td>
 
 </tr>
 
@@ -46,7 +46,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (singular masculine)</td>
 
-<td>אות**ךָ** (ot**kha**)</td>
+<td>אות<strong>ךָ</strong> (ot<strong>kha</strong>)</td>
 
 </tr>
 
@@ -54,7 +54,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (singular feminine)</td>
 
-<td>אות**ךְ** (ot**akh**)</td>
+<td>אות<strong>ךְ</strong> (ot<strong>akh</strong>)</td>
 
 </tr>
 
@@ -62,7 +62,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Him</td>
 
-<td>אות**ו** (ot**o**)</td>
+<td>אות<strong>ו</strong> (ot<strong>o</strong>)</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Her</td>
 
-<td>אות**ה** (ot**a**)</td>
+<td>אות<strong>ה</strong> (ot<strong>a</strong>)</td>
 
 </tr>
 
@@ -78,7 +78,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Us</td>
 
-<td>אות**נו** (ot**anu**)</td>
+<td>אות<strong>נו</strong> (ot<strong>anu</strong>)</td>
 
 </tr>
 
@@ -86,7 +86,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (plural masculine)</td>
 
-<td>את**כם** (et**khem**)</td>
+<td>את<strong>כם</strong> (et<strong>khem</strong>)</td>
 
 </tr>
 
@@ -94,7 +94,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (plural feminine)</td>
 
-<td>את**כן** (et**khen**)</td>
+<td>את<strong>כן</strong> (et<strong>khen</strong>)</td>
 
 </tr>
 
@@ -102,7 +102,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Them (masculine)</td>
 
-<td>אות**ם** (ot**am**)</td>
+<td>אות<strong>ם</strong> (ot<strong>am</strong>)</td>
 
 </tr>
 
@@ -110,7 +110,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Them (feminine)</td>
 
-<td>אות**ן** (ot**an**)</td>
+<td>אות<strong>ן</strong> (ot<strong>an</strong>)</td>
 
 </tr>
 

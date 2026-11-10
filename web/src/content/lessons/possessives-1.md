@@ -30,7 +30,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>My</td>
 
-<td>של**י**</td>
+<td>של<strong>י</strong></td>
 
 </tr>
 
@@ -38,7 +38,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (s.m.)</td>
 
-<td>של**ךָ**</td>
+<td>של<strong>ךָ</strong></td>
 
 </tr>
 
@@ -46,7 +46,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (s.f.)</td>
 
-<td>של**ךְ**</td>
+<td>של<strong>ךְ</strong></td>
 
 </tr>
 
@@ -54,7 +54,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>His</td>
 
-<td>של**ו**</td>
+<td>של<strong>ו</strong></td>
 
 </tr>
 
@@ -62,7 +62,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Her</td>
 
-<td>של**ה**</td>
+<td>של<strong>ה</strong></td>
 
 </tr>
 
@@ -70,7 +70,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Our</td>
 
-<td>של**נו**</td>
+<td>של<strong>נו</strong></td>
 
 </tr>
 
@@ -78,7 +78,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (p.m.)</td>
 
-<td>של**כם**</td>
+<td>של<strong>כם</strong></td>
 
 </tr>
 
@@ -86,7 +86,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (p.f.)</td>
 
-<td>של**כן**</td>
+<td>של<strong>כן</strong></td>
 
 </tr>
 
@@ -94,7 +94,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Their (m)</td>
 
-<td>של**הם**</td>
+<td>של<strong>הם</strong></td>
 
 </tr>
 
@@ -102,7 +102,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Their (f)</td>
 
-<td>של**הן**</td>
+<td>של<strong>הן</strong></td>
 
 </tr>
 

@@ -55,8 +55,8 @@ const TOPIC_ICONS: Array<[RegExp, string]> = [
 
 const FALLBACK_ICON = "NoteText";
 
-// Distinguishable against the dark sidebar background (#1a1d23).
-const COLORS = ["#58a6ff", "#f78166", "#56d364", "#e3b341", "#d2a8ff", "#79c0ff"];
+// Design tokens (see tokens.css) so the icons adapt to light and dark themes.
+const COLORS = [1, 2, 3, 4, 5, 6].map((n) => `var(--color-icon-${n})`);
 
 function matchIcon(title: string): string {
   for (const [pattern, icon] of TOPIC_ICONS) {

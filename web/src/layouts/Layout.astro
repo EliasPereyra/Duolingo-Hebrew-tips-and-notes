@@ -1,7 +1,7 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter, slide } from "astro:transitions";
-import { Globe, ChevronDown } from "reicon-astro";
+import { Globe, ChevronDown, Sun, Moon } from "reicon-astro";
 import Sidebar from "../components/Sidebar.astro";
 import { descriptions, languageOptions } from "../constants/page-details";
 import "../styles/tokens.css";
@@ -42,46 +42,80 @@ const localeHrefs = {
         }
       })();
     </script>
+    <script is:inline>
+      // Apply the reader's saved theme before first paint, and again on every
+      // client-side navigation (the router swaps in the new page's <html>).
+      (function () {
+        if (window.__themeInit) return;
+        window.__themeInit = true;
+        const getStored = () => {
+          try {
+            const theme = localStorage.getItem("theme");
+            return theme === "light" || theme === "dark" ? theme : null;
+          } catch {
+            return null; // storage blocked: fall back to the OS preference
+          }
+        };
+        const apply = (root) => {
+          const theme = getStored();
+          if (theme) root.dataset.theme = theme;
+        };
+        apply(document.documentElement);
+        document.addEventListener("astro:before-swap", (event) => apply(event.newDocument.documentElement));
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="description" content={descriptions[locale]} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <Font cssVariable="--font-manrope" preload />
-    <Font cssVariable="--font-david-libre" />
+    <Font cssVariable="--font-frank-ruhl" preload />
     <ClientRouter />
   </head>
   <body>
     <Sidebar locale={locale} />
-    <div class="lang-switcher" id="lang-switcher">
+    <div class="top-controls">
       <button
         type="button"
-        class="lang-toggle"
-        id="lang-switcher-toggle"
-        aria-haspopup="true"
-        aria-expanded="false"
-        aria-label={locale === "es" ? "Cambiar idioma" : "Change language"}
+        class="theme-toggle"
+        id="theme-toggle"
+        aria-label={locale === "es" ? "Cambiar entre tema claro y oscuro" : "Switch between light and dark theme"}
+        title={locale === "es" ? "Cambiar tema" : "Toggle theme"}
       >
-        <Globe size={16} />
-        <span>{locale.toUpperCase()}</span>
-        <ChevronDown size={14} class="lang-chevron" />
+        <Moon size={16} class="theme-icon-moon" />
+        <Sun size={16} class="theme-icon-sun" />
       </button>
-      <ul class="lang-menu" id="lang-menu" role="menu">
-        {
-          languageOptions.map((option) => (
-            <li role="none">
-              <a
-                href={localeHrefs[option.code]}
-                role="menuitem"
-                data-locale={option.code}
-                class:list={{ active: locale === option.code }}
-              >
-                {option.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
+      <div class="lang-switcher" id="lang-switcher">
+        <button
+          type="button"
+          class="lang-toggle"
+          id="lang-switcher-toggle"
+          aria-haspopup="true"
+          aria-expanded="false"
+          aria-label={locale === "es" ? "Cambiar idioma" : "Change language"}
+        >
+          <Globe size={16} />
+          <span>{locale.toUpperCase()}</span>
+          <ChevronDown size={14} class="lang-chevron" />
+        </button>
+        <ul class="lang-menu" id="lang-menu" role="menu">
+          {
+            languageOptions.map((option) => (
+              <li role="none">
+                <a
+                  href={localeHrefs[option.code]}
+                  role="menuitem"
+                  data-locale={option.code}
+                  class:list={{ active: locale === option.code }}
+                >
+                  {option.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
     </div>
     <div class="content" transition:animate={slide({ duration: "0.2s" })}>
       <slot />
@@ -138,7 +172,26 @@ const localeHrefs = {
     });
   }
 
+  function initThemeToggle() {
+    const toggle = document.getElementById("theme-toggle");
+    if (!toggle) return;
+
+    toggle.addEventListener("click", () => {
+      const root = document.documentElement;
+      const current =
+        root.dataset.theme ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      const next = current === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      try {
+        localStorage.setItem("theme", next);
+      } catch {
+        // localStorage unavailable - the choice lasts until the next full page load
+      }
+    });
+  }
+
   document.addEventListener("astro:page-load", initLangSwitcher);
+  document.addEventListener("astro:page-load", initThemeToggle);
 
   initAudioPlayback();
 </script>

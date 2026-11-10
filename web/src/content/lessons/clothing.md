@@ -46,7 +46,7 @@ Some words in Hebrew originate from other languages which use sounds that aren't
 
 <td>dʒ</td>
 
-<td>**j**eans</td>
+<td><strong>j</strong>eans</td>
 
 </tr>
 
@@ -56,7 +56,7 @@ Some words in Hebrew originate from other languages which use sounds that aren't
 
 <td>ʒ</td>
 
-<td>bei**ge**</td>
+<td>bei<strong>ge</strong></td>
 
 </tr>
 
@@ -66,7 +66,7 @@ Some words in Hebrew originate from other languages which use sounds that aren't
 
 <td>tʃ</td>
 
-<td>**ch**air</td>
+<td><strong>ch</strong>air</td>
 
 </tr>
 
@@ -100,7 +100,7 @@ Some less common sounds (which are generally only used for foreign names) are:
 
 <td>ð</td>
 
-<td>**th**en</td>
+<td><strong>th</strong>en</td>
 
 </tr>
 
@@ -110,7 +110,7 @@ Some less common sounds (which are generally only used for foreign names) are:
 
 <td>w</td>
 
-<td>**w**ag</td>
+<td><strong>w</strong>ag</td>
 
 </tr>
 
@@ -120,7 +120,7 @@ Some less common sounds (which are generally only used for foreign names) are:
 
 <td>θ</td>
 
-<td>**th**ing</td>
+<td><strong>th</strong>ing</td>
 
 </tr>
 

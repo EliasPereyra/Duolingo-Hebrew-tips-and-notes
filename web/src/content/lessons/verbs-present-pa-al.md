@@ -46,7 +46,7 @@ The most common pattern of the construction pa'al in the present tense is:
 
 <td>ל</td>
 
-<td>אוֹכֵל (**o**ch**e**l)</td>
+<td>אוֹכֵל (<strong>o</strong>ch<strong>e</strong>l)</td>
 
 </tr>
 
@@ -58,7 +58,7 @@ The most common pattern of the construction pa'al in the present tense is:
 
 <td>ב</td>
 
-<td>כוֹתֵב (k**o**t**e**v)</td>
+<td>כוֹתֵב (k<strong>o</strong>t<strong>e</strong>v)</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ The most common pattern of the construction pa'al in the present tense is:
 
 <td>ר</td>
 
-<td>אוֹמֵר (**o**m**e**r)</td>
+<td>אוֹמֵר (<strong>o</strong>m<strong>e</strong>r)</td>
 
 </tr>
 
@@ -104,7 +104,7 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>אוֹכֶל (ochel)</td>
 
-<td>אוֹכֵלֶ**ת** (ochel**et** )</td>
+<td>אוֹכֵלֶ<strong>ת</strong> (ochel<strong>et</strong> )</td>
 
 </tr>
 
@@ -112,9 +112,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Plural</td>
 
-<td>אוֹכְלִ**ים** (ochl**im**)</td>
+<td>אוֹכְלִ<strong>ים</strong> (ochl<strong>im</strong>)</td>
 
-<td>אוֹכְל**וֹת** (ochl**ot**)</td>
+<td>אוֹכְל<strong>וֹת</strong> (ochl<strong>ot</strong>)</td>
 
 </tr>
 
@@ -148,9 +148,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Singular</td>
 
-<td>שו**תֵ**ה (shot**e**)</td>
+<td>שו<strong>תֵ</strong>ה (shot<strong>e</strong>)</td>
 
-<td>שו**תָ**ה(shot**a**)</td>
+<td>שו<strong>תָ</strong>ה(shot<strong>a</strong>)</td>
 
 </tr>
 
@@ -158,9 +158,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Plural</td>
 
-<td>שות**ים** (shot**im**)</td>
+<td>שות<strong>ים</strong> (shot<strong>im</strong>)</td>
 
-<td>שות**ות** (shot**ot**)</td>
+<td>שות<strong>ות</strong> (shot<strong>ot</strong>)</td>
 
 </tr>
 
@@ -194,7 +194,7 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>בָא (ba)</td>
 
-<td>בָאָ**ה** (ba**'a**)</td>
+<td>בָאָ<strong>ה</strong> (ba<strong>'a</strong>)</td>
 
 </tr>
 
@@ -202,9 +202,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Plural</td>
 
-<td>בָאִ**ים** (ba**im**)</td>
+<td>בָאִ<strong>ים</strong> (ba<strong>im</strong>)</td>
 
-<td>בָא**וֹת** (ba**ot**)</td>
+<td>בָא<strong>וֹת</strong> (ba<strong>ot</strong>)</td>
 
 </tr>
 

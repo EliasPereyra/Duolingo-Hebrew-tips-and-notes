@@ -34,7 +34,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>שעה (sha'ah - a hour)</td>
 
-<td>שעת**יים** (sha'a**tayim** - two hours)</td>
+<td>שעת<strong>יים</strong> (sha'a<strong>tayim</strong> - two hours)</td>
 
 <td>שעות (shaot - hours)</td>
 
@@ -44,7 +44,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>יום (yom - a day)</td>
 
-<td>יומ**יים** (yom**ayim** - two days)</td>
+<td>יומ<strong>יים</strong> (yom<strong>ayim</strong> - two days)</td>
 
 <td>ימים (yamim - days)</td>
 
@@ -54,7 +54,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>שבוע (shavu'ah - a week)</td>
 
-<td>שבוע**יים** (shvu'**ayim** - two weeks)</td>
+<td>שבוע<strong>יים</strong> (shvu'<strong>ayim</strong> - two weeks)</td>
 
 <td>שבועות (shavu'ot - weeks)</td>
 
@@ -64,7 +64,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>חודש (khodesh - a month)</td>
 
-<td>חודש**יים** (khodsh**ayim** - two months)</td>
+<td>חודש<strong>יים</strong> (khodsh<strong>ayim</strong> - two months)</td>
 
 <td>חודשים (khodashim - months)</td>
 
@@ -74,7 +74,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>שנה (shana - a year)</td>
 
-<td>שנת**יים** (shna**tayim** - two years)</td>
+<td>שנת<strong>יים</strong> (shna<strong>tayim</strong> - two years)</td>
 
 <td>שנים (shanim-years)</td>
 

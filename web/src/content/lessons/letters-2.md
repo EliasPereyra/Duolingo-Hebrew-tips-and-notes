@@ -42,7 +42,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʔ/</td>
 
-<td>**uh** (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
+<td><strong>uh</strong> (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/g/</td>
 
-<td>**g**o</td>
+<td><strong>g</strong>o</td>
 
 </tr>
 
@@ -84,7 +84,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/d/</td>
 
-<td>**d**og</td>
+<td><strong>d</strong>og</td>
 
 </tr>
 
@@ -98,7 +98,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/h/</td>
 
-<td>**h**en (often silent in modern colloquial speech)</td>
+<td><strong>h</strong>en (often silent in modern colloquial speech)</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/v/</td>
 
-<td>**v**et</td>
+<td><strong>v</strong>et</td>
 
 </tr>
 
@@ -126,7 +126,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/z/</td>
 
-<td>**z**oo</td>
+<td><strong>z</strong>oo</td>
 
 </tr>
 
@@ -140,7 +140,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/X/</td>
 
-<td>lo**ch**</td>
+<td>lo<strong>ch</strong></td>
 
 </tr>
 
@@ -154,7 +154,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/t/</td>
 
-<td>**t**en</td>
+<td><strong>t</strong>en</td>
 
 </tr>
 
@@ -168,7 +168,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/j/</td>
 
-<td>**y**es</td>
+<td><strong>y</strong>es</td>
 
 </tr>
 
@@ -182,7 +182,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/k/*, /X/</td>
 
-<td>**c**at, lo**ch**</td>
+<td><strong>c</strong>at, lo<strong>ch</strong></td>
 
 </tr>
 
@@ -196,7 +196,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/l/</td>
 
-<td>**l**og</td>
+<td><strong>l</strong>og</td>
 
 </tr>
 
@@ -210,7 +210,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/m/</td>
 
-<td>**m**an</td>
+<td><strong>m</strong>an</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -238,7 +238,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/s/</td>
 
-<td>**s**ee</td>
+<td><strong>s</strong>ee</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**uh**</td>
+<td><strong>uh</strong></td>
 
 </tr>
 
@@ -266,7 +266,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/p/*,/f/</td>
 
-<td>**p**ay, **f**ool</td>
+<td><strong>p</strong>ay, <strong>f</strong>ool</td>
 
 </tr>
 
@@ -280,7 +280,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ts/</td>
 
-<td>ca**ts**</td>
+<td>ca<strong>ts</strong></td>
 
 </tr>
 
@@ -294,7 +294,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/k/</td>
 
-<td>**c**at</td>
+<td><strong>c</strong>at</td>
 
 </tr>
 
@@ -308,7 +308,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʁ/</td>
 
-<td>**r**un (similar to the French r)</td>
+<td><strong>r</strong>un (similar to the French r)</td>
 
 </tr>
 
@@ -322,7 +322,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**e, **s**ee</td>
+<td><strong>sh</strong>e, <strong>s</strong>ee</td>
 
 </tr>
 
@@ -336,7 +336,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/t/</td>
 
-<td>**t**ap</td>
+<td><strong>t</strong>ap</td>
 
 </tr>
 
@@ -384,7 +384,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>silent/e</td>
 
-<td>mm (long sound), y**e**t</td>
+<td>mm (long sound), y<strong>e</strong>t</td>
 
 </tr>
 
@@ -394,7 +394,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>a</td>
 
-<td>b**a**nk</td>
+<td>b<strong>a</strong>nk</td>
 
 </tr>
 
@@ -404,7 +404,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>e</td>
 
-<td>b**e**d</td>
+<td>b<strong>e</strong>d</td>
 
 </tr>
 
@@ -414,7 +414,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>i</td>
 
-<td>b**ee**p</td>
+<td>b<strong>ee</strong>p</td>
 
 </tr>
 
@@ -424,7 +424,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>o</td>
 
-<td>b**o**g</td>
+<td>b<strong>o</strong>g</td>
 
 </tr>
 
@@ -434,7 +434,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>u</td>
 
-<td>z**oo**</td>
+<td>z<strong>oo</strong></td>
 
 </tr>
 
@@ -468,7 +468,7 @@ In addition, the letter "ו" can carry two kinds of vowels:
 
 <td>o</td>
 
-<td>b**o**g</td>
+<td>b<strong>o</strong>g</td>
 
 </tr>
 
@@ -478,7 +478,7 @@ In addition, the letter "ו" can carry two kinds of vowels:
 
 <td>u</td>
 
-<td>z**oo**</td>
+<td>z<strong>oo</strong></td>
 
 </tr>
 

@@ -1,11 +1,32 @@
 html {
-  font-family:
-    var(--font-manrope),
-    var(--font-david-libre),
-    system-ui,
-    -apple-system,
-    sans-serif;
+  font-family: var(--font-sans);
   font-weight: var(--font-weight-normal);
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  color: var(--color-text-heading);
+  letter-spacing: -0.01em;
+}
+
+/* Every Hebrew run (wrapped by the rehype-hebrew plugin, or marked by hand). */
+:lang(he) {
+  font-family: var(--font-hebrew);
+}
+
+::selection {
+  background: var(--color-accent-bg-hover);
+  color: var(--color-text-heading);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 h1,
@@ -22,6 +43,7 @@ b {
 body {
   margin: 0;
   display: flex;
+  background: var(--color-bg);
 }
 
 .content {
@@ -31,11 +53,65 @@ body {
   min-width: 0;
 }
 
-.lang-switcher {
+.top-controls {
   position: fixed;
   top: var(--space-7);
   right: var(--space-9);
   z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.lang-switcher {
+  position: relative;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+
+  &:hover {
+    background: var(--color-bg);
+    border-color: var(--color-accent);
+  }
+}
+
+/* Show the icon of the theme you would switch to: moon in light, sun in dark. */
+.theme-icon-sun {
+  display: none;
+}
+
+:root[data-theme="dark"] {
+  .theme-icon-sun {
+    display: block;
+  }
+
+  .theme-icon-moon {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    .theme-icon-sun {
+      display: block;
+    }
+
+    .theme-icon-moon {
+      display: none;
+    }
+  }
 }
 
 .lang-toggle {
@@ -121,19 +197,27 @@ body {
   align-items: center;
   justify-content: center;
   float: right;
-  margin-left: var(--space-5);
-  width: var(--space-13);
-  height: var(--space-13);
-  border: none;
+  margin-left: var(--space-7);
+  width: var(--space-15);
+  height: var(--space-15);
+  border: 1px solid transparent;
   border-radius: var(--radius-full);
   background: var(--color-accent-bg);
   color: var(--color-accent);
-  font-size: var(--font-size-md);
   line-height: 1;
   cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    transform var(--transition-fast);
 
+  /* Speaker icon (Lucide "volume-2", ISC license) painted with currentColor. */
   &::before {
-    content: "🔊";
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M11 4.7a.7.7 0 0 0-1.2-.5L6.4 7.6A1.4 1.4 0 0 1 5.4 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.4a1.4 1.4 0 0 1 1 .4l3.4 3.4a.7.7 0 0 0 1.2-.5z'/%3E%3Cpath d='M16 9a5 5 0 0 1 0 6'/%3E%3Cpath d='M19.4 18.4a9 9 0 0 0 0-12.7'/%3E%3C/svg%3E")
+      center / contain no-repeat;
   }
 
   &:hover {
@@ -142,17 +226,24 @@ body {
 
   &:active {
     background: var(--color-accent-bg-active);
+    transform: scale(0.94);
   }
 
   &:disabled {
     background: var(--color-disabled-bg);
     color: var(--color-text-disabled);
     cursor: not-allowed;
-    opacity: 0.6;
+    transform: none;
 
     &:hover {
       background: var(--color-disabled-bg);
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tts-btn {
+    transition: none;
   }
 }
 

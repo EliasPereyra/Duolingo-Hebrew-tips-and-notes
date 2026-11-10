@@ -196,7 +196,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʔ/</td>
 
-<td>**uh** (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
+<td><strong>uh</strong> (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/g/</td>
 
-<td>**g**o</td>
+<td><strong>g</strong>o</td>
 
 </tr>
 
@@ -238,7 +238,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/d/</td>
 
-<td>**d**og</td>
+<td><strong>d</strong>og</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/h/</td>
 
-<td>**h**en (often silent in modern colloquial speech)</td>
+<td><strong>h</strong>en (often silent in modern colloquial speech)</td>
 
 </tr>
 
@@ -266,7 +266,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/v/</td>
 
-<td>**v**et</td>
+<td><strong>v</strong>et</td>
 
 </tr>
 
@@ -280,7 +280,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/z/</td>
 
-<td>**z**oo</td>
+<td><strong>z</strong>oo</td>
 
 </tr>
 
@@ -294,7 +294,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/X/</td>
 
-<td>lo**ch**</td>
+<td>lo<strong>ch</strong></td>
 
 </tr>
 
@@ -308,7 +308,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/t/</td>
 
-<td>**t**en</td>
+<td><strong>t</strong>en</td>
 
 </tr>
 
@@ -322,7 +322,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/j/</td>
 
-<td>**y**es</td>
+<td><strong>y</strong>es</td>
 
 </tr>
 
@@ -336,7 +336,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/k/*, /X/</td>
 
-<td>**c**at, lo**ch**</td>
+<td><strong>c</strong>at, lo<strong>ch</strong></td>
 
 </tr>
 
@@ -350,7 +350,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/l/</td>
 
-<td>**l**og</td>
+<td><strong>l</strong>og</td>
 
 </tr>
 
@@ -364,7 +364,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/m/</td>
 
-<td>**m**an</td>
+<td><strong>m</strong>an</td>
 
 </tr>
 
@@ -378,7 +378,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -392,7 +392,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/s/</td>
 
-<td>**s**ee</td>
+<td><strong>s</strong>ee</td>
 
 </tr>
 
@@ -406,7 +406,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**uh**</td>
+<td><strong>uh</strong></td>
 
 </tr>
 
@@ -420,7 +420,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/p/*,/f/</td>
 
-<td>**p**ay, **f**ool</td>
+<td><strong>p</strong>ay, <strong>f</strong>ool</td>
 
 </tr>
 
@@ -434,7 +434,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ts/</td>
 
-<td>ca**ts**</td>
+<td>ca<strong>ts</strong></td>
 
 </tr>
 
@@ -448,7 +448,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/k/</td>
 
-<td>**c**at</td>
+<td><strong>c</strong>at</td>
 
 </tr>
 
@@ -462,7 +462,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʁ/</td>
 
-<td>**r**un (similar to the French r)</td>
+<td><strong>r</strong>un (similar to the French r)</td>
 
 </tr>
 
@@ -476,7 +476,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**e, **s**ee</td>
+<td><strong>sh</strong>e, <strong>s</strong>ee</td>
 
 </tr>
 
@@ -490,7 +490,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/t/</td>
 
-<td>**t**ap</td>
+<td><strong>t</strong>ap</td>
 
 </tr>
 
@@ -628,7 +628,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʔ/</td>
 
-<td>**uh** (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
+<td><strong>uh</strong> (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
 
 </tr>
 
@@ -656,7 +656,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/g/</td>
 
-<td>**g**o</td>
+<td><strong>g</strong>o</td>
 
 </tr>
 
@@ -670,7 +670,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/d/</td>
 
-<td>**d**og</td>
+<td><strong>d</strong>og</td>
 
 </tr>
 
@@ -684,7 +684,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/h/</td>
 
-<td>**h**en (often silent in modern colloquial speech)</td>
+<td><strong>h</strong>en (often silent in modern colloquial speech)</td>
 
 </tr>
 
@@ -698,7 +698,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/v/</td>
 
-<td>**v**et</td>
+<td><strong>v</strong>et</td>
 
 </tr>
 
@@ -712,7 +712,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/z/</td>
 
-<td>**z**oo</td>
+<td><strong>z</strong>oo</td>
 
 </tr>
 
@@ -726,7 +726,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/X/</td>
 
-<td>lo**ch**</td>
+<td>lo<strong>ch</strong></td>
 
 </tr>
 
@@ -740,7 +740,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/t/</td>
 
-<td>**t**en</td>
+<td><strong>t</strong>en</td>
 
 </tr>
 
@@ -754,7 +754,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/j/</td>
 
-<td>**y**es</td>
+<td><strong>y</strong>es</td>
 
 </tr>
 
@@ -768,7 +768,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/k/*, /X/</td>
 
-<td>**c**at, lo**ch**</td>
+<td><strong>c</strong>at, lo<strong>ch</strong></td>
 
 </tr>
 
@@ -782,7 +782,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/l/</td>
 
-<td>**l**og</td>
+<td><strong>l</strong>og</td>
 
 </tr>
 
@@ -796,7 +796,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/m/</td>
 
-<td>**m**an</td>
+<td><strong>m</strong>an</td>
 
 </tr>
 
@@ -810,7 +810,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -824,7 +824,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/s/</td>
 
-<td>**s**ee</td>
+<td><strong>s</strong>ee</td>
 
 </tr>
 
@@ -838,7 +838,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**uh**</td>
+<td><strong>uh</strong></td>
 
 </tr>
 
@@ -852,7 +852,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/p/*,/f/</td>
 
-<td>**p**ay, **f**ool</td>
+<td><strong>p</strong>ay, <strong>f</strong>ool</td>
 
 </tr>
 
@@ -866,7 +866,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ts/</td>
 
-<td>ca**ts**</td>
+<td>ca<strong>ts</strong></td>
 
 </tr>
 
@@ -880,7 +880,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/k/</td>
 
-<td>**c**at</td>
+<td><strong>c</strong>at</td>
 
 </tr>
 
@@ -894,7 +894,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʁ/</td>
 
-<td>**r**un (similar to the French r)</td>
+<td><strong>r</strong>un (similar to the French r)</td>
 
 </tr>
 
@@ -908,7 +908,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**e, **s**ee</td>
+<td><strong>sh</strong>e, <strong>s</strong>ee</td>
 
 </tr>
 
@@ -922,7 +922,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/t/</td>
 
-<td>**t**ap</td>
+<td><strong>t</strong>ap</td>
 
 </tr>
 
@@ -970,7 +970,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>silent/e</td>
 
-<td>mm (long sound), y**e**t</td>
+<td>mm (long sound), y<strong>e</strong>t</td>
 
 </tr>
 
@@ -980,7 +980,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>a</td>
 
-<td>b**a**nk</td>
+<td>b<strong>a</strong>nk</td>
 
 </tr>
 
@@ -990,7 +990,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>e</td>
 
-<td>b**e**d</td>
+<td>b<strong>e</strong>d</td>
 
 </tr>
 
@@ -1000,7 +1000,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>i</td>
 
-<td>b**ee**p</td>
+<td>b<strong>ee</strong>p</td>
 
 </tr>
 
@@ -1010,7 +1010,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>o</td>
 
-<td>b**o**g</td>
+<td>b<strong>o</strong>g</td>
 
 </tr>
 
@@ -1020,7 +1020,7 @@ Here is a table of the most common ones (where we will use א as an example carr
 
 <td>u</td>
 
-<td>z**oo**</td>
+<td>z<strong>oo</strong></td>
 
 </tr>
 
@@ -1054,7 +1054,7 @@ In addition, the letter "ו" can carry two kinds of vowels:
 
 <td>o</td>
 
-<td>b**o**g</td>
+<td>b<strong>o</strong>g</td>
 
 </tr>
 
@@ -1064,7 +1064,7 @@ In addition, the letter "ו" can carry two kinds of vowels:
 
 <td>u</td>
 
-<td>z**oo**</td>
+<td>z<strong>oo</strong></td>
 
 </tr>
 
@@ -1185,7 +1185,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʔ/</td>
 
-<td>**uh** (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
+<td><strong>uh</strong> (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
 
 </tr>
 
@@ -1213,7 +1213,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/g/</td>
 
-<td>**g**o</td>
+<td><strong>g</strong>o</td>
 
 </tr>
 
@@ -1227,7 +1227,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/d/</td>
 
-<td>**d**og</td>
+<td><strong>d</strong>og</td>
 
 </tr>
 
@@ -1241,7 +1241,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/h/</td>
 
-<td>**h**en (often silent in modern colloquial speech)</td>
+<td><strong>h</strong>en (often silent in modern colloquial speech)</td>
 
 </tr>
 
@@ -1255,7 +1255,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/v/</td>
 
-<td>**v**et</td>
+<td><strong>v</strong>et</td>
 
 </tr>
 
@@ -1269,7 +1269,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/z/</td>
 
-<td>**z**oo</td>
+<td><strong>z</strong>oo</td>
 
 </tr>
 
@@ -1283,7 +1283,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/X/</td>
 
-<td>lo**ch**</td>
+<td>lo<strong>ch</strong></td>
 
 </tr>
 
@@ -1297,7 +1297,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/t/</td>
 
-<td>**t**en</td>
+<td><strong>t</strong>en</td>
 
 </tr>
 
@@ -1311,7 +1311,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/j/</td>
 
-<td>**y**es</td>
+<td><strong>y</strong>es</td>
 
 </tr>
 
@@ -1325,7 +1325,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/k/*, /X/</td>
 
-<td>**c**at, lo**ch**</td>
+<td><strong>c</strong>at, lo<strong>ch</strong></td>
 
 </tr>
 
@@ -1339,7 +1339,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/l/</td>
 
-<td>**l**og</td>
+<td><strong>l</strong>og</td>
 
 </tr>
 
@@ -1353,7 +1353,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/m/</td>
 
-<td>**m**an</td>
+<td><strong>m</strong>an</td>
 
 </tr>
 
@@ -1367,7 +1367,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -1381,7 +1381,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/s/</td>
 
-<td>**s**ee</td>
+<td><strong>s</strong>ee</td>
 
 </tr>
 
@@ -1395,7 +1395,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**uh**</td>
+<td><strong>uh</strong></td>
 
 </tr>
 
@@ -1409,7 +1409,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/p/*,/f/</td>
 
-<td>**p**ay, **f**ool</td>
+<td><strong>p</strong>ay, <strong>f</strong>ool</td>
 
 </tr>
 
@@ -1423,7 +1423,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ts/</td>
 
-<td>ca**ts**</td>
+<td>ca<strong>ts</strong></td>
 
 </tr>
 
@@ -1437,7 +1437,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/k/</td>
 
-<td>**c**at</td>
+<td><strong>c</strong>at</td>
 
 </tr>
 
@@ -1451,7 +1451,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʁ/</td>
 
-<td>**r**un (similar to the French r)</td>
+<td><strong>r</strong>un (similar to the French r)</td>
 
 </tr>
 
@@ -1465,7 +1465,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**e, **s**ee</td>
+<td><strong>sh</strong>e, <strong>s</strong>ee</td>
 
 </tr>
 
@@ -1479,7 +1479,7 @@ Here is the table of Hebrew letters again for reference:
 
 <td>/t/</td>
 
-<td>**t**ap</td>
+<td><strong>t</strong>ap</td>
 
 </tr>
 
@@ -1525,9 +1525,9 @@ In _ktiv male_ we use letters to replace some of the nikud, so in fact, it's not
 
 <td>o</td>
 
-<td>l**o**g</td>
+<td>l<strong>o</strong>g</td>
 
-<td>א**ו**רז (**ó**rez - rice)</td>
+<td>א<strong>ו</strong>רז (<strong>ó</strong>rez - rice)</td>
 
 </tr>
 
@@ -1537,9 +1537,9 @@ In _ktiv male_ we use letters to replace some of the nikud, so in fact, it's not
 
 <td>u</td>
 
-<td>z**oo**</td>
+<td>z<strong>oo</strong></td>
 
-<td>ה**ו**א (h**u** - he is)</td>
+<td>ה<strong>ו</strong>א (h<strong>u</strong> - he is)</td>
 
 </tr>
 
@@ -1549,9 +1549,9 @@ In _ktiv male_ we use letters to replace some of the nikud, so in fact, it's not
 
 <td>e</td>
 
-<td>b**e**d</td>
+<td>b<strong>e</strong>d</td>
 
-<td>ה**י**שג (h**é**seg - accomplishment)</td>
+<td>ה<strong>י</strong>שג (h<strong>é</strong>seg - accomplishment)</td>
 
 </tr>
 
@@ -1561,9 +1561,9 @@ In _ktiv male_ we use letters to replace some of the nikud, so in fact, it's not
 
 <td>i</td>
 
-<td>b**ee**p</td>
+<td>b<strong>ee</strong>p</td>
 
-<td>ה**י**א (h**ee** - she is)</td>
+<td>ה<strong>י</strong>א (h<strong>ee</strong> - she is)</td>
 
 </tr>
 
@@ -1573,9 +1573,9 @@ In _ktiv male_ we use letters to replace some of the nikud, so in fact, it's not
 
 <td>a</td>
 
-<td>r**a**g</td>
+<td>r<strong>a</strong>g</td>
 
-<td>ר**ע** (r**a** - bad)</td>
+<td>ר<strong>ע</strong> (r<strong>a</strong> - bad)</td>
 
 </tr>
 
@@ -1585,9 +1585,9 @@ In _ktiv male_ we use letters to replace some of the nikud, so in fact, it's not
 
 <td>e</td>
 
-<td>b**e**d</td>
+<td>b<strong>e</strong>d</td>
 
-<td>קור**א** (kor**é** - reads)</td>
+<td>קור<strong>א</strong> (kor<strong>é</strong> - reads)</td>
 
 </tr>
 
@@ -1899,7 +1899,7 @@ Here is the basic verb conjugation:
 
 <td>אוכל(ochel)</td>
 
-<td>אוכל**ת** (ochel**et** )</td>
+<td>אוכל<strong>ת</strong> (ochel<strong>et</strong> )</td>
 
 </tr>
 
@@ -1907,9 +1907,9 @@ Here is the basic verb conjugation:
 
 <td>Plural</td>
 
-<td>אוכל**ים** (ochl**im**)</td>
+<td>אוכל<strong>ים</strong> (ochl<strong>im</strong>)</td>
 
-<td>אוכל**ות** ( ochl**ot**)</td>
+<td>אוכל<strong>ות</strong> ( ochl<strong>ot</strong>)</td>
 
 </tr>
 
@@ -1943,7 +1943,7 @@ For the few verbs whose masculine singular form contains only 2 letters, the ver
 
 <td>בא (ba)</td>
 
-<td>בא**ה** ( ba**'ah**)</td>
+<td>בא<strong>ה</strong> ( ba<strong>'ah</strong>)</td>
 
 </tr>
 
@@ -1951,9 +1951,9 @@ For the few verbs whose masculine singular form contains only 2 letters, the ver
 
 <td>Plural</td>
 
-<td>בא**ים** (ba**im**)</td>
+<td>בא<strong>ים</strong> (ba<strong>im</strong>)</td>
 
-<td>בא**ות** (ba**ot**)</td>
+<td>בא<strong>ות</strong> (ba<strong>ot</strong>)</td>
 
 </tr>
 
@@ -1995,9 +1995,9 @@ For example:
 
 <td>Singular</td>
 
-<td>רו**אֶ**ה (ro'**e**h)</td>
+<td>רו<strong>אֶ</strong>ה (ro'<strong>e</strong>h)</td>
 
-<td>רו**אָ**ה (ro'**a**h)</td>
+<td>רו<strong>אָ</strong>ה (ro'<strong>a</strong>h)</td>
 
 </tr>
 
@@ -2005,9 +2005,9 @@ For example:
 
 <td>Plural</td>
 
-<td>רוא**ים** (ro'**im**)</td>
+<td>רוא<strong>ים</strong> (ro'<strong>im</strong>)</td>
 
-<td>רוא**ות** (ro'**ot**)</td>
+<td>רוא<strong>ות</strong> (ro'<strong>ot</strong>)</td>
 
 </tr>
 
@@ -2245,7 +2245,7 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>טוב (tov)</td>
 
-<td>טוב**ה** (tov**a**)</td>
+<td>טוב<strong>ה</strong> (tov<strong>a</strong>)</td>
 
 </tr>
 
@@ -2253,9 +2253,9 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>Plural</td>
 
-<td>טוב**ים** (tov**im**)</td>
+<td>טוב<strong>ים</strong> (tov<strong>im</strong>)</td>
 
-<td>טוב**ות** (tov**ot**)</td>
+<td>טוב<strong>ות</strong> (tov<strong>ot</strong>)</td>
 
 </tr>
 
@@ -2287,9 +2287,9 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>Singular</td>
 
-<td>י**פֶ**ה (yaf**e**)</td>
+<td>י<strong>פֶ</strong>ה (yaf<strong>e</strong>)</td>
 
-<td>י**פָ**ה (yaf**a**)</td>
+<td>י<strong>פָ</strong>ה (yaf<strong>a</strong>)</td>
 
 </tr>
 
@@ -2297,9 +2297,9 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>Plural</td>
 
-<td>יפ**ים** (yaf**im**)</td>
+<td>יפ<strong>ים</strong> (yaf<strong>im</strong>)</td>
 
-<td>יפ**ות** (yaf**ot**)</td>
+<td>יפ<strong>ות</strong> (yaf<strong>ot</strong>)</td>
 
 </tr>
 
@@ -2476,7 +2476,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>My</td>
 
-<td>של**י**</td>
+<td>של<strong>י</strong></td>
 
 </tr>
 
@@ -2484,7 +2484,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (s.m.)</td>
 
-<td>של**ךָ**</td>
+<td>של<strong>ךָ</strong></td>
 
 </tr>
 
@@ -2492,7 +2492,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (s.f.)</td>
 
-<td>של**ךְ**</td>
+<td>של<strong>ךְ</strong></td>
 
 </tr>
 
@@ -2500,7 +2500,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>His</td>
 
-<td>של**ו**</td>
+<td>של<strong>ו</strong></td>
 
 </tr>
 
@@ -2508,7 +2508,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Her</td>
 
-<td>של**ה**</td>
+<td>של<strong>ה</strong></td>
 
 </tr>
 
@@ -2516,7 +2516,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Our</td>
 
-<td>של**נו**</td>
+<td>של<strong>נו</strong></td>
 
 </tr>
 
@@ -2524,7 +2524,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (p.m.)</td>
 
-<td>של**כם**</td>
+<td>של<strong>כם</strong></td>
 
 </tr>
 
@@ -2532,7 +2532,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Your (p.f.)</td>
 
-<td>של**כן**</td>
+<td>של<strong>כן</strong></td>
 
 </tr>
 
@@ -2540,7 +2540,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Their (m)</td>
 
-<td>של**הם**</td>
+<td>של<strong>הם</strong></td>
 
 </tr>
 
@@ -2548,7 +2548,7 @@ Now let's have a look at the inflections of the word "של":
 
 <td>Their (f)</td>
 
-<td>של**הן**</td>
+<td>של<strong>הן</strong></td>
 
 </tr>
 
@@ -2745,7 +2745,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Me</td>
 
-<td>אות**י** (ot**i**)</td>
+<td>אות<strong>י</strong> (ot<strong>i</strong>)</td>
 
 </tr>
 
@@ -2753,7 +2753,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (singular masculine)</td>
 
-<td>אות**ךָ** (ot**kha**)</td>
+<td>אות<strong>ךָ</strong> (ot<strong>kha</strong>)</td>
 
 </tr>
 
@@ -2761,7 +2761,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (singular feminine)</td>
 
-<td>אות**ךְ** (ot**akh**)</td>
+<td>אות<strong>ךְ</strong> (ot<strong>akh</strong>)</td>
 
 </tr>
 
@@ -2769,7 +2769,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Him</td>
 
-<td>אות**ו** (ot**o**)</td>
+<td>אות<strong>ו</strong> (ot<strong>o</strong>)</td>
 
 </tr>
 
@@ -2777,7 +2777,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Her</td>
 
-<td>אות**ה** (ot**a**)</td>
+<td>אות<strong>ה</strong> (ot<strong>a</strong>)</td>
 
 </tr>
 
@@ -2785,7 +2785,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Us</td>
 
-<td>אות**נו** (ot**anu**)</td>
+<td>אות<strong>נו</strong> (ot<strong>anu</strong>)</td>
 
 </tr>
 
@@ -2793,7 +2793,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (plural masculine)</td>
 
-<td>את**כם** (et**khem**)</td>
+<td>את<strong>כם</strong> (et<strong>khem</strong>)</td>
 
 </tr>
 
@@ -2801,7 +2801,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>You (plural feminine)</td>
 
-<td>את**כן** (et**khen**)</td>
+<td>את<strong>כן</strong> (et<strong>khen</strong>)</td>
 
 </tr>
 
@@ -2809,7 +2809,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Them (masculine)</td>
 
-<td>אות**ם** (ot**am**)</td>
+<td>אות<strong>ם</strong> (ot<strong>am</strong>)</td>
 
 </tr>
 
@@ -2817,7 +2817,7 @@ The word "את" has suffixes to indicate person and number, like every other pre
 
 <td>Them (feminine)</td>
 
-<td>אות**ן** (ot**an**)</td>
+<td>אות<strong>ן</strong> (ot<strong>an</strong>)</td>
 
 </tr>
 
@@ -2877,7 +2877,7 @@ Some words in Hebrew originate from other languages which use sounds that aren't
 
 <td>dʒ</td>
 
-<td>**j**eans</td>
+<td><strong>j</strong>eans</td>
 
 </tr>
 
@@ -2887,7 +2887,7 @@ Some words in Hebrew originate from other languages which use sounds that aren't
 
 <td>ʒ</td>
 
-<td>bei**ge**</td>
+<td>bei<strong>ge</strong></td>
 
 </tr>
 
@@ -2897,7 +2897,7 @@ Some words in Hebrew originate from other languages which use sounds that aren't
 
 <td>tʃ</td>
 
-<td>**ch**air</td>
+<td><strong>ch</strong>air</td>
 
 </tr>
 
@@ -2931,7 +2931,7 @@ Some less common sounds (which are generally only used for foreign names) are:
 
 <td>ð</td>
 
-<td>**th**en</td>
+<td><strong>th</strong>en</td>
 
 </tr>
 
@@ -2941,7 +2941,7 @@ Some less common sounds (which are generally only used for foreign names) are:
 
 <td>w</td>
 
-<td>**w**ag</td>
+<td><strong>w</strong>ag</td>
 
 </tr>
 
@@ -2951,7 +2951,7 @@ Some less common sounds (which are generally only used for foreign names) are:
 
 <td>θ</td>
 
-<td>**th**ing</td>
+<td><strong>th</strong>ing</td>
 
 </tr>
 
@@ -3015,7 +3015,7 @@ The most common pattern of the construction pa'al in the present tense is:
 
 <td>ל</td>
 
-<td>אוֹכֵל (**o**ch**e**l)</td>
+<td>אוֹכֵל (<strong>o</strong>ch<strong>e</strong>l)</td>
 
 </tr>
 
@@ -3027,7 +3027,7 @@ The most common pattern of the construction pa'al in the present tense is:
 
 <td>ב</td>
 
-<td>כוֹתֵב (k**o**t**e**v)</td>
+<td>כוֹתֵב (k<strong>o</strong>t<strong>e</strong>v)</td>
 
 </tr>
 
@@ -3039,7 +3039,7 @@ The most common pattern of the construction pa'al in the present tense is:
 
 <td>ר</td>
 
-<td>אוֹמֵר (**o**m**e**r)</td>
+<td>אוֹמֵר (<strong>o</strong>m<strong>e</strong>r)</td>
 
 </tr>
 
@@ -3073,7 +3073,7 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>אוֹכֶל (ochel)</td>
 
-<td>אוֹכֵלֶ**ת** (ochel**et** )</td>
+<td>אוֹכֵלֶ<strong>ת</strong> (ochel<strong>et</strong> )</td>
 
 </tr>
 
@@ -3081,9 +3081,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Plural</td>
 
-<td>אוֹכְלִ**ים** (ochl**im**)</td>
+<td>אוֹכְלִ<strong>ים</strong> (ochl<strong>im</strong>)</td>
 
-<td>אוֹכְל**וֹת** (ochl**ot**)</td>
+<td>אוֹכְל<strong>וֹת</strong> (ochl<strong>ot</strong>)</td>
 
 </tr>
 
@@ -3117,9 +3117,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Singular</td>
 
-<td>שו**תֵ**ה (shot**e**)</td>
+<td>שו<strong>תֵ</strong>ה (shot<strong>e</strong>)</td>
 
-<td>שו**תָ**ה(shot**a**)</td>
+<td>שו<strong>תָ</strong>ה(shot<strong>a</strong>)</td>
 
 </tr>
 
@@ -3127,9 +3127,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Plural</td>
 
-<td>שות**ים** (shot**im**)</td>
+<td>שות<strong>ים</strong> (shot<strong>im</strong>)</td>
 
-<td>שות**ות** (shot**ot**)</td>
+<td>שות<strong>ות</strong> (shot<strong>ot</strong>)</td>
 
 </tr>
 
@@ -3163,7 +3163,7 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>בָא (ba)</td>
 
-<td>בָאָ**ה** (ba**'a**)</td>
+<td>בָאָ<strong>ה</strong> (ba<strong>'a</strong>)</td>
 
 </tr>
 
@@ -3171,9 +3171,9 @@ Using the root "א כ ל" which is for words connected to eating we have the fol
 
 <td>Plural</td>
 
-<td>בָאִ**ים** (ba**im**)</td>
+<td>בָאִ<strong>ים</strong> (ba<strong>im</strong>)</td>
 
-<td>בָא**וֹת** (ba**ot**)</td>
+<td>בָא<strong>וֹת</strong> (ba<strong>ot</strong>)</td>
 
 </tr>
 
@@ -3526,7 +3526,7 @@ Here is a table of the prepositions we teach during this unit:
 
 <tr>
 
-<td>in, at (_attached_)</td>
+<td>in, at (<em>attached</em>)</td>
 
 <td>-ב</td>
 
@@ -3958,9 +3958,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**י**</td>
+<td>בגלל<strong>י</strong></td>
 
-<td>Biglal**i**</td>
+<td>Biglal<strong>i</strong></td>
 
 <td>Because of me</td>
 
@@ -3968,9 +3968,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ךָ**</td>
+<td>בגלל<strong>ךָ</strong></td>
 
-<td>Biglal**cha**</td>
+<td>Biglal<strong>cha</strong></td>
 
 <td>Because of you(singular masculine)</td>
 
@@ -3978,9 +3978,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ךְ**</td>
+<td>בגלל<strong>ךְ</strong></td>
 
-<td>Biglal**ech**</td>
+<td>Biglal<strong>ech</strong></td>
 
 <td>Because of you(singular feminine)</td>
 
@@ -3988,9 +3988,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ו**</td>
+<td>בגלל<strong>ו</strong></td>
 
-<td>Biglal**o**</td>
+<td>Biglal<strong>o</strong></td>
 
 <td>Because of him</td>
 
@@ -3998,9 +3998,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ה**</td>
+<td>בגלל<strong>ה</strong></td>
 
-<td>Biglal**a**</td>
+<td>Biglal<strong>a</strong></td>
 
 <td>Because of her</td>
 
@@ -4008,9 +4008,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**נו**</td>
+<td>בגלל<strong>נו</strong></td>
 
-<td>Biglal**enu**</td>
+<td>Biglal<strong>enu</strong></td>
 
 <td>Because of us</td>
 
@@ -4018,9 +4018,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**כם**</td>
+<td>בגלל<strong>כם</strong></td>
 
-<td>Biglal**chem**</td>
+<td>Biglal<strong>chem</strong></td>
 
 <td>Because of you(plural masculine)</td>
 
@@ -4028,9 +4028,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**כן**</td>
+<td>בגלל<strong>כן</strong></td>
 
-<td>Biglal**chen**</td>
+<td>Biglal<strong>chen</strong></td>
 
 <td>Because of you(plural feminine)</td>
 
@@ -4038,9 +4038,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ם**</td>
+<td>בגלל<strong>ם</strong></td>
 
-<td>Biglal**am**</td>
+<td>Biglal<strong>am</strong></td>
 
 <td>Because of them(masculine)</td>
 
@@ -4048,9 +4048,9 @@ When this conjunction is related to a pronoun, we omit the "ה" and use the conj
 
 <tr>
 
-<td>בגלל**ן**</td>
+<td>בגלל<strong>ן</strong></td>
 
-<td>Biglal**an**</td>
+<td>Biglal<strong>an</strong></td>
 
 <td>Because of them(feminine)</td>
 
@@ -4358,11 +4358,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>My horse</td>
 
-<td>סו**סִי** (sus**i**)</td>
+<td>סו<strong>סִי</strong> (sus<strong>i</strong>)</td>
 
 <td>My horses</td>
 
-<td>סו**סָיי**(sus**ai**)</td>
+<td>סו<strong>סָיי</strong>(sus<strong>ai</strong>)</td>
 
 </tr>
 
@@ -4370,11 +4370,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Your (s.m.) horse</td>
 
-<td>סו**סְךָ** (sus**cha**)</td>
+<td>סו<strong>סְךָ</strong> (sus<strong>cha</strong>)</td>
 
 <td>Your(s.m.) horses</td>
 
-<td>סו**סֶיךָ** (sus**echa**)</td>
+<td>סו<strong>סֶיךָ</strong> (sus<strong>echa</strong>)</td>
 
 </tr>
 
@@ -4382,11 +4382,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Your (s.f.) horse</td>
 
-<td>סו**סֶךְ** (sus**ech**)</td>
+<td>סו<strong>סֶךְ</strong> (sus<strong>ech</strong>)</td>
 
 <td>Your(s.f.) horses</td>
 
-<td>סו**סַיךְ** (sus**aich**)</td>
+<td>סו<strong>סַיךְ</strong> (sus<strong>aich</strong>)</td>
 
 </tr>
 
@@ -4394,11 +4394,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>His horse</td>
 
-<td>סוס**וֹ** (sus**o**)</td>
+<td>סוס<strong>וֹ</strong> (sus<strong>o</strong>)</td>
 
 <td>His horses</td>
 
-<td>סו**סָיו** (sus**av**)</td>
+<td>סו<strong>סָיו</strong> (sus<strong>av</strong>)</td>
 
 </tr>
 
@@ -4406,11 +4406,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Her horse</td>
 
-<td>סו**סָהּ** (sus**a**)</td>
+<td>סו<strong>סָהּ</strong> (sus<strong>a</strong>)</td>
 
 <td>Her horses</td>
 
-<td>סו**סֶיה** (sus**e(h)a**)</td>
+<td>סו<strong>סֶיה</strong> (sus<strong>e(h)a</strong>)</td>
 
 </tr>
 
@@ -4418,11 +4418,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Our horse</td>
 
-<td>ּסו**סֵנו** (sus**enu**)</td>
+<td>ּסו<strong>סֵנו</strong> (sus<strong>enu</strong>)</td>
 
 <td>Our horses</td>
 
-<td>סו**סֵינוּ** (sus**enu**)</td>
+<td>סו<strong>סֵינוּ</strong> (sus<strong>enu</strong>)</td>
 
 </tr>
 
@@ -4430,11 +4430,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Your (p.m.) horse</td>
 
-<td>סו**סְכֶם** (sus**chem**)</td>
+<td>סו<strong>סְכֶם</strong> (sus<strong>chem</strong>)</td>
 
 <td>Your(p.m.) horses</td>
 
-<td>סו**סֵיכֶם** (sus**echem**)</td>
+<td>סו<strong>סֵיכֶם</strong> (sus<strong>echem</strong>)</td>
 
 </tr>
 
@@ -4442,11 +4442,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Your (p.f.) horse</td>
 
-<td>סו**סְכֶן** (sus**chen**)</td>
+<td>סו<strong>סְכֶן</strong> (sus<strong>chen</strong>)</td>
 
 <td>Your(p.f.) horses</td>
 
-<td>סו**סֵיכֶן** (sus**echen**)</td>
+<td>סו<strong>סֵיכֶן</strong> (sus<strong>echen</strong>)</td>
 
 </tr>
 
@@ -4454,11 +4454,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Their (m) horse</td>
 
-<td>סו**סָם** (sus**am**)</td>
+<td>סו<strong>סָם</strong> (sus<strong>am</strong>)</td>
 
 <td>Their(masucline horses</td>
 
-<td>סו**סֵיהֶם** (sus**ehem**)</td>
+<td>סו<strong>סֵיהֶם</strong> (sus<strong>ehem</strong>)</td>
 
 </tr>
 
@@ -4466,11 +4466,11 @@ For this example we will use the noun "סוס" (a horse):
 
 <td>Their (f) horse</td>
 
-<td>סו**סָן** (sus**an**)</td>
+<td>סו<strong>סָן</strong> (sus<strong>an</strong>)</td>
 
 <td>Their(feminine) horses</td>
 
-<td>סו**סֵיהֶן** (sus**ehen**)</td>
+<td>סו<strong>סֵיהֶן</strong> (sus<strong>ehen</strong>)</td>
 
 </tr>
 
@@ -4776,7 +4776,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>שעה (sha'ah - a hour)</td>
 
-<td>שעת**יים** (sha'a**tayim** - two hours)</td>
+<td>שעת<strong>יים</strong> (sha'a<strong>tayim</strong> - two hours)</td>
 
 <td>שעות (shaot - hours)</td>
 
@@ -4786,7 +4786,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>יום (yom - a day)</td>
 
-<td>יומ**יים** (yom**ayim** - two days)</td>
+<td>יומ<strong>יים</strong> (yom<strong>ayim</strong> - two days)</td>
 
 <td>ימים (yamim - days)</td>
 
@@ -4796,7 +4796,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>שבוע (shavu'ah - a week)</td>
 
-<td>שבוע**יים** (shvu'**ayim** - two weeks)</td>
+<td>שבוע<strong>יים</strong> (shvu'<strong>ayim</strong> - two weeks)</td>
 
 <td>שבועות (shavu'ot - weeks)</td>
 
@@ -4806,7 +4806,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>חודש (khodesh - a month)</td>
 
-<td>חודש**יים** (khodsh**ayim** - two months)</td>
+<td>חודש<strong>יים</strong> (khodsh<strong>ayim</strong> - two months)</td>
 
 <td>חודשים (khodashim - months)</td>
 
@@ -4816,7 +4816,7 @@ In Semitic languages, originally there were three separate number distinctions: 
 
 <td>שנה (shana - a year)</td>
 
-<td>שנת**יים** (shna**tayim** - two years)</td>
+<td>שנת<strong>יים</strong> (shna<strong>tayim</strong> - two years)</td>
 
 <td>שנים (shanim-years)</td>
 
@@ -5437,7 +5437,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תי~ (ti)</td>
 
-<td align="center">אמר**תי** (amár**ti**)</td>
+<td align="center">אמר<strong>תי</strong> (amár<strong>ti</strong>)</td>
 
 </tr>
 
@@ -5447,7 +5447,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תָ~ (ta)</td>
 
-<td align="center">אמר**תָ** (amár**ta**)</td>
+<td align="center">אמר<strong>תָ</strong> (amár<strong>ta</strong>)</td>
 
 </tr>
 
@@ -5457,7 +5457,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תְ~ (t)</td>
 
-<td align="center">אמר**תְ** (amár**t**)</td>
+<td align="center">אמר<strong>תְ</strong> (amár<strong>t</strong>)</td>
 
 </tr>
 
@@ -5477,7 +5477,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">ה~ (a)</td>
 
-<td align="center">אמר**ה** (amr**a**)</td>
+<td align="center">אמר<strong>ה</strong> (amr<strong>a</strong>)</td>
 
 </tr>
 
@@ -5487,7 +5487,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">נו~ (nu)</td>
 
-<td align="center">אמר**נו** (amár**nu**)</td>
+<td align="center">אמר<strong>נו</strong> (amár<strong>nu</strong>)</td>
 
 </tr>
 
@@ -5497,7 +5497,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תם~ (tem)</td>
 
-<td align="center">אמר**תם** (amár**tem**)</td>
+<td align="center">אמר<strong>תם</strong> (amár<strong>tem</strong>)</td>
 
 </tr>
 
@@ -5507,7 +5507,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תן~ (ten)</td>
 
-<td align="center">אמר**תן** (amár**ten**)</td>
+<td align="center">אמר<strong>תן</strong> (amár<strong>ten</strong>)</td>
 
 </tr>
 
@@ -5517,7 +5517,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">ו~ (u)</td>
 
-<td align="center">אמר**ו** (amr**ú**)</td>
+<td align="center">אמר<strong>ו</strong> (amr<strong>ú</strong>)</td>
 
 </tr>
 
@@ -5527,7 +5527,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">ו~ (u)</td>
 
-<td align="center">אמר**ו** (amr**ú**)</td>
+<td align="center">אמר<strong>ו</strong> (amr<strong>ú</strong>)</td>
 
 </tr>
 
@@ -6333,11 +6333,11 @@ Some pa'al verbs have "a" as the vowel instead of "o" for the masculine singular
 
 <tr>
 
-<td align="center">lm**a**d*</td>
+<td align="center">lm<strong>a</strong>d*</td>
 
 <td align="center">למד</td>
 
-<td align="center">XX**a**X</td>
+<td align="center">XX<strong>a</strong>X</td>
 
 </tr>
 
@@ -6658,7 +6658,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>~א (e~)</td>
 
-<td>**א**כתוב (**e**chtov)</td>
+<td><strong>א</strong>כתוב (<strong>e</strong>chtov)</td>
 
 </tr>
 
@@ -6668,7 +6668,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>~ת (ti~)</td>
 
-<td>**ת**כתוב (**ti**chtov)</td>
+<td><strong>ת</strong>כתוב (<strong>ti</strong>chtov)</td>
 
 </tr>
 
@@ -6678,7 +6678,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>ת~י (ti~i)</td>
 
-<td>**ת**כתב**י** (**ti**chtev**i**)</td>
+<td><strong>ת</strong>כתב<strong>י</strong> (<strong>ti</strong>chtev<strong>i</strong>)</td>
 
 </tr>
 
@@ -6688,7 +6688,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>~י (i~)</td>
 
-<td>**י**כתוב (**i**chtov)</td>
+<td><strong>י</strong>כתוב (<strong>i</strong>chtov)</td>
 
 </tr>
 
@@ -6698,7 +6698,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>~ת (ti~)</td>
 
-<td>**ת**כתוב (**ti**chtov)</td>
+<td><strong>ת</strong>כתוב (<strong>ti</strong>chtov)</td>
 
 </tr>
 
@@ -6708,7 +6708,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>~נ (ni)</td>
 
-<td>**נ**כתוב (**ni**chtov)</td>
+<td><strong>נ</strong>כתוב (<strong>ni</strong>chtov)</td>
 
 </tr>
 
@@ -6718,7 +6718,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>ת~ו (ti~u)</td>
 
-<td>**ת**כתב**ו** (**ti**chtev**u**)</td>
+<td><strong>ת</strong>כתב<strong>ו</strong> (<strong>ti</strong>chtev<strong>u</strong>)</td>
 
 </tr>
 
@@ -6728,7 +6728,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>ת~ו (ti~u) / ת~נה (ti~na)</td>
 
-<td>**ת**כתב**ו** (**ti**chtev**u**) / **ת**כתוב**נה** (**ti**chtov**na**) *</td>
+<td><strong>ת</strong>כתב<strong>ו</strong> (<strong>ti</strong>chtev<strong>u</strong>) / <strong>ת</strong>כתוב<strong>נה</strong> (<strong>ti</strong>chtov<strong>na</strong>) *</td>
 
 </tr>
 
@@ -6738,7 +6738,7 @@ In the future tense there is only one form for I, we, plural you and they (no ge
 
 <td>י~ו (i~u)</td>
 
-<td>**י**כתב**ו** (**i**chtev**u**)</td>
+<td><strong>י</strong>כתב<strong>ו</strong> (<strong>i</strong>chtev<strong>u</strong>)</td>
 
 </tr>
 

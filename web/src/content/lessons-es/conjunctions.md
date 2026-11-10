@@ -63,9 +63,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**י**</td>
+<td>בגלל<strong>י</strong></td>
 
-<td>Biglal**i**</td>
+<td>Biglal<strong>i</strong></td>
 
 <td>Por mi culpa</td>
 
@@ -73,9 +73,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**ךָ**</td>
+<td>בגלל<strong>ךָ</strong></td>
 
-<td>Biglal**cha**</td>
+<td>Biglal<strong>cha</strong></td>
 
 <td>Por tu culpa (singular masculino)</td>
 
@@ -83,9 +83,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**ךְ**</td>
+<td>בגלל<strong>ךְ</strong></td>
 
-<td>Biglal**ech**</td>
+<td>Biglal<strong>ech</strong></td>
 
 <td>Por tu culpa (singular femenino)</td>
 
@@ -93,9 +93,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**ו**</td>
+<td>בגלל<strong>ו</strong></td>
 
-<td>Biglal**o**</td>
+<td>Biglal<strong>o</strong></td>
 
 <td>Por su culpa (de él)</td>
 
@@ -103,9 +103,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**ה**</td>
+<td>בגלל<strong>ה</strong></td>
 
-<td>Biglal**a**</td>
+<td>Biglal<strong>a</strong></td>
 
 <td>Por su culpa (de ella)</td>
 
@@ -113,9 +113,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**נו**</td>
+<td>בגלל<strong>נו</strong></td>
 
-<td>Biglal**enu**</td>
+<td>Biglal<strong>enu</strong></td>
 
 <td>Por nuestra culpa</td>
 
@@ -123,9 +123,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**כם**</td>
+<td>בגלל<strong>כם</strong></td>
 
-<td>Biglal**chem**</td>
+<td>Biglal<strong>chem</strong></td>
 
 <td>Por su culpa (de ustedes, plural masculino)</td>
 
@@ -133,9 +133,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**כן**</td>
+<td>בגלל<strong>כן</strong></td>
 
-<td>Biglal**chen**</td>
+<td>Biglal<strong>chen</strong></td>
 
 <td>Por su culpa (de ustedes, plural femenino)</td>
 
@@ -143,9 +143,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**ם**</td>
+<td>בגלל<strong>ם</strong></td>
 
-<td>Biglal**am**</td>
+<td>Biglal<strong>am</strong></td>
 
 <td>Por su culpa (de ellos, masculino)</td>
 
@@ -153,9 +153,9 @@ Cuando esta conjunción está relacionada con un pronombre, omitimos la "ה" y u
 
 <tr>
 
-<td>בגלל**ן**</td>
+<td>בגלל<strong>ן</strong></td>
 
-<td>Biglal**an**</td>
+<td>Biglal<strong>an</strong></td>
 
 <td>Por su culpa (de ellas, femenino)</td>
 

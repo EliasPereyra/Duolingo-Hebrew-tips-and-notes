@@ -86,11 +86,11 @@ Algunos verbos pa'al tienen "a" como vocal en lugar de "o" para el imperativo si
 
 <tr>
 
-<td align="center">lm**a**d*</td>
+<td align="center">lm<strong>a</strong>d*</td>
 
 <td align="center">למד</td>
 
-<td align="center">XX**a**X</td>
+<td align="center">XX<strong>a</strong>X</td>
 
 </tr>
 
