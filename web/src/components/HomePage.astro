@@ -24,6 +24,7 @@ const copy = {
     search: "Search lessons...",
     noResults: "No lessons match your search.",
     read: "Read",
+    fullText: "Looking for a word? Search inside every lesson →",
   },
   es: {
     title: "Hebreo: Consejos y Notas",
@@ -35,6 +36,7 @@ const copy = {
     search: "Buscar lecciones...",
     noResults: "No se encontraron lecciones.",
     read: "Leída",
+    fullText: "¿Buscas una palabra? Busca dentro de todas las lecciones →",
   },
 }[locale];
 
@@ -67,6 +69,9 @@ const firstLesson = lessons[0];
       <span class="section-hint">{copy.lessonsHint} · {lessons.length}</span>
     </div>
     <LessonSearch placeholder={copy.search} noResultsText={copy.noResults} />
+    <p class="fulltext-hint">
+      <a href={`${prefix}/search`}>{copy.fullText}</a>
+    </p>
     <ol class="lesson-list" id="lesson-list">
       {
         lessons.map((lesson, index) => {
@@ -169,6 +174,11 @@ const firstLesson = lessons[0];
 
   .section-hint {
     color: var(--color-text-subtle);
+    font-size: var(--font-size-sm);
+  }
+
+  .fulltext-hint {
+    margin: calc(var(--space-4) * -1) 0 var(--space-11);
     font-size: var(--font-size-sm);
   }
 

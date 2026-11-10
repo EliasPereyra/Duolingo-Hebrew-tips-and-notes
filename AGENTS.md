@@ -9,7 +9,7 @@ Static site built with Astro that preserves the Tips & Notes from the Duolingo H
 | Command | Description |
 |---------|-------------|
 | `pnpm dev` | Start dev server at `localhost:4321` |
-| `pnpm build` | Build to `dist/` |
+| `pnpm build` | Build to `dist/` and index it for search with Pagefind |
 | `pnpm preview` | Preview the production build |
 | `pnpm check` | Run Astro type-checking (`astro check`) |
 | `pnpm lint` | Lint with ESLint |

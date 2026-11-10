@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { Menu, X, Check } from "reicon-astro";
+import { Menu, X, Check, Search } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
 import { sortByCourseOrder } from "../utils/course-order";
@@ -36,6 +36,10 @@ const iconMap = buildLessonIconMap(enLessons);
       <span class="wordmark-title">{locale === "es" ? "Hebreo" : "Hebrew"}</span>
       <span class="wordmark-sub">{locale === "es" ? "Consejos y notas" : "Tips & Notes"}</span>
     </span>
+  </a>
+  <a href={`${prefix}/search`} class:list={["sidebar-search", { active: pathname.replace(/\/$/, "") === `${prefix}/search` }]}>
+    <Search size={16} />
+    {locale === "es" ? "Buscar en las notas" : "Search the notes"}
   </a>
   <nav>
     <ul>
@@ -153,6 +157,26 @@ const iconMap = buildLessonIconMap(enLessons);
   .wordmark-sub {
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
+  }
+
+  .sidebar-search {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin: 0 var(--space-11) var(--space-7);
+    padding: var(--space-4) var(--space-7);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm-alt);
+
+    &:hover,
+    &.active {
+      border-color: var(--color-accent);
+      color: var(--color-text-heading);
+      text-decoration: none;
+    }
   }
 
   nav ul {
