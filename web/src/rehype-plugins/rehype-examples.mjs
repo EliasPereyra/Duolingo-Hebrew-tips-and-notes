@@ -83,8 +83,12 @@ const MAX_GLOSS_WORDS = 5;
 // Lines inside a cue run may carry a longer gloss, but not whole explanations.
 const MAX_CUE_GLOSS_WORDS = 12;
 
+// Whitespace-separated words, so a transliteration like "be-yá'ar" counts once.
 function glossWordCount(text) {
-  return (text.replace(HEBREW_RANGE, " ").match(/[\p{L}\p{N}]+/gu) ?? []).length;
+  return text
+    .replace(HEBREW_RANGE, " ")
+    .split(/\s+/)
+    .filter((word) => /[\p{L}\p{N}]/u.test(word)).length;
 }
 
 function isShortGloss(text, maxWords = MAX_GLOSS_WORDS) {
