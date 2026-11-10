@@ -110,5 +110,5 @@ web/
 
 - CI runs on `master` branch via `.github/workflows/ci.yml`.
 - Pipeline: `pnpm install --frozen-lockfile` → `pnpm check` → `pnpm build`.
-- `site` and `base` are set in `astro.config.mjs` for GitHub Pages hosting at `/Duolingo-Hebrew-tips-and-notes`. If you serve from a different URL, update those values.
+- `site` in `astro.config.mjs` is the deployed URL (`https://duolingo-tips-and-notes.netlify.app`); canonical, hreflang and Open Graph URLs are built from it. Update it if the site moves. The share image is `public/og.png`.
 - The `dist/` folder is gitignored; the build artifact is ephemeral (not committed).
