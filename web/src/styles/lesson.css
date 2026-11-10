@@ -205,3 +205,19 @@
     height: auto;
   }
 }
+
+/* Hebrew runs, wrapped in <span lang="he"> by the rehype-hebrew plugin. */
+.lesson-content :lang(he) {
+  font-size: var(--font-size-hebrew);
+  line-height: 1;
+  color: var(--color-text-heading);
+}
+
+/* Don't compound the size when a heading already scales it up. */
+.lesson-content :is(h1, h2, h3) :lang(he) {
+  font-size: 1em;
+}
+
+.lesson-content .he-cell {
+  text-align: right;
+}
