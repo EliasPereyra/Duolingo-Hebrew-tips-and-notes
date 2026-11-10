@@ -9,7 +9,7 @@ Static site built with Astro that preserves the Tips & Notes from the Duolingo H
 | Command | Description |
 |---------|-------------|
 | `pnpm dev` | Start dev server at `localhost:4321` |
-| `pnpm build` | Build to `dist/` |
+| `pnpm build` | Build to `dist/` and index it for search with Pagefind |
 | `pnpm preview` | Preview the production build |
 | `pnpm check` | Run Astro type-checking (`astro check`) |
 | `pnpm lint` | Lint with ESLint |
@@ -72,6 +72,7 @@ web/
 - Design tokens (CSS custom properties) live in `src/styles/tokens.css`; base/reset rules live in `src/styles/global.css`. Both are imported once from `Layout.astro`.
 - Lesson markdown styles live in `src/styles/lesson.css` (imported by both lesson routes), since `<Content />` output doesn't get Astro scope attributes.
 - Visual direction is a "study notebook": warm paper, ink text, tekhelet accent (`--color-accent`), clay secondary accent (`--color-clay`), Frank Ruhl Libre for headings and Hebrew. Tokens have a dark-mode override in `tokens.css`; never hardcode colors.
+- Search uses the Pagefind Component UI (`<pagefind-modal>` in `Layout.astro`, opened from the sidebar or with Ctrl/Cmd+K, plus the `/search` page). It is themed only through the `--pf-*` variables in `global.css`, and its bundle exists only after `pnpm build`.
 - Hebrew in lessons is wrapped in `<span lang="he">` by `src/rehype-plugins/rehype-hebrew.mjs`; style it with `:lang(he)`.
 - Follow BEM-like class naming for clarity (e.g., `.lesson-header`, `.lesson-content`). But avoid using very log BEM-like classes, to keep the code clear.
 - Prefer CSS custom properties (from the design system) over hardcoded colors, sizes, and other magic values.
@@ -110,5 +111,5 @@ web/
 
 - CI runs on `master` branch via `.github/workflows/ci.yml`.
 - Pipeline: `pnpm install --frozen-lockfile` → `pnpm check` → `pnpm build`.
-- `site` and `base` are set in `astro.config.mjs` for GitHub Pages hosting at `/Duolingo-Hebrew-tips-and-notes`. If you serve from a different URL, update those values.
+- `site` in `astro.config.mjs` is the deployed URL (`https://duolingo-tips-and-notes.netlify.app`); canonical, hreflang and Open Graph URLs are built from it. Update it if the site moves. The share image is `public/og.png`.
 - The `dist/` folder is gitignored; the build artifact is ephemeral (not committed).

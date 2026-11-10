@@ -7,6 +7,7 @@ import rehypeWrapTables from "./src/rehype-plugins/rehype-wrap-tables.mjs";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://duolingo-tips-and-notes.netlify.app",
   base: "/",
   i18n: {
     defaultLocale: "en",

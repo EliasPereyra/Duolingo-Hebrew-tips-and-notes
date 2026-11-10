@@ -53,6 +53,28 @@ body {
   min-width: 0;
 }
 
+.skip-link {
+  position: fixed;
+  top: var(--space-7);
+  left: var(--space-9);
+  z-index: 1002;
+  padding: var(--space-4) var(--space-9);
+  border-radius: var(--radius-md);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(-200%);
+
+  &:focus {
+    transform: none;
+    text-decoration: none;
+  }
+}
+
+.content:focus {
+  outline: none;
+}
+
 .top-controls {
   position: fixed;
   top: var(--space-7);
@@ -190,6 +212,18 @@ body {
     margin-left: 0;
     padding-top: 3.5rem;
   }
+
+  /* Backdrop behind the fixed menu and top controls so text doesn't scroll under them. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 998;
+    height: calc(42px + 2 * var(--space-7));
+    background: color-mix(in srgb, var(--color-bg) 90%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
 }
 
 .tts-btn {
@@ -229,6 +263,12 @@ body {
     transform: scale(0.94);
   }
 
+  &.is-playing {
+    background: var(--color-accent);
+    color: var(--color-on-accent);
+    animation: tts-pulse 1.2s ease-out infinite;
+  }
+
   &:disabled {
     background: var(--color-disabled-bg);
     color: var(--color-text-disabled);
@@ -241,10 +281,35 @@ body {
   }
 }
 
+@keyframes tts-pulse {
+  from {
+    box-shadow: 0 0 0 0 var(--color-accent-bg-active);
+  }
+  to {
+    box-shadow: 0 0 0 10px transparent;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .tts-btn {
     transition: none;
+
+    &.is-playing {
+      animation: none;
+    }
   }
+}
+
+/* Lessons the reader has opened (see utils/reading-progress.ts). */
+.read-mark {
+  display: none;
+  flex-shrink: 0;
+  margin-left: auto;
+  color: var(--color-success);
+}
+
+.is-read .read-mark {
+  display: block;
 }
 
 * {
@@ -260,4 +325,136 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+/* Printing: just the lesson, in the light palette (e.g. conjugation tables as a study sheet). */
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  .sidebar,
+  .sidebar-toggle,
+  .sidebar-backdrop,
+  .top-controls,
+  .skip-link,
+  .tts-btn,
+  body::before {
+    display: none !important;
+  }
+
+  html,
+  body {
+    display: block;
+    background: none;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*
+ * Pagefind Component UI (search modal, trigger and the /search page).
+ * Its elements reset inherited styles, so they are themed through --pf-*.
+ * The tokens use light-dark(), so the search follows the site theme.
+ * `:root:root` outranks the defaults in pagefind-component-ui.css.
+ *
+ * The components reset color-scheme, so light-dark() would always resolve
+ * to light inside them. Registering the colors as <color> resolves them
+ * here on :root, where the active theme applies, and they inherit as-is.
+ */
+@property --pf-text {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-text-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-text-muted {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-background {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-border {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-border-focus {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-outline-focus {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-hover {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-mark {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-skeleton {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-skeleton-shine {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-modal-backdrop {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+:root:root {
+  --pf-text: var(--color-text-heading);
+  --pf-text-secondary: var(--color-text);
+  --pf-text-muted: var(--color-text-muted);
+  --pf-background: var(--color-bg);
+  --pf-border: var(--color-border);
+  --pf-border-focus: var(--color-accent);
+  --pf-outline-focus: var(--color-accent);
+  --pf-hover: var(--color-bg-hover);
+  --pf-mark: var(--color-accent);
+  --pf-skeleton: var(--color-bg-subtle);
+  --pf-skeleton-shine: var(--color-bg-hover);
+  --pf-shadow-sm: 0 1px 3px var(--color-shadow);
+  --pf-shadow-md: var(--shadow-sm);
+  --pf-shadow-lg: 0 12px 40px var(--color-shadow-strong);
+  --pf-modal-backdrop: var(--color-shadow-strong);
+  --pf-font: var(--font-sans);
+  --pf-border-radius: var(--radius-md);
+  --pf-result-title-font-size: 15px;
+  --pf-result-excerpt-font-size: 14px;
 }

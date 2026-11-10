@@ -1,51 +1,29 @@
 ---
-import { getCollection, render } from "astro:content";
-import { ArrowLeft } from "reicon-astro";
+import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import LessonPage from "../../components/LessonPage.astro";
 import "../../styles/lesson.css";
-import Practice from "../../components/Practice.astro";
 import { buildPracticeIndex } from "../../utils/practice-data";
-import { TIPS_AND_NOTES_MD, ORIGINAL_HTML_VERSION } from "../../constants/external-links";
+import { sortByCourseOrder } from "../../utils/course-order";
 
 export async function getStaticPaths() {
-  const lessons = await getCollection("lessons");
+  const lessons = sortByCourseOrder(await getCollection("lessons"));
   const practiceIndex = await buildPracticeIndex(lessons, "en");
-  return lessons.map((lesson) => ({
+  const link = (entry?: (typeof lessons)[number]) => entry && { id: entry.id, title: entry.data.title };
+  return lessons.map((lesson, index) => ({
     params: { slug: lesson.id },
-    props: { lesson, practice: practiceIndex.get(lesson.id) },
+    props: {
+      lesson,
+      practice: practiceIndex.get(lesson.id),
+      prev: link(lessons[index - 1]),
+      next: link(lessons[index + 1]),
+    },
   }));
 }
 
-const { lesson, practice } = Astro.props;
-
-const { Content } = await render(lesson);
+const { lesson, practice, prev, next } = Astro.props;
 ---
 
 <Layout title={`${lesson.data.title} - Hebrew Tips & Notes`}>
-  <div class:list={["lesson-layout", { "has-practice": practice }]}>
-  <article class="lesson">
-    <div class="lesson-header">
-      <a href="/" class="back-link">
-        <ArrowLeft size={16} />
-        Back to lessons
-      </a>
-      <div class="external-links">
-        <a href={TIPS_AND_NOTES_MD} target="_blank" rel="noopener noreferrer">Source Markdown</a>
-        <a href={ORIGINAL_HTML_VERSION} target="_blank" rel="noopener noreferrer">Full HTML version</a>
-      </div>
-    </div>
-
-    <div class="lesson-content">
-      <Content />
-    </div>
-  </article>
-
-  {
-    practice && (
-      <aside class="lesson-practice">
-        <Practice data={practice} />
-      </aside>
-    )
-  }
-  </div>
+  <LessonPage locale="en" lesson={lesson} practice={practice} prev={prev} next={next} />
 </Layout>

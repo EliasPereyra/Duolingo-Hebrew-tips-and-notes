@@ -19,6 +19,10 @@ const localeHrefs = {
   en: basePath,
   es: basePath === "/" ? "/es" : `/es${basePath}`,
 };
+const site = Astro.site ?? Astro.url;
+const canonical = new URL(pathname, site).href;
+const ogImage = new URL("/og.png", site).href;
+const description = descriptions[locale];
 ---
 
 <!doctype html>
@@ -65,15 +69,42 @@ const localeHrefs = {
       })();
     </script>
     <meta charset="UTF-8" />
-    <meta name="description" content={descriptions[locale]} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={new URL(localeHrefs.en, site).href} />
+    <link rel="alternate" hreflang="es" href={new URL(localeHrefs.es, site).href} />
+    <link rel="alternate" hreflang="x-default" href={new URL(localeHrefs.en, site).href} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Hebrew Tips & Notes" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={locale === "es" ? "es_ES" : "en_US"} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <title>{title}</title>
     <Font cssVariable="--font-manrope" preload />
     <Font cssVariable="--font-frank-ruhl" preload />
+    {
+      /* The search bundle only exists after `pagefind` indexes the build output. */
+      import.meta.env.PROD && (
+        <>
+          <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
+          <script is:inline type="module" src="/pagefind/pagefind-component-ui.js" />
+        </>
+      )
+    }
     <ClientRouter />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">{locale === "es" ? "Saltar al contenido" : "Skip to content"}</a>
     <Sidebar locale={locale} />
     <div class="top-controls">
       <button
@@ -117,14 +148,24 @@ const localeHrefs = {
         </ul>
       </div>
     </div>
-    <div class="content" transition:animate={slide({ duration: "0.2s" })}>
+    <div class="content" id="main-content" tabindex="-1" transition:animate={slide({ duration: "0.2s" })}>
       <slot />
     </div>
+    <pagefind-modal reset-on-close></pagefind-modal>
   </body>
 </html>
 
 <script>
   import { initAudioPlayback } from "../utils/audio-player";
+  import { markReadLessons } from "../utils/reading-progress";
+
+  // Document-level listeners are tied to the current page and removed before
+  // the router swaps in the next one, so they don't pile up across navigations.
+  let pageListeners = new AbortController();
+  document.addEventListener("astro:before-swap", () => {
+    pageListeners.abort();
+    pageListeners = new AbortController();
+  });
 
   function initLangSwitcher() {
     const switcher = document.getElementById("lang-switcher");
@@ -132,36 +173,76 @@ const localeHrefs = {
     const menu = document.getElementById("lang-menu");
     if (!switcher || !toggle || !menu) return;
 
-    const closeMenu = () => {
+    const items = Array.from(menu.querySelectorAll<HTMLAnchorElement>("a[role='menuitem']"));
+    const { signal } = pageListeners;
+
+    const isOpen = () => switcher.classList.contains("open");
+
+    const closeMenu = (returnFocus = false) => {
       switcher.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
+      if (returnFocus) toggle.focus();
     };
 
-    const openMenu = () => {
+    const openMenu = (focusIndex?: number) => {
       switcher.classList.add("open");
       toggle.setAttribute("aria-expanded", "true");
+      if (focusIndex !== undefined) items.at(focusIndex)?.focus();
     };
 
     toggle.addEventListener("click", (event) => {
       event.stopPropagation();
-      if (switcher.classList.contains("open")) {
+      if (isOpen()) {
         closeMenu();
       } else {
-        openMenu();
+        openMenu(event.detail === 0 ? 0 : undefined); // keyboard "click" focuses the first item
       }
     });
 
-    document.addEventListener("click", (event) => {
-      if (!switcher.contains(event.target as Node)) {
+    // Menu-button keyboard pattern: arrows open the menu and move between items.
+    toggle.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowDown") {
+        event.preventDefault();
+        openMenu(0);
+      } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        openMenu(-1);
+      }
+    });
+
+    menu.addEventListener("keydown", (event) => {
+      const index = items.indexOf(document.activeElement as HTMLAnchorElement);
+      const moves: Record<string, number> = {
+        ArrowDown: (index + 1) % items.length,
+        ArrowUp: (index - 1 + items.length) % items.length,
+        Home: 0,
+        End: items.length - 1,
+      };
+      if (event.key in moves) {
+        event.preventDefault();
+        items[moves[event.key]]?.focus();
+      } else if (event.key === "Tab") {
         closeMenu();
       }
     });
 
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") closeMenu();
-    });
+    document.addEventListener(
+      "click",
+      (event) => {
+        if (!switcher.contains(event.target as Node)) closeMenu();
+      },
+      { signal },
+    );
 
-    menu.querySelectorAll<HTMLAnchorElement>("a[data-locale]").forEach((link) => {
+    document.addEventListener(
+      "keydown",
+      (event) => {
+        if (event.key === "Escape" && isOpen()) closeMenu(true);
+      },
+      { signal },
+    );
+
+    items.forEach((link) => {
       link.addEventListener("click", () => {
         try {
           localStorage.setItem("preferredLocale", link.dataset.locale ?? "en");
@@ -192,6 +273,7 @@ const localeHrefs = {
 
   document.addEventListener("astro:page-load", initLangSwitcher);
   document.addEventListener("astro:page-load", initThemeToggle);
+  document.addEventListener("astro:page-load", markReadLessons);
 
   initAudioPlayback();
 </script>

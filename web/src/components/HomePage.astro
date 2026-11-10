@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Check } from "reicon-astro";
 import LessonSearch from "./LessonSearch.astro";
 import { ICONS } from "../constants/icons";
 import { buildLessonIconMap } from "../utils/lesson-icons";
@@ -22,6 +23,8 @@ const copy = {
     lessonsHint: "In course order",
     search: "Search lessons...",
     noResults: "No lessons match your search.",
+    read: "Read",
+    fullText: "Looking for a word? Search inside every lesson →",
   },
   es: {
     title: "Hebreo: Consejos y Notas",
@@ -32,6 +35,8 @@ const copy = {
     lessonsHint: "En el orden del curso",
     search: "Buscar lecciones...",
     noResults: "No se encontraron lecciones.",
+    read: "Leída",
+    fullText: "¿Buscas una palabra? Busca dentro de todas las lecciones →",
   },
 }[locale];
 
@@ -64,6 +69,9 @@ const firstLesson = lessons[0];
       <span class="section-hint">{copy.lessonsHint} · {lessons.length}</span>
     </div>
     <LessonSearch placeholder={copy.search} noResultsText={copy.noResults} />
+    <p class="fulltext-hint">
+      <a href={`${prefix}/search`}>{copy.fullText}</a>
+    </p>
     <ol class="lesson-list" id="lesson-list">
       {
         lessons.map((lesson, index) => {
@@ -71,10 +79,11 @@ const firstLesson = lessons[0];
           const LessonIcon = ICONS[icon as keyof typeof ICONS];
           return (
             <li data-title={lesson.data.title.toLowerCase()}>
-              <a href={`${prefix}/lessons/${lesson.id}`}>
+              <a href={`${prefix}/lessons/${lesson.id}`} data-lesson-id={lesson.id}>
                 <span class="lesson-number">{String(index + 1).padStart(2, "0")}</span>
                 <LessonIcon size={18} color={color} class="lesson-icon" />
                 <span class="lesson-title">{lesson.data.title}</span>
+                <Check size={16} class="read-mark" aria-label={copy.read} />
               </a>
             </li>
           );
@@ -165,6 +174,11 @@ const firstLesson = lessons[0];
 
   .section-hint {
     color: var(--color-text-subtle);
+    font-size: var(--font-size-sm);
+  }
+
+  .fulltext-hint {
+    margin: calc(var(--space-4) * -1) 0 var(--space-11);
     font-size: var(--font-size-sm);
   }
 

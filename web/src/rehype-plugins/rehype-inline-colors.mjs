@@ -20,8 +20,10 @@ function walk(node) {
     if (child.type === "element") {
       const match = typeof child.properties?.style === "string" && child.properties.style.match(INLINE_COLOR);
       if (match) {
-        const { style: _style, ...rest } = child.properties;
-        child.properties = { ...rest, className: [...(rest.className ?? []), `mark-${match[1].toLowerCase()}`] };
+        const properties = { ...child.properties };
+        delete properties.style;
+        properties.className = [...(properties.className ?? []), `mark-${match[1].toLowerCase()}`];
+        child.properties = properties;
       }
       walk(child);
     }

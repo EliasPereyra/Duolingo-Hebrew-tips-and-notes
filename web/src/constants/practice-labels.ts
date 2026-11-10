@@ -17,6 +17,7 @@ export interface PracticeLabels {
   verdictFair: string;
   verdictLow: string;
   reviewTitle: string;
+  best: string;
 }
 
 export const practiceLabels: Record<"en" | "es", PracticeLabels> = {
@@ -34,6 +35,7 @@ export const practiceLabels: Record<"en" | "es", PracticeLabels> = {
     incorrect: "Not quite. The answer is highlighted.",
     progress: "Question {current} of {total}",
     score: "{score} of {total} correct",
+    best: "Your best: {score} of {total}",
     verdictPerfect: "Perfect round. Every answer was right.",
     verdictGood: "Nicely done. Replay the ones you missed below.",
     verdictFair: "Getting there. Replay the ones you missed, then try again.",
@@ -54,6 +56,7 @@ export const practiceLabels: Record<"en" | "es", PracticeLabels> = {
     incorrect: "Casi. La respuesta correcta está resaltada.",
     progress: "Pregunta {current} de {total}",
     score: "{score} de {total} correctas",
+    best: "Tu mejor resultado: {score} de {total}",
     verdictPerfect: "Ronda perfecta. Todas las respuestas fueron correctas.",
     verdictGood: "Bien hecho. Vuelve a escuchar las que fallaste.",
     verdictFair: "Vas bien. Vuelve a escuchar las que fallaste y prueba otra vez.",

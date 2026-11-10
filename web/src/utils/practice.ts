@@ -93,6 +93,30 @@ function cloneTemplate<T extends HTMLElement>(template: HTMLTemplateElement) {
   return template.content.firstElementChild?.cloneNode(true) as T;
 }
 
+// Best score per lesson, kept in this browser only.
+const BEST_KEY = "practiceBest";
+type BestScores = Record<string, { score: number; total: number }>;
+
+function readBest(): BestScores {
+  try {
+    return JSON.parse(localStorage.getItem(BEST_KEY) ?? "{}") as BestScores;
+  } catch {
+    return {};
+  }
+}
+
+function saveBest(lessonId: string, score: number, total: number) {
+  const best = readBest();
+  const previous = best[lessonId];
+  if (previous && previous.score / previous.total >= score / total) return;
+  best[lessonId] = { score, total };
+  try {
+    localStorage.setItem(BEST_KEY, JSON.stringify(best));
+  } catch {
+    // storage unavailable - the score just isn't remembered
+  }
+}
+
 function initPracticeSection(section: HTMLElement) {
   const $ = <T extends HTMLElement>(selector: string) => section.querySelector<T>(selector);
 
@@ -144,6 +168,16 @@ function initPracticeSection(section: HTMLElement) {
 
   let session: Question[] = [];
   let results: boolean[] = [];
+
+  const lessonId = section.dataset.practiceLesson ?? "";
+  const bestText = $("[data-best]");
+  const renderBest = () => {
+    const best = readBest()[lessonId];
+    if (!bestText || !best) return;
+    bestText.textContent = format(labels.best, best);
+    bestText.hidden = false;
+  };
+  renderBest();
   let current = 0;
 
   const showScreen = (name: keyof typeof screens) => {
@@ -177,7 +211,7 @@ function initPracticeSection(section: HTMLElement) {
       }),
     );
 
-    playAudioFile(question.audio);
+    playAudioFile(question.audio, playButton);
   };
 
   const answer = (button: HTMLButtonElement) => {
@@ -206,6 +240,8 @@ function initPracticeSection(section: HTMLElement) {
 
   const showResults = () => {
     const score = results.filter(Boolean).length;
+    saveBest(lessonId, score, session.length);
+    renderBest();
     scoreText.textContent = format(labels.score, { score, total: session.length });
     verdict.textContent = verdictFor(score, session.length, labels);
 

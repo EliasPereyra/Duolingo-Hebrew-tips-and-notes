@@ -10,15 +10,20 @@
   padding: var(--space-14);
 }
 
-/* Below the two-column breakpoint the practice panel sits under the lesson. */
-.lesson-practice {
+/* Below the two-column breakpoint the aside (TOC + practice) sits under the lesson. */
+.lesson-aside {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 var(--space-14) var(--space-14);
 }
 
+/* The inline TOC is for narrow screens; wide screens get the one in the aside. */
+.toc-side {
+  display: none;
+}
+
 @media (min-width: 1280px) {
-  .lesson-layout.has-practice {
+  .lesson-layout.has-aside {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 22rem;
     gap: var(--space-15);
@@ -32,18 +37,28 @@
       padding-inline: 0;
     }
 
-    /* Starts below the fixed language switcher and follows the reader down the lesson. */
-    .lesson-practice {
+    /* Starts below the fixed top controls and follows the reader down the lesson. */
+    .lesson-aside {
       max-width: none;
       margin: 0;
       padding: calc(var(--space-16) + var(--space-9)) 0 var(--space-14);
     }
 
-    .practice {
+    .aside-sticky {
       position: sticky;
       top: calc(var(--space-16) + var(--space-9));
+      display: grid;
+      gap: var(--space-11);
       max-height: calc(100vh - var(--space-16) - var(--space-14));
       overflow-y: auto;
+    }
+
+    .toc-inline {
+      display: none;
+    }
+
+    .toc-side {
+      display: block;
     }
   }
 }
@@ -52,6 +67,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: var(--space-9);
   margin-bottom: var(--space-14);
   padding-bottom: var(--space-9);
   border-bottom: 1px solid var(--color-border-subtle);
@@ -65,14 +81,181 @@
   font-size: var(--font-size-base);
 }
 
-.external-links {
+.lesson-tools {
   display: flex;
-  gap: var(--space-9);
+  flex-wrap: wrap;
+  gap: var(--space-4);
 }
 
-.external-links a {
-  color: var(--color-accent);
+.tool-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-7);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-text-muted);
+  font-family: inherit;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+
+  &:hover {
+    border-color: var(--color-accent);
+    color: var(--color-text-heading);
+  }
+
+  &[aria-pressed="true"] {
+    background: var(--color-accent-bg);
+    border-color: var(--color-accent-bg-active);
+    color: var(--color-accent);
+  }
+
+  [lang="he"] {
+    font-family: var(--font-hebrew);
+    font-size: var(--font-size-md);
+    line-height: 1;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.lesson-title {
+  font-size: var(--font-size-3xl);
+  line-height: 1.2;
+  margin-bottom: var(--space-12);
+}
+
+/* Table of contents, numbered with Hebrew letters like the section headings. */
+.toc {
+  font-size: var(--font-size-sm-alt);
+
+  ol {
+    list-style-type: hebrew;
+    padding-left: var(--space-13);
+    margin: 0;
+  }
+
+  li {
+    padding: var(--space-1) 0;
+
+    &::marker {
+      color: var(--color-clay);
+      font-family: var(--font-hebrew);
+    }
+  }
+
+  a {
+    color: var(--color-text-muted);
+
+    &:hover {
+      color: var(--color-accent);
+    }
+  }
+}
+
+.toc-inline {
+  margin-bottom: var(--space-14);
+  padding: var(--space-7) var(--space-11);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-subtle);
+
+  summary {
+    cursor: pointer;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-heading);
+  }
+
+  &[open] summary {
+    margin-bottom: var(--space-5);
+  }
+}
+
+.toc-title {
+  margin-bottom: var(--space-5);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+/* Section anchors land below the fixed top controls. */
+.lesson-content :is(h2, h3) {
+  scroll-margin-top: var(--space-16);
+}
+
+.lesson-footer {
+  margin-top: var(--space-16);
+  padding-top: var(--space-12);
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-7);
+  margin-bottom: var(--space-12);
+}
+
+.pager-link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-9) var(--space-11);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--color-example-bg);
+  transition: border-color var(--transition-fast);
+
+  &:hover {
+    border-color: var(--color-accent);
+    text-decoration: none;
+  }
+}
+
+.pager-next {
+  grid-column: 2;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.pager-label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+}
+
+.pager-title {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-heading);
+}
+
+.sources {
   font-size: var(--font-size-sm);
+  color: var(--color-text-subtle);
+
+  a {
+    color: var(--color-text-muted);
+    text-decoration: underline;
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 3px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -80,7 +263,7 @@
     padding: var(--space-11);
   }
 
-  .lesson-practice {
+  .lesson-aside {
     padding: 0 var(--space-11) var(--space-11);
   }
 
@@ -88,6 +271,22 @@
     flex-wrap: wrap;
     align-items: flex-start;
     gap: var(--space-7);
+  }
+
+  .lesson-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .pager {
+    grid-template-columns: 1fr;
+  }
+
+  .pager-next {
+    grid-column: 1;
+  }
+
+  .tool-label {
+    display: none;
   }
 }
 
@@ -98,10 +297,10 @@
   counter-reset: section;
 
   /* Sections are numbered with Hebrew letters: א, ב, ג... */
+  /* The letter hangs in the left gutter so mixed inline content flows normally. */
   h2 {
-    display: flex;
-    align-items: baseline;
-    gap: var(--space-7);
+    position: relative;
+    padding-left: 1.6em;
     font-size: var(--font-size-2xl);
     margin: var(--space-16) 0 var(--space-11);
     padding-bottom: var(--space-5);
@@ -110,8 +309,8 @@
 
     &::before {
       content: counter(section, hebrew);
-      flex-shrink: 0;
-      min-width: 1.2em;
+      position: absolute;
+      left: 0;
       font-family: var(--font-hebrew);
       font-weight: var(--font-weight-normal);
       color: var(--color-clay);
@@ -197,6 +396,11 @@
     }
   }
 
+  /* Consecutive examples read as one group. */
+  p.example + p.example {
+    margin-top: calc(var(--space-4) - var(--space-11));
+  }
+
   /* Blockquotes read as margin notes. */
   blockquote {
     margin: var(--space-11) 0;
@@ -280,4 +484,59 @@
 /* Hebrew inside a colored cell keeps the cell's color. */
 .lesson-content :is(.mark-blue, .mark-green) :lang(he) {
   color: inherit;
+}
+
+/* Transliteration next to Hebrew, e.g. "(hakélev)" (marked by rehype-hebrew). */
+.lesson-content .translit {
+  font-style: italic;
+  color: var(--color-text-muted);
+
+  strong {
+    color: inherit;
+  }
+}
+
+/* Fade the right edge of a table that scrolls sideways (see lesson-tools.ts). */
+.lesson-content .table-wrapper.has-overflow:not(.at-end) {
+  mask-image: linear-gradient(to right, black calc(100% - 3rem), transparent);
+}
+
+@media print {
+  .lesson-header,
+  .lesson-aside,
+  .toc-inline,
+  .pager {
+    display: none;
+  }
+
+  .lesson,
+  .lesson-layout.has-aside {
+    display: block;
+    max-width: none;
+    padding: 0;
+  }
+
+  .lesson-content {
+    font-size: 11pt;
+
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+
+    .table-wrapper {
+      overflow: visible;
+      mask-image: none;
+    }
+
+    tr,
+    p.example,
+    blockquote {
+      break-inside: avoid;
+    }
+  }
+
+  .lesson-footer {
+    margin-top: var(--space-12);
+  }
 }

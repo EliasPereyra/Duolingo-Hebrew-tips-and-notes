@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { Menu, X } from "reicon-astro";
+import { Menu, X, Check, Search } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
 import { sortByCourseOrder } from "../utils/course-order";
@@ -37,6 +37,14 @@ const iconMap = buildLessonIconMap(enLessons);
       <span class="wordmark-sub">{locale === "es" ? "Consejos y notas" : "Tips & Notes"}</span>
     </span>
   </a>
+  <div class="sidebar-search">
+    <pagefind-modal-trigger placeholder={locale === "es" ? "Buscar" : "Search"}></pagefind-modal-trigger>
+    {/* Shown until the search UI loads (and in dev, where there is no index). */}
+    <a href={`${prefix}/search`} class="search-fallback">
+      <Search size={16} />
+      {locale === "es" ? "Buscar en las notas" : "Search the notes"}
+    </a>
+  </div>
   <nav>
     <ul>
       {
@@ -47,9 +55,10 @@ const iconMap = buildLessonIconMap(enLessons);
           const LessonIcon = ICONS[icon as keyof typeof ICONS];
           return (
             <li>
-              <a href={href} class:list={{ active: isActive }}>
+              <a href={href} class:list={{ active: isActive }} data-lesson-id={lesson.id}>
                 <LessonIcon size={16} color={color} class="lesson-icon" />
                 {lesson.data.title}
+                <Check size={14} class="read-mark" aria-label={locale === "es" ? "Leída" : "Read"} />
               </a>
             </li>
           );
@@ -152,6 +161,37 @@ const iconMap = buildLessonIconMap(enLessons);
   .wordmark-sub {
     font-size: var(--font-size-xs);
     color: var(--color-text-muted);
+  }
+
+  .sidebar-search {
+    margin: 0 var(--space-11) var(--space-7);
+  }
+
+  pagefind-modal-trigger {
+    display: block;
+  }
+
+  pagefind-modal-trigger:not(:defined),
+  pagefind-modal-trigger:defined + .search-fallback {
+    display: none;
+  }
+
+  .search-fallback {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-7);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm-alt);
+
+    &:hover {
+      border-color: var(--color-accent);
+      color: var(--color-text-heading);
+      text-decoration: none;
+    }
   }
 
   nav ul {

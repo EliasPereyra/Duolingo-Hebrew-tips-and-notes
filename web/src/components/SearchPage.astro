@@ -1,0 +1,91 @@
+---
+interface Props {
+  locale: "en" | "es";
+}
+
+const { locale } = Astro.props;
+// The search bundle only exists after `pagefind` indexes the build output.
+const available = import.meta.env.PROD;
+
+const copy = {
+  en: {
+    title: "Search the notes",
+    intro: "Search every lesson for a word or phrase, in English or Hebrew.",
+    unavailable: "Search is available on the built site (run pnpm build && pnpm preview).",
+    placeholder: "Search for a word, e.g. כלב or adjectives",
+  },
+  es: {
+    title: "Buscar en las notas",
+    intro: "Busca una palabra o frase en todas las lecciones, en español o en hebreo.",
+    unavailable: "La búsqueda funciona en el sitio compilado (ejecuta pnpm build && pnpm preview).",
+    placeholder: "Busca una palabra, p. ej. כלב o adjetivos",
+  },
+}[locale];
+---
+
+<main>
+  <h1>{copy.title}</h1>
+  <p class="intro">{copy.intro}</p>
+  {
+    available ? (
+      <div class="search">
+        <pagefind-input instance="page" placeholder={copy.placeholder} autofocus />
+        <pagefind-summary instance="page" />
+        <pagefind-results instance="page" />
+      </div>
+    ) : (
+      <p class="unavailable">{copy.unavailable}</p>
+    )
+  }
+</main>
+
+<script>
+  // Supports links like /search?q=כלב (the modal has its own instance).
+  document.addEventListener("astro:page-load", async () => {
+    const query = new URLSearchParams(location.search).get("q");
+    if (!query || !document.querySelector("pagefind-input[instance='page']")) return;
+
+    await customElements.whenDefined("pagefind-input");
+    const input = document.querySelector<HTMLInputElement>("pagefind-input[instance='page'] input");
+    if (!input) return;
+    input.value = query;
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+  });
+</script>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-16) var(--space-14);
+  }
+
+  h1 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-5);
+  }
+
+  .intro {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-13);
+  }
+
+  .unavailable {
+    padding: var(--space-9) var(--space-11);
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-muted);
+  }
+
+  .search {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-9);
+  }
+
+  @media (max-width: 768px) {
+    main {
+      padding: var(--space-12) var(--space-11);
+    }
+  }
+</style>
