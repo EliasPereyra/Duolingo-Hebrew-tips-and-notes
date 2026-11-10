@@ -326,3 +326,31 @@ a {
     text-decoration: underline;
   }
 }
+
+/* Printing: just the lesson, in the light palette (e.g. conjugation tables as a study sheet). */
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  .sidebar,
+  .sidebar-toggle,
+  .sidebar-backdrop,
+  .top-controls,
+  .skip-link,
+  .tts-btn,
+  body::before {
+    display: none !important;
+  }
+
+  html,
+  body {
+    display: block;
+    background: none;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+}

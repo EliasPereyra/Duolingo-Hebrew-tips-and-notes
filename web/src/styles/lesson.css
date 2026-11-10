@@ -500,3 +500,43 @@
 .lesson-content .table-wrapper.has-overflow:not(.at-end) {
   mask-image: linear-gradient(to right, black calc(100% - 3rem), transparent);
 }
+
+@media print {
+  .lesson-header,
+  .lesson-aside,
+  .toc-inline,
+  .pager {
+    display: none;
+  }
+
+  .lesson,
+  .lesson-layout.has-aside {
+    display: block;
+    max-width: none;
+    padding: 0;
+  }
+
+  .lesson-content {
+    font-size: 11pt;
+
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+
+    .table-wrapper {
+      overflow: visible;
+      mask-image: none;
+    }
+
+    tr,
+    p.example,
+    blockquote {
+      break-inside: avoid;
+    }
+  }
+
+  .lesson-footer {
+    margin-top: var(--space-12);
+  }
+}
