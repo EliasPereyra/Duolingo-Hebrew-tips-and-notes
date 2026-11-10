@@ -72,6 +72,7 @@ web/
 - Design tokens (CSS custom properties) live in `src/styles/tokens.css`; base/reset rules live in `src/styles/global.css`. Both are imported once from `Layout.astro`.
 - Lesson markdown styles live in `src/styles/lesson.css` (imported by both lesson routes), since `<Content />` output doesn't get Astro scope attributes.
 - Visual direction is a "study notebook": warm paper, ink text, tekhelet accent (`--color-accent`), clay secondary accent (`--color-clay`), Frank Ruhl Libre for headings and Hebrew. Tokens have a dark-mode override in `tokens.css`; never hardcode colors.
+- Search uses the Pagefind Component UI (`<pagefind-modal>` in `Layout.astro`, opened from the sidebar or with Ctrl/Cmd+K, plus the `/search` page). It is themed only through the `--pf-*` variables in `global.css`, and its bundle exists only after `pnpm build`.
 - Hebrew in lessons is wrapped in `<span lang="he">` by `src/rehype-plugins/rehype-hebrew.mjs`; style it with `:lang(he)`.
 - Follow BEM-like class naming for clarity (e.g., `.lesson-header`, `.lesson-content`). But avoid using very log BEM-like classes, to keep the code clear.
 - Prefer CSS custom properties (from the design system) over hardcoded colors, sizes, and other magic values.

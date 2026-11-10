@@ -354,3 +354,107 @@ a {
     padding: 0;
   }
 }
+
+/*
+ * Pagefind Component UI (search modal, trigger and the /search page).
+ * Its elements reset inherited styles, so they are themed through --pf-*.
+ * The tokens use light-dark(), so the search follows the site theme.
+ * `:root:root` outranks the defaults in pagefind-component-ui.css.
+ *
+ * The components reset color-scheme, so light-dark() would always resolve
+ * to light inside them. Registering the colors as <color> resolves them
+ * here on :root, where the active theme applies, and they inherit as-is.
+ */
+@property --pf-text {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-text-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-text-muted {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-background {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-border {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-border-focus {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-outline-focus {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-hover {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-mark {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-skeleton {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-skeleton-shine {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+@property --pf-modal-backdrop {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: transparent;
+}
+
+:root:root {
+  --pf-text: var(--color-text-heading);
+  --pf-text-secondary: var(--color-text);
+  --pf-text-muted: var(--color-text-muted);
+  --pf-background: var(--color-bg);
+  --pf-border: var(--color-border);
+  --pf-border-focus: var(--color-accent);
+  --pf-outline-focus: var(--color-accent);
+  --pf-hover: var(--color-bg-hover);
+  --pf-mark: var(--color-accent);
+  --pf-skeleton: var(--color-bg-subtle);
+  --pf-skeleton-shine: var(--color-bg-hover);
+  --pf-shadow-sm: 0 1px 3px var(--color-shadow);
+  --pf-shadow-md: var(--shadow-sm);
+  --pf-shadow-lg: 0 12px 40px var(--color-shadow-strong);
+  --pf-modal-backdrop: var(--color-shadow-strong);
+  --pf-font: var(--font-sans);
+  --pf-border-radius: var(--radius-md);
+  --pf-result-title-font-size: 15px;
+  --pf-result-excerpt-font-size: 14px;
+}

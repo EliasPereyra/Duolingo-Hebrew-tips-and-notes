@@ -92,6 +92,15 @@ const description = descriptions[locale];
     <title>{title}</title>
     <Font cssVariable="--font-manrope" preload />
     <Font cssVariable="--font-frank-ruhl" preload />
+    {
+      /* The search bundle only exists after `pagefind` indexes the build output. */
+      import.meta.env.PROD && (
+        <>
+          <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
+          <script is:inline type="module" src="/pagefind/pagefind-component-ui.js" />
+        </>
+      )
+    }
     <ClientRouter />
   </head>
   <body>
@@ -142,6 +151,7 @@ const description = descriptions[locale];
     <div class="content" id="main-content" tabindex="-1" transition:animate={slide({ duration: "0.2s" })}>
       <slot />
     </div>
+    <pagefind-modal reset-on-close></pagefind-modal>
   </body>
 </html>
 

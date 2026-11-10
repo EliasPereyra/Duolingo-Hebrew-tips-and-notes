@@ -37,10 +37,14 @@ const iconMap = buildLessonIconMap(enLessons);
       <span class="wordmark-sub">{locale === "es" ? "Consejos y notas" : "Tips & Notes"}</span>
     </span>
   </a>
-  <a href={`${prefix}/search`} class:list={["sidebar-search", { active: pathname.replace(/\/$/, "") === `${prefix}/search` }]}>
-    <Search size={16} />
-    {locale === "es" ? "Buscar en las notas" : "Search the notes"}
-  </a>
+  <div class="sidebar-search">
+    <pagefind-modal-trigger placeholder={locale === "es" ? "Buscar" : "Search"}></pagefind-modal-trigger>
+    {/* Shown until the search UI loads (and in dev, where there is no index). */}
+    <a href={`${prefix}/search`} class="search-fallback">
+      <Search size={16} />
+      {locale === "es" ? "Buscar en las notas" : "Search the notes"}
+    </a>
+  </div>
   <nav>
     <ul>
       {
@@ -160,10 +164,22 @@ const iconMap = buildLessonIconMap(enLessons);
   }
 
   .sidebar-search {
+    margin: 0 var(--space-11) var(--space-7);
+  }
+
+  pagefind-modal-trigger {
+    display: block;
+  }
+
+  pagefind-modal-trigger:not(:defined),
+  pagefind-modal-trigger:defined + .search-fallback {
+    display: none;
+  }
+
+  .search-fallback {
     display: flex;
     align-items: center;
     gap: var(--space-4);
-    margin: 0 var(--space-11) var(--space-7);
     padding: var(--space-4) var(--space-7);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
@@ -171,8 +187,7 @@ const iconMap = buildLessonIconMap(enLessons);
     color: var(--color-text-muted);
     font-size: var(--font-size-sm-alt);
 
-    &:hover,
-    &.active {
+    &:hover {
       border-color: var(--color-accent);
       color: var(--color-text-heading);
       text-decoration: none;

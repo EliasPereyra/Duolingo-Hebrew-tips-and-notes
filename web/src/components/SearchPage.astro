@@ -4,6 +4,8 @@ interface Props {
 }
 
 const { locale } = Astro.props;
+// The search bundle only exists after `pagefind` indexes the build output.
+const available = import.meta.env.PROD;
 
 const copy = {
   en: {
@@ -24,47 +26,31 @@ const copy = {
 <main>
   <h1>{copy.title}</h1>
   <p class="intro">{copy.intro}</p>
-  <div id="search" data-placeholder={copy.placeholder}></div>
-  <p class="unavailable" id="search-unavailable" hidden>{copy.unavailable}</p>
+  {
+    available ? (
+      <div class="search">
+        <pagefind-input instance="page" placeholder={copy.placeholder} autofocus />
+        <pagefind-summary instance="page" />
+        <pagefind-results instance="page" />
+      </div>
+    ) : (
+      <p class="unavailable">{copy.unavailable}</p>
+    )
+  }
 </main>
 
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<script>
+  // Supports links like /search?q=כלב (the modal has its own instance).
+  document.addEventListener("astro:page-load", async () => {
+    const query = new URLSearchParams(location.search).get("q");
+    if (!query || !document.querySelector("pagefind-input[instance='page']")) return;
 
-<script is:inline data-astro-rerun>
-  (function () {
-    const container = document.getElementById("search");
-    const unavailable = document.getElementById("search-unavailable");
-    if (!container) return;
-
-    const start = () => {
-      // eslint-disable-next-line no-undef
-      new PagefindUI({
-        element: "#search",
-        showSubResults: true,
-        showImages: false,
-        resetStyles: false,
-        translations: { placeholder: container.dataset.placeholder },
-      });
-      const query = new URLSearchParams(location.search).get("q");
-      if (query) {
-        const input = container.querySelector("input");
-        if (input) {
-          input.value = query;
-          input.dispatchEvent(new Event("input", { bubbles: true }));
-        }
-      }
-    };
-
-    // The index only exists after `pagefind` runs on the build output.
-    if (window.PagefindUI) return start();
-    const script = document.createElement("script");
-    script.src = "/pagefind/pagefind-ui.js";
-    script.onload = start;
-    script.onerror = () => {
-      if (unavailable) unavailable.hidden = false;
-    };
-    document.head.appendChild(script);
-  })();
+    await customElements.whenDefined("pagefind-input");
+    const input = document.querySelector<HTMLInputElement>("pagefind-input[instance='page'] input");
+    if (!input) return;
+    input.value = query;
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+  });
 </script>
 
 <style>
@@ -91,39 +77,10 @@ const copy = {
     color: var(--color-text-muted);
   }
 
-  /* Pagefind UI themed with the site's design tokens. */
-  #search {
-    --pagefind-ui-scale: 0.9;
-    --pagefind-ui-primary: var(--color-accent);
-    --pagefind-ui-text: var(--color-text);
-    --pagefind-ui-background: var(--color-bg);
-    --pagefind-ui-border: var(--color-border);
-    --pagefind-ui-tag: var(--color-bg-subtle);
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: var(--radius-md);
-    --pagefind-ui-font: var(--font-sans);
-  }
-
-  #search :global(mark) {
-    background: var(--color-accent-bg);
-    color: var(--color-text-heading);
-    border-radius: 2px;
-  }
-
-  #search :global(.pagefind-ui__search-clear) {
-    background: transparent;
-    border: none;
-    color: var(--color-text-muted);
-    font-family: inherit;
-    cursor: pointer;
-  }
-
-  #search :global(.pagefind-ui__search-clear:hover) {
-    color: var(--color-accent);
-  }
-
-  #search :global(.pagefind-ui__result-link) {
-    font-family: var(--font-serif);
+  .search {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-9);
   }
 
   @media (max-width: 768px) {
