@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const CUE_PATTERN = /^(for )?examples?:?$/i;
 const HEBREW_RANGE = /[֐-׿]/g;
+const HEBREW_TEST = /[֐-׿]/;
 /**
  * Matches a maximal run of non-Hebrew content (may include interior spaces, e.g. an
  * English gloss like " - fish they (are) tasty) "), but only when it contains at least
@@ -77,24 +78,46 @@ function isHeavyHebrew(text) {
   return hebrewCount / nonSpace.length > 0.3;
 }
 
+// A short Hebrew line with a brief gloss, e.g. "she/it היא" or "ellos (m) הם".
+const MAX_GLOSS_WORDS = 5;
+// Lines inside a cue run may carry a longer gloss, but not whole explanations.
+const MAX_CUE_GLOSS_WORDS = 12;
+
+function glossWordCount(text) {
+  return (text.replace(HEBREW_RANGE, " ").match(/[\p{L}\p{N}]+/gu) ?? []).length;
+}
+
+function isShortGloss(text, maxWords = MAX_GLOSS_WORDS) {
+  return HEBREW_TEST.test(text) && glossWordCount(text) <= maxWords;
+}
+
+// "Examples using את:" introduces examples rather than being one.
+const isIntro = (text) => text.endsWith(":");
+
 function walk(node, isSpanish) {
   if (!node.children) return;
 
-  let previousWasCue = false;
+  // After an "Examples:" cue, every following Hebrew paragraph is an example
+  // until one without Hebrew ends the run.
+  let inCueRun = false;
   for (const child of node.children) {
     if (child.type === "text" && child.value.trim() === "") {
       continue;
     }
     if (child.type === "element" && child.tagName === "p") {
       const text = getText(child).trim();
-      if (previousWasCue) {
-        markAsExample(child, isSpanish);
-      } else if (isHeavyHebrew(text)) {
+      const hasHebrew = HEBREW_TEST.test(text);
+      const isExample = inCueRun ? isShortGloss(text, MAX_CUE_GLOSS_WORDS) : isHeavyHebrew(text) || isShortGloss(text);
+      if (isExample && !isIntro(text)) {
         markAsExample(child, isSpanish);
       }
-      previousWasCue = CUE_PATTERN.test(text);
+      if (CUE_PATTERN.test(text)) {
+        inCueRun = true;
+      } else if (!hasHebrew) {
+        inCueRun = false;
+      }
     } else {
-      previousWasCue = false;
+      inCueRun = false;
     }
     walk(child, isSpanish);
   }
