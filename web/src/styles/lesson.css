@@ -95,13 +95,27 @@
   font-size: var(--font-size-lg);
   line-height: var(--line-height-relaxed);
   color: var(--color-text);
+  counter-reset: section;
 
+  /* Sections are numbered with Hebrew letters: א, ב, ג... */
   h2 {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-7);
     font-size: var(--font-size-2xl);
-    margin: var(--space-15) 0 var(--space-11);
-    padding-bottom: var(--space-4);
+    margin: var(--space-16) 0 var(--space-11);
+    padding-bottom: var(--space-5);
     border-bottom: 1px solid var(--color-border-subtle);
-    color: var(--color-text-heading);
+    counter-increment: section;
+
+    &::before {
+      content: counter(section, hebrew);
+      flex-shrink: 0;
+      min-width: 1.2em;
+      font-family: var(--font-hebrew);
+      font-weight: var(--font-weight-normal);
+      color: var(--color-clay);
+    }
 
     &:first-child {
       margin-top: 0;
@@ -110,19 +124,23 @@
 
   h3 {
     font-size: var(--font-size-xl);
-    margin: var(--space-13) 0 var(--space-8);
-    color: var(--color-text-heading);
+    margin: var(--space-14) 0 var(--space-8);
   }
 
   p {
     margin: 0 0 var(--space-12);
   }
 
+  strong {
+    color: var(--color-text-heading);
+  }
+
   .table-wrapper {
     margin: var(--space-11) 0 var(--space-12);
     overflow-x: auto;
-    border: 1px solid var(--color-border-subtle);
+    border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
+    background: var(--color-example-bg);
   }
 
   table {
@@ -133,7 +151,7 @@
 
   th,
   td {
-    padding: var(--space-8) var(--space-10);
+    padding: var(--space-7) var(--space-10);
     border-bottom: 1px solid var(--color-border-subtle);
     border-right: 1px solid var(--color-border-subtle);
     text-align: left;
@@ -149,24 +167,48 @@
   }
 
   th {
-    background: var(--color-bg-subtle);
+    background: var(--color-surface);
+    font-size: var(--font-size-sm);
     font-weight: var(--font-weight-semibold);
-    color: var(--color-text-heading);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--color-bg-subtle);
   }
 
   tbody tr:hover {
-    background: var(--color-bg-hover);
+    background: var(--color-accent-subtle-bg);
   }
 
-  blockquote,
+  /* Example sentences: a card with the Hebrew as the focal point. */
   p.example {
     margin: var(--space-11) 0;
-    padding: var(--space-7) var(--space-10);
-    border-left: 3px solid var(--color-note-border);
-    background: var(--color-note-bg);
-    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-    color: var(--color-text-heading);
+    padding: var(--space-9) var(--space-11);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--radius-md);
+    background: var(--color-example-bg);
+    color: var(--color-text-muted);
 
+    :lang(he) {
+      font-size: 1.35em;
+    }
+  }
+
+  /* Blockquotes read as margin notes. */
+  blockquote {
+    margin: var(--space-11) 0;
+    padding: var(--space-9) var(--space-11);
+    border-left: 3px solid var(--color-note-border);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    background: var(--color-note-bg);
+    color: var(--color-text-heading);
+  }
+
+  p.example,
+  blockquote {
     p {
       margin: 0;
 
@@ -184,6 +226,10 @@
 
   li {
     margin: var(--space-3) 0;
+
+    &::marker {
+      color: var(--color-clay);
+    }
 
     p {
       margin: 0;
