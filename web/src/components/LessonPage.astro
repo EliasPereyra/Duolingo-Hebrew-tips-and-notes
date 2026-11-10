@@ -1,0 +1,179 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import { ArrowLeft, ArrowRight } from "reicon-astro";
+import Practice from "./Practice.astro";
+import type { PracticeData } from "../utils/practice-data";
+import { TIPS_AND_NOTES_MD, ORIGINAL_HTML_VERSION } from "../constants/external-links";
+
+interface LessonLink {
+  id: string;
+  title: string;
+}
+
+interface Props {
+  locale: "en" | "es";
+  lesson: CollectionEntry<"lessons"> | CollectionEntry<"lessonsEs">;
+  practice?: PracticeData;
+  prev?: LessonLink;
+  next?: LessonLink;
+}
+
+const { locale, lesson, practice, prev, next } = Astro.props;
+const prefix = locale === "es" ? "/es" : "";
+
+const copy = {
+  en: {
+    back: "Back to lessons",
+    toc: "In this lesson",
+    niqqud: "Niqqud",
+    niqqudHint: "Show or hide the Hebrew vowel points",
+    slow: "Slow audio",
+    slowHint: "Play pronunciations at 0.75× speed",
+    prev: "Previous",
+    next: "Next",
+    sources: "Sources",
+    sourceMd: "Source Markdown",
+    sourceHtml: "Full HTML version",
+  },
+  es: {
+    back: "Volver a las lecciones",
+    toc: "En esta lección",
+    niqqud: "Nikud",
+    niqqudHint: "Mostrar u ocultar los puntos vocálicos del hebreo",
+    slow: "Audio lento",
+    slowHint: "Reproducir la pronunciación a velocidad 0.75×",
+    prev: "Anterior",
+    next: "Siguiente",
+    sources: "Fuentes",
+    sourceMd: "Markdown original",
+    sourceHtml: "Versión HTML completa",
+  },
+}[locale];
+
+const { Content, headings } = await render(lesson);
+const sections = headings.filter((heading) => heading.depth === 2);
+const showToc = sections.length >= 3;
+// Niqqud and cantillation marks (U+0591-U+05C7, minus maqaf/punctuation).
+const hasNiqqud = /[֑-ׇֽֿׁׂׅׄ]/.test(lesson.body ?? "");
+const hasAside = showToc || Boolean(practice);
+---
+
+<div class:list={["lesson-layout", { "has-aside": hasAside }]} data-current-lesson={lesson.id}>
+  <article class="lesson">
+    <div class="lesson-header">
+      <a href={prefix || "/"} class="back-link">
+        <ArrowLeft size={16} />
+        {copy.back}
+      </a>
+      <div class="lesson-tools">
+        {
+          hasNiqqud && (
+            <button type="button" class="tool-toggle" id="niqqud-toggle" aria-pressed="true" title={copy.niqqudHint}>
+              <span lang="he" aria-hidden="true">
+                אָ
+              </span>
+              {copy.niqqud}
+            </button>
+          )
+        }
+        <button type="button" class="tool-toggle" id="slow-audio-toggle" aria-pressed="false" title={copy.slowHint} hidden>
+          0.75×
+          <span class="tool-label">{copy.slow}</span>
+        </button>
+      </div>
+    </div>
+
+    <div data-pagefind-body>
+      <h1 class="lesson-title" data-pagefind-meta="title">{lesson.data.title}</h1>
+
+      {
+        showToc && (
+          <details class="toc toc-inline" data-pagefind-ignore>
+            <summary>{copy.toc}</summary>
+            <ol>
+              {sections.map((section) => (
+                <li>
+                  <a href={`#${section.slug}`}>{section.text}</a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        )
+      }
+
+      <div class="lesson-content">
+        <Content />
+      </div>
+    </div>
+
+    <footer class="lesson-footer">
+      {
+        (prev || next) && (
+          <nav class="pager" aria-label={locale === "es" ? "Lecciones" : "Lessons"}>
+            {prev ? (
+              <a class="pager-link pager-prev" href={`${prefix}/lessons/${prev.id}`} rel="prev">
+                <span class="pager-label">
+                  <ArrowLeft size={14} />
+                  {copy.prev}
+                </span>
+                <span class="pager-title">{prev.title}</span>
+              </a>
+            ) : (
+              <span />
+            )}
+            {next && (
+              <a class="pager-link pager-next" href={`${prefix}/lessons/${next.id}`} rel="next">
+                <span class="pager-label">
+                  {copy.next}
+                  <ArrowRight size={14} />
+                </span>
+                <span class="pager-title">{next.title}</span>
+              </a>
+            )}
+          </nav>
+        )
+      }
+      <p class="sources">
+        {copy.sources}:
+        <a href={TIPS_AND_NOTES_MD} target="_blank" rel="noopener noreferrer">{copy.sourceMd}</a>
+        ·
+        <a href={ORIGINAL_HTML_VERSION} target="_blank" rel="noopener noreferrer">{copy.sourceHtml}</a>
+      </p>
+    </footer>
+  </article>
+
+  {
+    hasAside && (
+      <aside class="lesson-aside">
+        <div class="aside-sticky">
+          {showToc && (
+            <nav class="toc toc-side" aria-label={copy.toc}>
+              <p class="toc-title">{copy.toc}</p>
+              <ol>
+                {sections.map((section) => (
+                  <li>
+                    <a href={`#${section.slug}`}>{section.text}</a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+          {practice && <Practice data={practice} locale={locale} />}
+        </div>
+      </aside>
+    )
+  }
+</div>
+
+<script>
+  import { initLessonTools } from "../utils/lesson-tools";
+  import { recordLessonRead } from "../utils/reading-progress";
+
+  document.addEventListener("astro:page-load", () => {
+    const layout = document.querySelector<HTMLElement>(".lesson-layout[data-current-lesson]");
+    if (!layout) return;
+    recordLessonRead(layout.dataset.currentLesson ?? "");
+    initLessonTools();
+  });
+</script>

@@ -125,6 +125,7 @@ const localeHrefs = {
 
 <script>
   import { initAudioPlayback } from "../utils/audio-player";
+  import { markReadLessons } from "../utils/reading-progress";
 
   function initLangSwitcher() {
     const switcher = document.getElementById("lang-switcher");
@@ -192,6 +193,7 @@ const localeHrefs = {
 
   document.addEventListener("astro:page-load", initLangSwitcher);
   document.addEventListener("astro:page-load", initThemeToggle);
+  document.addEventListener("astro:page-load", markReadLessons);
 
   initAudioPlayback();
 </script>

@@ -229,6 +229,12 @@ body {
     transform: scale(0.94);
   }
 
+  &.is-playing {
+    background: var(--color-accent);
+    color: var(--color-on-accent);
+    animation: tts-pulse 1.2s ease-out infinite;
+  }
+
   &:disabled {
     background: var(--color-disabled-bg);
     color: var(--color-text-disabled);
@@ -241,10 +247,35 @@ body {
   }
 }
 
+@keyframes tts-pulse {
+  from {
+    box-shadow: 0 0 0 0 var(--color-accent-bg-active);
+  }
+  to {
+    box-shadow: 0 0 0 10px transparent;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .tts-btn {
     transition: none;
+
+    &.is-playing {
+      animation: none;
+    }
   }
+}
+
+/* Lessons the reader has opened (see utils/reading-progress.ts). */
+.read-mark {
+  display: none;
+  flex-shrink: 0;
+  margin-left: auto;
+  color: var(--color-success);
+}
+
+.is-read .read-mark {
+  display: block;
 }
 
 * {

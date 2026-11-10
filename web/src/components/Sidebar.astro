@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { Menu, X } from "reicon-astro";
+import { Menu, X, Check } from "reicon-astro";
 import { buildLessonIconMap } from "../utils/lesson-icons";
 import { ICONS } from "../constants/icons";
 import { sortByCourseOrder } from "../utils/course-order";
@@ -47,9 +47,10 @@ const iconMap = buildLessonIconMap(enLessons);
           const LessonIcon = ICONS[icon as keyof typeof ICONS];
           return (
             <li>
-              <a href={href} class:list={{ active: isActive }}>
+              <a href={href} class:list={{ active: isActive }} data-lesson-id={lesson.id}>
                 <LessonIcon size={16} color={color} class="lesson-icon" />
                 {lesson.data.title}
+                <Check size={14} class="read-mark" aria-label={locale === "es" ? "Leída" : "Read"} />
               </a>
             </li>
           );

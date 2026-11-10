@@ -177,7 +177,7 @@ function initPracticeSection(section: HTMLElement) {
       }),
     );
 
-    playAudioFile(question.audio);
+    playAudioFile(question.audio, playButton);
   };
 
   const answer = (button: HTMLButtonElement) => {
