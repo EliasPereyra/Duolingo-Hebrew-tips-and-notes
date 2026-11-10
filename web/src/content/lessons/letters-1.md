@@ -56,7 +56,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʔ/</td>
 
-<td>**uh** (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
+<td><strong>uh</strong> (usually silent or similar to the letter "a" in English: a placeholder for vowels)**</td>
 
 </tr>
 
@@ -84,7 +84,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/g/</td>
 
-<td>**g**o</td>
+<td><strong>g</strong>o</td>
 
 </tr>
 
@@ -98,7 +98,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/d/</td>
 
-<td>**d**og</td>
+<td><strong>d</strong>og</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/h/</td>
 
-<td>**h**en (often silent in modern colloquial speech)</td>
+<td><strong>h</strong>en (often silent in modern colloquial speech)</td>
 
 </tr>
 
@@ -126,7 +126,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/v/</td>
 
-<td>**v**et</td>
+<td><strong>v</strong>et</td>
 
 </tr>
 
@@ -140,7 +140,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/z/</td>
 
-<td>**z**oo</td>
+<td><strong>z</strong>oo</td>
 
 </tr>
 
@@ -154,7 +154,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/X/</td>
 
-<td>lo**ch**</td>
+<td>lo<strong>ch</strong></td>
 
 </tr>
 
@@ -168,7 +168,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/t/</td>
 
-<td>**t**en</td>
+<td><strong>t</strong>en</td>
 
 </tr>
 
@@ -182,7 +182,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/j/</td>
 
-<td>**y**es</td>
+<td><strong>y</strong>es</td>
 
 </tr>
 
@@ -196,7 +196,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/k/*, /X/</td>
 
-<td>**c**at, lo**ch**</td>
+<td><strong>c</strong>at, lo<strong>ch</strong></td>
 
 </tr>
 
@@ -210,7 +210,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/l/</td>
 
-<td>**l**og</td>
+<td><strong>l</strong>og</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/m/</td>
 
-<td>**m**an</td>
+<td><strong>m</strong>an</td>
 
 </tr>
 
@@ -238,7 +238,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/s/</td>
 
-<td>**s**ee</td>
+<td><strong>s</strong>ee</td>
 
 </tr>
 
@@ -266,7 +266,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**uh**</td>
+<td><strong>uh</strong></td>
 
 </tr>
 
@@ -280,7 +280,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/p/*,/f/</td>
 
-<td>**p**ay, **f**ool</td>
+<td><strong>p</strong>ay, <strong>f</strong>ool</td>
 
 </tr>
 
@@ -294,7 +294,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ts/</td>
 
-<td>ca**ts**</td>
+<td>ca<strong>ts</strong></td>
 
 </tr>
 
@@ -308,7 +308,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/k/</td>
 
-<td>**c**at</td>
+<td><strong>c</strong>at</td>
 
 </tr>
 
@@ -322,7 +322,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʁ/</td>
 
-<td>**r**un (similar to the French r)</td>
+<td><strong>r</strong>un (similar to the French r)</td>
 
 </tr>
 
@@ -336,7 +336,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**e, **s**ee</td>
+<td><strong>sh</strong>e, <strong>s</strong>ee</td>
 
 </tr>
 
@@ -350,7 +350,7 @@ Each letter is given with the pronunciation in the International Phonetic Alphab
 
 <td>/t/</td>
 
-<td>**t**ap</td>
+<td><strong>t</strong>ap</td>
 
 </tr>
 

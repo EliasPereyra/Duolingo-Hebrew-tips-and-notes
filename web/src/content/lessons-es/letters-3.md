@@ -42,7 +42,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ʔ/</td>
 
-<td>**a** (usualmente muda o similar a la letra "a" en español: un comodín para las vocales)**</td>
+<td><strong>a</strong> (usualmente muda o similar a la letra "a" en español: un comodín para las vocales)**</td>
 
 </tr>
 
@@ -56,7 +56,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/b/*,/v/</td>
 
-<td>**b**oca, **v**aca</td>
+<td><strong>b</strong>oca, <strong>v</strong>aca</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/g/</td>
 
-<td>**g**ato</td>
+<td><strong>g</strong>ato</td>
 
 </tr>
 
@@ -84,7 +84,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/d/</td>
 
-<td>**d**edo</td>
+<td><strong>d</strong>edo</td>
 
 </tr>
 
@@ -98,7 +98,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/h/</td>
 
-<td>**j**amón, suave (a menudo muda en el habla coloquial moderna)</td>
+<td><strong>j</strong>amón, suave (a menudo muda en el habla coloquial moderna)</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/v/</td>
 
-<td>**v**aca</td>
+<td><strong>v</strong>aca</td>
 
 </tr>
 
@@ -126,7 +126,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/z/</td>
 
-<td>de**s**de (sonido "z" sonoro)</td>
+<td>de<strong>s</strong>de (sonido "z" sonoro)</td>
 
 </tr>
 
@@ -154,7 +154,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/t/</td>
 
-<td>**t**aza</td>
+<td><strong>t</strong>aza</td>
 
 </tr>
 
@@ -168,7 +168,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/j/</td>
 
-<td>**y**a</td>
+<td><strong>y</strong>a</td>
 
 </tr>
 
@@ -182,7 +182,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/k/*, /X/</td>
 
-<td>**c**asa, similar a la "j" fuerte del español</td>
+<td><strong>c</strong>asa, similar a la "j" fuerte del español</td>
 
 </tr>
 
@@ -196,7 +196,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/l/</td>
 
-<td>**l**una</td>
+<td><strong>l</strong>una</td>
 
 </tr>
 
@@ -210,7 +210,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/m/</td>
 
-<td>**m**ano</td>
+<td><strong>m</strong>ano</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -238,7 +238,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/s/</td>
 
-<td>**s**apo</td>
+<td><strong>s</strong>apo</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**a** (sonido gutural)</td>
+<td><strong>a</strong> (sonido gutural)</td>
 
 </tr>
 
@@ -266,7 +266,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/p/*,/f/</td>
 
-<td>**p**apá, **f**oca</td>
+<td><strong>p</strong>apá, <strong>f</strong>oca</td>
 
 </tr>
 
@@ -280,7 +280,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ts/</td>
 
-<td>pi**zz**a</td>
+<td>pi<strong>zz</strong>a</td>
 
 </tr>
 
@@ -294,7 +294,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/k/</td>
 
-<td>**c**asa</td>
+<td><strong>c</strong>asa</td>
 
 </tr>
 
@@ -322,7 +322,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**ow, **s**apo</td>
+<td><strong>sh</strong>ow, <strong>s</strong>apo</td>
 
 </tr>
 
@@ -336,7 +336,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/t/</td>
 
-<td>**t**apa</td>
+<td><strong>t</strong>apa</td>
 
 </tr>
 
@@ -382,9 +382,9 @@ En _ktiv malé_ usamos letras para reemplazar parte del nikud, así que, de hech
 
 <td>o</td>
 
-<td>s**o**l</td>
+<td>s<strong>o</strong>l</td>
 
-<td>א**ו**רז (**ó**rez - arroz)</td>
+<td>א<strong>ו</strong>רז (<strong>ó</strong>rez - arroz)</td>
 
 </tr>
 
@@ -394,9 +394,9 @@ En _ktiv malé_ usamos letras para reemplazar parte del nikud, así que, de hech
 
 <td>u</td>
 
-<td>l**u**na</td>
+<td>l<strong>u</strong>na</td>
 
-<td>ה**ו**א (h**u** - él es)</td>
+<td>ה<strong>ו</strong>א (h<strong>u</strong> - él es)</td>
 
 </tr>
 
@@ -406,9 +406,9 @@ En _ktiv malé_ usamos letras para reemplazar parte del nikud, así que, de hech
 
 <td>e</td>
 
-<td>p**e**rro</td>
+<td>p<strong>e</strong>rro</td>
 
-<td>ה**י**שג (h**é**seg - logro)</td>
+<td>ה<strong>י</strong>שג (h<strong>é</strong>seg - logro)</td>
 
 </tr>
 
@@ -418,9 +418,9 @@ En _ktiv malé_ usamos letras para reemplazar parte del nikud, así que, de hech
 
 <td>i</td>
 
-<td>s**i**lla</td>
+<td>s<strong>i</strong>lla</td>
 
-<td>ה**י**א (h**ee** - ella es)</td>
+<td>ה<strong>י</strong>א (h<strong>ee</strong> - ella es)</td>
 
 </tr>
 
@@ -430,9 +430,9 @@ En _ktiv malé_ usamos letras para reemplazar parte del nikud, así que, de hech
 
 <td>a</td>
 
-<td>c**a**sa</td>
+<td>c<strong>a</strong>sa</td>
 
-<td>ר**ע** (r**a** - malo)</td>
+<td>ר<strong>ע</strong> (r<strong>a</strong> - malo)</td>
 
 </tr>
 
@@ -442,9 +442,9 @@ En _ktiv malé_ usamos letras para reemplazar parte del nikud, así que, de hech
 
 <td>e</td>
 
-<td>p**e**rro</td>
+<td>p<strong>e</strong>rro</td>
 
-<td>קור**א** (kor**é** - lee)</td>
+<td>קור<strong>א</strong> (kor<strong>é</strong> - lee)</td>
 
 </tr>
 

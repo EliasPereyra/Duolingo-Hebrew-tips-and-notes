@@ -32,11 +32,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Mi caballo</td>
 
-<td>סו**סִי** (sus**i**)</td>
+<td>סו<strong>סִי</strong> (sus<strong>i</strong>)</td>
 
 <td>Mis caballos</td>
 
-<td>סו**סָיי**(sus**ai**)</td>
+<td>סו<strong>סָיי</strong>(sus<strong>ai</strong>)</td>
 
 </tr>
 
@@ -44,11 +44,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Tu (s.m.) caballo</td>
 
-<td>סו**סְךָ** (sus**cha**)</td>
+<td>סו<strong>סְךָ</strong> (sus<strong>cha</strong>)</td>
 
 <td>Tus (s.m.) caballos</td>
 
-<td>סו**סֶיךָ** (sus**echa**)</td>
+<td>סו<strong>סֶיךָ</strong> (sus<strong>echa</strong>)</td>
 
 </tr>
 
@@ -56,11 +56,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Tu (s.f.) caballo</td>
 
-<td>סו**סֶךְ** (sus**ech**)</td>
+<td>סו<strong>סֶךְ</strong> (sus<strong>ech</strong>)</td>
 
 <td>Tus (s.f.) caballos</td>
 
-<td>סו**סַיךְ** (sus**aich**)</td>
+<td>סו<strong>סַיךְ</strong> (sus<strong>aich</strong>)</td>
 
 </tr>
 
@@ -68,11 +68,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Su caballo (de él)</td>
 
-<td>סוס**וֹ** (sus**o**)</td>
+<td>סוס<strong>וֹ</strong> (sus<strong>o</strong>)</td>
 
 <td>Sus caballos (de él)</td>
 
-<td>סו**סָיו** (sus**av**)</td>
+<td>סו<strong>סָיו</strong> (sus<strong>av</strong>)</td>
 
 </tr>
 
@@ -80,11 +80,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Su caballo (de ella)</td>
 
-<td>סו**סָהּ** (sus**a**)</td>
+<td>סו<strong>סָהּ</strong> (sus<strong>a</strong>)</td>
 
 <td>Sus caballos (de ella)</td>
 
-<td>סו**סֶיה** (sus**e(h)a**)</td>
+<td>סו<strong>סֶיה</strong> (sus<strong>e(h)a</strong>)</td>
 
 </tr>
 
@@ -92,11 +92,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Nuestro caballo</td>
 
-<td>ּסו**סֵנו** (sus**enu**)</td>
+<td>ּסו<strong>סֵנו</strong> (sus<strong>enu</strong>)</td>
 
 <td>Nuestros caballos</td>
 
-<td>סו**סֵינוּ** (sus**enu**)</td>
+<td>סו<strong>סֵינוּ</strong> (sus<strong>enu</strong>)</td>
 
 </tr>
 
@@ -104,11 +104,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Su caballo (p.m.)</td>
 
-<td>סו**סְכֶם** (sus**chem**)</td>
+<td>סו<strong>סְכֶם</strong> (sus<strong>chem</strong>)</td>
 
 <td>Sus caballos (p.m.)</td>
 
-<td>סו**סֵיכֶם** (sus**echem**)</td>
+<td>סו<strong>סֵיכֶם</strong> (sus<strong>echem</strong>)</td>
 
 </tr>
 
@@ -116,11 +116,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Su caballo (p.f.)</td>
 
-<td>סו**סְכֶן** (sus**chen**)</td>
+<td>סו<strong>סְכֶן</strong> (sus<strong>chen</strong>)</td>
 
 <td>Sus caballos (p.f.)</td>
 
-<td>סו**סֵיכֶן** (sus**echen**)</td>
+<td>סו<strong>סֵיכֶן</strong> (sus<strong>echen</strong>)</td>
 
 </tr>
 
@@ -128,11 +128,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Su caballo (de ellos)</td>
 
-<td>סו**סָם** (sus**am**)</td>
+<td>סו<strong>סָם</strong> (sus<strong>am</strong>)</td>
 
 <td>Sus caballos (de ellos)</td>
 
-<td>סו**סֵיהֶם** (sus**ehem**)</td>
+<td>סו<strong>סֵיהֶם</strong> (sus<strong>ehem</strong>)</td>
 
 </tr>
 
@@ -140,11 +140,11 @@ Para este ejemplo vamos a usar el sustantivo "סוס" (un caballo):
 
 <td>Su caballo (de ellas)</td>
 
-<td>סו**סָן** (sus**an**)</td>
+<td>סו<strong>סָן</strong> (sus<strong>an</strong>)</td>
 
 <td>Sus caballos (de ellas)</td>
 
-<td>סו**סֵיהֶן** (sus**ehen**)</td>
+<td>סו<strong>סֵיהֶן</strong> (sus<strong>ehen</strong>)</td>
 
 </tr>
 

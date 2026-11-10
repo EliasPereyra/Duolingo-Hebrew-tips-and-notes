@@ -168,7 +168,7 @@ Aquí hay una tabla de las preposiciones que enseñamos en esta unidad:
 
 <tr>
 
-<td>en (_pegado_)</td>
+<td>en (<em>pegado</em>)</td>
 
 <td>-ב</td>
 

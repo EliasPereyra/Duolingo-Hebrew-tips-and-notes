@@ -46,7 +46,7 @@ Algunas palabras en hebreo provienen de otros idiomas que usan sonidos que no es
 
 <td>dʒ</td>
 
-<td>**y**ate (sonido "dch")</td>
+<td><strong>y</strong>ate (sonido "dch")</td>
 
 </tr>
 
@@ -56,7 +56,7 @@ Algunas palabras en hebreo provienen de otros idiomas que usan sonidos que no es
 
 <td>ʒ</td>
 
-<td>similar al "ll" del español rioplatense en "ca**ll**e"</td>
+<td>similar al "ll" del español rioplatense en "ca<strong>ll</strong>e"</td>
 
 </tr>
 
@@ -66,7 +66,7 @@ Algunas palabras en hebreo provienen de otros idiomas que usan sonidos que no es
 
 <td>tʃ</td>
 
-<td>**ch**au</td>
+<td><strong>ch</strong>au</td>
 
 </tr>
 
@@ -100,7 +100,7 @@ Algunos sonidos menos comunes (que generalmente solo se usan para nombres extran
 
 <td>ð</td>
 
-<td>similar a la "d" suave del inglés "**th**en"</td>
+<td>similar a la "d" suave del inglés "<strong>th</strong>en"</td>
 
 </tr>
 
@@ -110,7 +110,7 @@ Algunos sonidos menos comunes (que generalmente solo se usan para nombres extran
 
 <td>w</td>
 
-<td>**w**hisky</td>
+<td><strong>w</strong>hisky</td>
 
 </tr>
 
@@ -120,7 +120,7 @@ Algunos sonidos menos comunes (que generalmente solo se usan para nombres extran
 
 <td>θ</td>
 
-<td>similar a la "z" del español de España en "ca**z**a"</td>
+<td>similar a la "z" del español de España en "ca<strong>z</strong>a"</td>
 
 </tr>
 

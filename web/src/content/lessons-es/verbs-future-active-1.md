@@ -32,7 +32,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>~א (e~)</td>
 
-<td>**א**כתוב (**e**chtov)</td>
+<td><strong>א</strong>כתוב (<strong>e</strong>chtov)</td>
 
 </tr>
 
@@ -42,7 +42,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>~ת (ti~)</td>
 
-<td>**ת**כתוב (**ti**chtov)</td>
+<td><strong>ת</strong>כתוב (<strong>ti</strong>chtov)</td>
 
 </tr>
 
@@ -52,7 +52,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>ת~י (ti~i)</td>
 
-<td>**ת**כתב**י** (**ti**chtev**i**)</td>
+<td><strong>ת</strong>כתב<strong>י</strong> (<strong>ti</strong>chtev<strong>i</strong>)</td>
 
 </tr>
 
@@ -62,7 +62,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>~י (i~)</td>
 
-<td>**י**כתוב (**i**chtov)</td>
+<td><strong>י</strong>כתוב (<strong>i</strong>chtov)</td>
 
 </tr>
 
@@ -72,7 +72,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>~ת (ti~)</td>
 
-<td>**ת**כתוב (**ti**chtov)</td>
+<td><strong>ת</strong>כתוב (<strong>ti</strong>chtov)</td>
 
 </tr>
 
@@ -82,7 +82,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>~נ (ni)</td>
 
-<td>**נ**כתוב (**ni**chtov)</td>
+<td><strong>נ</strong>כתוב (<strong>ni</strong>chtov)</td>
 
 </tr>
 
@@ -92,7 +92,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>ת~ו (ti~u)</td>
 
-<td>**ת**כתב**ו** (**ti**chtev**u**)</td>
+<td><strong>ת</strong>כתב<strong>ו</strong> (<strong>ti</strong>chtev<strong>u</strong>)</td>
 
 </tr>
 
@@ -102,7 +102,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>ת~ו (ti~u) / ת~נה (ti~na)</td>
 
-<td>**ת**כתב**ו** (**ti**chtev**u**) / **ת**כתוב**נה** (**ti**chtov**na**) *</td>
+<td><strong>ת</strong>כתב<strong>ו</strong> (<strong>ti</strong>chtev<strong>u</strong>) / <strong>ת</strong>כתוב<strong>נה</strong> (<strong>ti</strong>chtov<strong>na</strong>) *</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ En el tiempo futuro solo hay una forma para yo, nosotros, ustedes plural y ellos
 
 <td>י~ו (i~u)</td>
 
-<td>**י**כתב**ו** (**i**chtev**u**)</td>
+<td><strong>י</strong>כתב<strong>ו</strong> (<strong>i</strong>chtev<strong>u</strong>)</td>
 
 </tr>
 

@@ -42,7 +42,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ʔ/</td>
 
-<td>**a** (usualmente muda o similar a la letra "a" en español: un comodín para las vocales)**</td>
+<td><strong>a</strong> (usualmente muda o similar a la letra "a" en español: un comodín para las vocales)**</td>
 
 </tr>
 
@@ -56,7 +56,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/b/*,/v/</td>
 
-<td>**b**oca, **v**aca</td>
+<td><strong>b</strong>oca, <strong>v</strong>aca</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/g/</td>
 
-<td>**g**ato</td>
+<td><strong>g</strong>ato</td>
 
 </tr>
 
@@ -84,7 +84,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/d/</td>
 
-<td>**d**edo</td>
+<td><strong>d</strong>edo</td>
 
 </tr>
 
@@ -98,7 +98,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/h/</td>
 
-<td>**j**amón, suave (a menudo muda en el habla coloquial moderna)</td>
+<td><strong>j</strong>amón, suave (a menudo muda en el habla coloquial moderna)</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/v/</td>
 
-<td>**v**aca</td>
+<td><strong>v</strong>aca</td>
 
 </tr>
 
@@ -126,7 +126,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/z/</td>
 
-<td>de**s**de (sonido "z" sonoro)</td>
+<td>de<strong>s</strong>de (sonido "z" sonoro)</td>
 
 </tr>
 
@@ -154,7 +154,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/t/</td>
 
-<td>**t**aza</td>
+<td><strong>t</strong>aza</td>
 
 </tr>
 
@@ -168,7 +168,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/j/</td>
 
-<td>**y**a</td>
+<td><strong>y</strong>a</td>
 
 </tr>
 
@@ -182,7 +182,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/k/*, /X/</td>
 
-<td>**c**asa, similar a la "j" fuerte del español</td>
+<td><strong>c</strong>asa, similar a la "j" fuerte del español</td>
 
 </tr>
 
@@ -196,7 +196,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/l/</td>
 
-<td>**l**una</td>
+<td><strong>l</strong>una</td>
 
 </tr>
 
@@ -210,7 +210,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/m/</td>
 
-<td>**m**ano</td>
+<td><strong>m</strong>ano</td>
 
 </tr>
 
@@ -224,7 +224,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/n/</td>
 
-<td>**n**o</td>
+<td><strong>n</strong>o</td>
 
 </tr>
 
@@ -238,7 +238,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/s/</td>
 
-<td>**s**apo</td>
+<td><strong>s</strong>apo</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ʔ/, /ʕ/</td>
 
-<td>**a** (sonido gutural)</td>
+<td><strong>a</strong> (sonido gutural)</td>
 
 </tr>
 
@@ -266,7 +266,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/p/*,/f/</td>
 
-<td>**p**apá, **f**oca</td>
+<td><strong>p</strong>apá, <strong>f</strong>oca</td>
 
 </tr>
 
@@ -280,7 +280,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ts/</td>
 
-<td>pi**zz**a</td>
+<td>pi<strong>zz</strong>a</td>
 
 </tr>
 
@@ -294,7 +294,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/k/</td>
 
-<td>**c**asa</td>
+<td><strong>c</strong>asa</td>
 
 </tr>
 
@@ -322,7 +322,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/ʃ/,/s/</td>
 
-<td>**sh**ow, **s**apo</td>
+<td><strong>sh</strong>ow, <strong>s</strong>apo</td>
 
 </tr>
 
@@ -336,7 +336,7 @@ Aquí está la tabla de letras hebreas otra vez como referencia:
 
 <td>/t/</td>
 
-<td>**t**apa</td>
+<td><strong>t</strong>apa</td>
 
 </tr>
 
@@ -384,7 +384,7 @@ Aquí hay una tabla con las más comunes (usando א como letra portadora de ejem
 
 <td>muda/e</td>
 
-<td>mm (sonido largo), s**e**rio</td>
+<td>mm (sonido largo), s<strong>e</strong>rio</td>
 
 </tr>
 
@@ -394,7 +394,7 @@ Aquí hay una tabla con las más comunes (usando א como letra portadora de ejem
 
 <td>a</td>
 
-<td>c**a**sa</td>
+<td>c<strong>a</strong>sa</td>
 
 </tr>
 
@@ -404,7 +404,7 @@ Aquí hay una tabla con las más comunes (usando א como letra portadora de ejem
 
 <td>e</td>
 
-<td>p**e**rro</td>
+<td>p<strong>e</strong>rro</td>
 
 </tr>
 
@@ -414,7 +414,7 @@ Aquí hay una tabla con las más comunes (usando א como letra portadora de ejem
 
 <td>i</td>
 
-<td>s**i**lla</td>
+<td>s<strong>i</strong>lla</td>
 
 </tr>
 
@@ -424,7 +424,7 @@ Aquí hay una tabla con las más comunes (usando א como letra portadora de ejem
 
 <td>o</td>
 
-<td>s**o**l</td>
+<td>s<strong>o</strong>l</td>
 
 </tr>
 
@@ -434,7 +434,7 @@ Aquí hay una tabla con las más comunes (usando א como letra portadora de ejem
 
 <td>u</td>
 
-<td>l**u**na</td>
+<td>l<strong>u</strong>na</td>
 
 </tr>
 
@@ -468,7 +468,7 @@ Además, la letra "ו" puede llevar dos tipos de vocales:
 
 <td>o</td>
 
-<td>s**o**l</td>
+<td>s<strong>o</strong>l</td>
 
 </tr>
 
@@ -478,7 +478,7 @@ Además, la letra "ו" puede llevar dos tipos de vocales:
 
 <td>u</td>
 
-<td>l**u**na</td>
+<td>l<strong>u</strong>na</td>
 
 </tr>
 

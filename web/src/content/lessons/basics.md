@@ -208,7 +208,7 @@ Here is the basic verb conjugation:
 
 <td>אוכל(ochel)</td>
 
-<td>אוכל**ת** (ochel**et** )</td>
+<td>אוכל<strong>ת</strong> (ochel<strong>et</strong> )</td>
 
 </tr>
 
@@ -216,9 +216,9 @@ Here is the basic verb conjugation:
 
 <td>Plural</td>
 
-<td>אוכל**ים** (ochl**im**)</td>
+<td>אוכל<strong>ים</strong> (ochl<strong>im</strong>)</td>
 
-<td>אוכל**ות** ( ochl**ot**)</td>
+<td>אוכל<strong>ות</strong> ( ochl<strong>ot</strong>)</td>
 
 </tr>
 
@@ -252,7 +252,7 @@ For the few verbs whose masculine singular form contains only 2 letters, the ver
 
 <td>בא (ba)</td>
 
-<td>בא**ה** ( ba**'ah**)</td>
+<td>בא<strong>ה</strong> ( ba<strong>'ah</strong>)</td>
 
 </tr>
 
@@ -260,9 +260,9 @@ For the few verbs whose masculine singular form contains only 2 letters, the ver
 
 <td>Plural</td>
 
-<td>בא**ים** (ba**im**)</td>
+<td>בא<strong>ים</strong> (ba<strong>im</strong>)</td>
 
-<td>בא**ות** (ba**ot**)</td>
+<td>בא<strong>ות</strong> (ba<strong>ot</strong>)</td>
 
 </tr>
 
@@ -304,9 +304,9 @@ For example:
 
 <td>Singular</td>
 
-<td>רו**אֶ**ה (ro'**e**h)</td>
+<td>רו<strong>אֶ</strong>ה (ro'<strong>e</strong>h)</td>
 
-<td>רו**אָ**ה (ro'**a**h)</td>
+<td>רו<strong>אָ</strong>ה (ro'<strong>a</strong>h)</td>
 
 </tr>
 
@@ -314,9 +314,9 @@ For example:
 
 <td>Plural</td>
 
-<td>רוא**ים** (ro'**im**)</td>
+<td>רוא<strong>ים</strong> (ro'<strong>im</strong>)</td>
 
-<td>רוא**ות** (ro'**ot**)</td>
+<td>רוא<strong>ות</strong> (ro'<strong>ot</strong>)</td>
 
 </tr>
 

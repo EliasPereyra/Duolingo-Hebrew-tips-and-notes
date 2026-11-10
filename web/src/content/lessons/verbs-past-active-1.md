@@ -52,7 +52,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תי~ (ti)</td>
 
-<td align="center">אמר**תי** (amár**ti**)</td>
+<td align="center">אמר<strong>תי</strong> (amár<strong>ti</strong>)</td>
 
 </tr>
 
@@ -62,7 +62,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תָ~ (ta)</td>
 
-<td align="center">אמר**תָ** (amár**ta**)</td>
+<td align="center">אמר<strong>תָ</strong> (amár<strong>ta</strong>)</td>
 
 </tr>
 
@@ -72,7 +72,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תְ~ (t)</td>
 
-<td align="center">אמר**תְ** (amár**t**)</td>
+<td align="center">אמר<strong>תְ</strong> (amár<strong>t</strong>)</td>
 
 </tr>
 
@@ -92,7 +92,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">ה~ (a)</td>
 
-<td align="center">אמר**ה** (amr**a**)</td>
+<td align="center">אמר<strong>ה</strong> (amr<strong>a</strong>)</td>
 
 </tr>
 
@@ -102,7 +102,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">נו~ (nu)</td>
 
-<td align="center">אמר**נו** (amár**nu**)</td>
+<td align="center">אמר<strong>נו</strong> (amár<strong>nu</strong>)</td>
 
 </tr>
 
@@ -112,7 +112,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תם~ (tem)</td>
 
-<td align="center">אמר**תם** (amár**tem**)</td>
+<td align="center">אמר<strong>תם</strong> (amár<strong>tem</strong>)</td>
 
 </tr>
 
@@ -122,7 +122,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">תן~ (ten)</td>
 
-<td align="center">אמר**תן** (amár**ten**)</td>
+<td align="center">אמר<strong>תן</strong> (amár<strong>ten</strong>)</td>
 
 </tr>
 
@@ -132,7 +132,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">ו~ (u)</td>
 
-<td align="center">אמר**ו** (amr**ú**)</td>
+<td align="center">אמר<strong>ו</strong> (amr<strong>ú</strong>)</td>
 
 </tr>
 
@@ -142,7 +142,7 @@ Let's take the verb אמר (amár - (he) said) as an example of the pa'al past t
 
 <td align="center">ו~ (u)</td>
 
-<td align="center">אמר**ו** (amr**ú**)</td>
+<td align="center">אמר<strong>ו</strong> (amr<strong>ú</strong>)</td>
 
 </tr>
 

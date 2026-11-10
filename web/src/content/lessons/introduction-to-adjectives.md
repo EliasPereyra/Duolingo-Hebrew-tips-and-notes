@@ -44,7 +44,7 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>טוב (tov)</td>
 
-<td>טוב**ה** (tov**a**)</td>
+<td>טוב<strong>ה</strong> (tov<strong>a</strong>)</td>
 
 </tr>
 
@@ -52,9 +52,9 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>Plural</td>
 
-<td>טוב**ים** (tov**im**)</td>
+<td>טוב<strong>ים</strong> (tov<strong>im</strong>)</td>
 
-<td>טוב**ות** (tov**ot**)</td>
+<td>טוב<strong>ות</strong> (tov<strong>ot</strong>)</td>
 
 </tr>
 
@@ -86,9 +86,9 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>Singular</td>
 
-<td>י**פֶ**ה (yaf**e**)</td>
+<td>י<strong>פֶ</strong>ה (yaf<strong>e</strong>)</td>
 
-<td>י**פָ**ה (yaf**a**)</td>
+<td>י<strong>פָ</strong>ה (yaf<strong>a</strong>)</td>
 
 </tr>
 
@@ -96,9 +96,9 @@ Adjective conjugation is almost identical to present tense conjugation. (In fact
 
 <td>Plural</td>
 
-<td>יפ**ים** (yaf**im**)</td>
+<td>יפ<strong>ים</strong> (yaf<strong>im</strong>)</td>
 
-<td>יפ**ות** (yaf**ot**)</td>
+<td>יפ<strong>ות</strong> (yaf<strong>ot</strong>)</td>
 
 </tr>
 
