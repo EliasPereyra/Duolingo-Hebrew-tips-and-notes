@@ -12,10 +12,10 @@
  * strongly RTL anyway, so the bidi algorithm already orders them correctly.
  */
 
-const HEBREW_CHARS = "֐-׿יִ-ﭏ";
+const HEBREW_CHARS = "\u0590-\u05FF\uFB1D-\uFB4F";
 const HEBREW_RUN = new RegExp(`[${HEBREW_CHARS}]+(?:[\\s'"׳״־,.?!-]+[${HEBREW_CHARS}]+)*`, "g");
 const HAS_HEBREW = new RegExp(`[${HEBREW_CHARS}]`);
-const HEBREW_ONLY_CELL = /<(td|th)>(\s*<span lang="he">[^<]*<\/span>\s*)<\/\1>/g;
+const HEBREW_ONLY_CELL = /<(td|th)([^>]*)>(\s*<span lang="he">[^<]*<\/span>\s*)<\/\1>/g;
 
 const SKIP_TAGS = new Set(["button", "code", "pre", "script", "style", "title"]);
 
@@ -52,7 +52,12 @@ function wrapRawHtml(html) {
     return `>${text.replace(HEBREW_RUN, '<span lang="he">$&</span>')}<`;
   });
   // Cells holding only Hebrew get a class so they can be right-aligned.
-  return padded.slice(1, -1).replace(HEBREW_ONLY_CELL, '<$1 class="he-cell">$2</$1>');
+  return padded.slice(1, -1).replace(HEBREW_ONLY_CELL, (_, tag, attrs, content) => {
+    const withClass = /\sclass="/.test(attrs)
+      ? attrs.replace(/\sclass="([^"]*)"/, ' class="$1 he-cell"')
+      : `${attrs} class="he-cell"`;
+    return `<${tag}${withClass}>${content}</${tag}>`;
+  });
 }
 
 function isHebrewOnlyCell(node) {

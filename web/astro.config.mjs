@@ -2,6 +2,7 @@ import { defineConfig, fontProviders } from "astro/config";
 import { unified } from "@astrojs/markdown-remark";
 import rehypeExamples from "./src/rehype-plugins/rehype-examples.mjs";
 import rehypeHebrew from "./src/rehype-plugins/rehype-hebrew.mjs";
+import rehypeInlineColors from "./src/rehype-plugins/rehype-inline-colors.mjs";
 import rehypeWrapTables from "./src/rehype-plugins/rehype-wrap-tables.mjs";
 
 // https://astro.build/config
@@ -17,7 +18,7 @@ export default defineConfig({
   markdown: {
     processor: unified({
       // rehypeHebrew runs last, once examples and tables are already marked up.
-      rehypePlugins: [rehypeExamples, rehypeWrapTables, rehypeHebrew],
+      rehypePlugins: [rehypeExamples, rehypeWrapTables, rehypeInlineColors, rehypeHebrew],
     }),
   },
   fonts: [

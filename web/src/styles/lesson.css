@@ -267,3 +267,17 @@
 .lesson-content .he-cell {
   text-align: right;
 }
+
+/* Theme-aware replacements for the source's inline color:blue/green. */
+.lesson-content .mark-blue {
+  color: var(--color-mark-blue);
+}
+
+.lesson-content .mark-green {
+  color: var(--color-mark-green);
+}
+
+/* Hebrew inside a colored cell keeps the cell's color. */
+.lesson-content :is(.mark-blue, .mark-green) :lang(he) {
+  color: inherit;
+}
