@@ -95,6 +95,7 @@ const description = descriptions[locale];
     <ClientRouter />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">{locale === "es" ? "Saltar al contenido" : "Skip to content"}</a>
     <Sidebar locale={locale} />
     <div class="top-controls">
       <button
@@ -138,7 +139,7 @@ const description = descriptions[locale];
         </ul>
       </div>
     </div>
-    <div class="content" transition:animate={slide({ duration: "0.2s" })}>
+    <div class="content" id="main-content" tabindex="-1" transition:animate={slide({ duration: "0.2s" })}>
       <slot />
     </div>
   </body>
@@ -148,42 +149,90 @@ const description = descriptions[locale];
   import { initAudioPlayback } from "../utils/audio-player";
   import { markReadLessons } from "../utils/reading-progress";
 
+  // Document-level listeners are tied to the current page and removed before
+  // the router swaps in the next one, so they don't pile up across navigations.
+  let pageListeners = new AbortController();
+  document.addEventListener("astro:before-swap", () => {
+    pageListeners.abort();
+    pageListeners = new AbortController();
+  });
+
   function initLangSwitcher() {
     const switcher = document.getElementById("lang-switcher");
     const toggle = document.getElementById("lang-switcher-toggle");
     const menu = document.getElementById("lang-menu");
     if (!switcher || !toggle || !menu) return;
 
-    const closeMenu = () => {
+    const items = Array.from(menu.querySelectorAll<HTMLAnchorElement>("a[role='menuitem']"));
+    const { signal } = pageListeners;
+
+    const isOpen = () => switcher.classList.contains("open");
+
+    const closeMenu = (returnFocus = false) => {
       switcher.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
+      if (returnFocus) toggle.focus();
     };
 
-    const openMenu = () => {
+    const openMenu = (focusIndex?: number) => {
       switcher.classList.add("open");
       toggle.setAttribute("aria-expanded", "true");
+      if (focusIndex !== undefined) items.at(focusIndex)?.focus();
     };
 
     toggle.addEventListener("click", (event) => {
       event.stopPropagation();
-      if (switcher.classList.contains("open")) {
+      if (isOpen()) {
         closeMenu();
       } else {
-        openMenu();
+        openMenu(event.detail === 0 ? 0 : undefined); // keyboard "click" focuses the first item
       }
     });
 
-    document.addEventListener("click", (event) => {
-      if (!switcher.contains(event.target as Node)) {
+    // Menu-button keyboard pattern: arrows open the menu and move between items.
+    toggle.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowDown") {
+        event.preventDefault();
+        openMenu(0);
+      } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        openMenu(-1);
+      }
+    });
+
+    menu.addEventListener("keydown", (event) => {
+      const index = items.indexOf(document.activeElement as HTMLAnchorElement);
+      const moves: Record<string, number> = {
+        ArrowDown: (index + 1) % items.length,
+        ArrowUp: (index - 1 + items.length) % items.length,
+        Home: 0,
+        End: items.length - 1,
+      };
+      if (event.key in moves) {
+        event.preventDefault();
+        items[moves[event.key]]?.focus();
+      } else if (event.key === "Tab") {
         closeMenu();
       }
     });
 
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape") closeMenu();
-    });
+    document.addEventListener(
+      "click",
+      (event) => {
+        if (!switcher.contains(event.target as Node)) closeMenu();
+      },
+      { signal },
+    );
 
-    menu.querySelectorAll<HTMLAnchorElement>("a[data-locale]").forEach((link) => {
+    document.addEventListener(
+      "keydown",
+      (event) => {
+        if (event.key === "Escape" && isOpen()) closeMenu(true);
+      },
+      { signal },
+    );
+
+    items.forEach((link) => {
       link.addEventListener("click", () => {
         try {
           localStorage.setItem("preferredLocale", link.dataset.locale ?? "en");

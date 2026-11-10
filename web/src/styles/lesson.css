@@ -297,10 +297,10 @@
   counter-reset: section;
 
   /* Sections are numbered with Hebrew letters: א, ב, ג... */
+  /* The letter hangs in the left gutter so mixed inline content flows normally. */
   h2 {
-    display: flex;
-    align-items: baseline;
-    gap: var(--space-7);
+    position: relative;
+    padding-left: 1.6em;
     font-size: var(--font-size-2xl);
     margin: var(--space-16) 0 var(--space-11);
     padding-bottom: var(--space-5);
@@ -309,8 +309,8 @@
 
     &::before {
       content: counter(section, hebrew);
-      flex-shrink: 0;
-      min-width: 1.2em;
+      position: absolute;
+      left: 0;
       font-family: var(--font-hebrew);
       font-weight: var(--font-weight-normal);
       color: var(--color-clay);
@@ -494,4 +494,9 @@
   strong {
     color: inherit;
   }
+}
+
+/* Fade the right edge of a table that scrolls sideways (see lesson-tools.ts). */
+.lesson-content .table-wrapper.has-overflow:not(.at-end) {
+  mask-image: linear-gradient(to right, black calc(100% - 3rem), transparent);
 }

@@ -69,7 +69,25 @@ function initSlowAudioToggle() {
   });
 }
 
+// Wide tables scroll sideways on small screens; fade the edge that hides content.
+function initTableOverflow() {
+  const update = (wrapper: HTMLElement) => {
+    const overflow = wrapper.scrollWidth - wrapper.clientWidth;
+    wrapper.classList.toggle("has-overflow", overflow > 1);
+    wrapper.classList.toggle("at-end", wrapper.scrollLeft >= overflow - 1);
+  };
+
+  const observer = new ResizeObserver((entries) => entries.forEach((entry) => update(entry.target as HTMLElement)));
+  document.querySelectorAll<HTMLElement>(".lesson-content .table-wrapper").forEach((wrapper) => {
+    update(wrapper);
+    wrapper.addEventListener("scroll", () => update(wrapper), { passive: true });
+    observer.observe(wrapper);
+  });
+  document.addEventListener("astro:before-swap", () => observer.disconnect(), { once: true });
+}
+
 export function initLessonTools() {
   initNiqqudToggle();
   initSlowAudioToggle();
+  initTableOverflow();
 }
