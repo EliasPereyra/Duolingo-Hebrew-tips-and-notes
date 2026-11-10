@@ -159,7 +159,7 @@ const hasAside = showToc || Boolean(practice);
               </ol>
             </nav>
           )}
-          {practice && <Practice data={practice} locale={locale} />}
+          {practice && <Practice data={practice} lessonId={lesson.id} locale={locale} />}
         </div>
       </aside>
     )

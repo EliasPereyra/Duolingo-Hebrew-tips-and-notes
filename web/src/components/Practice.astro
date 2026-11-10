@@ -4,16 +4,18 @@ import type { PracticeData } from "../utils/practice-data";
 
 interface Props {
   data: PracticeData;
+  lessonId: string;
   locale?: "en" | "es";
 }
 
-const { data, locale = "en" } = Astro.props;
+const { data, lessonId, locale = "en" } = Astro.props;
 const labels = practiceLabels[locale];
 const payload = JSON.stringify({ data, labels }).replace(/</g, "\\u003c");
 ---
 
-<section class="practice" data-practice aria-labelledby="practice-title">
+<section class="practice" data-practice data-practice-lesson={lessonId} aria-labelledby="practice-title">
   <h2 id="practice-title" class="practice-title">{labels.title}</h2>
+  <p class="practice-best" data-best hidden></p>
 
   <ol class="practice-track" data-track hidden></ol>
 
@@ -82,6 +84,21 @@ const payload = JSON.stringify({ data, labels }).replace(/</g, "\\u003c");
     margin: 0 0 var(--space-7);
     font-size: var(--font-size-xl);
     color: var(--color-text-heading);
+  }
+
+  .practice-best {
+    display: inline-block;
+    margin: 0 0 var(--space-9);
+    padding: var(--space-1) var(--space-7);
+    border-radius: var(--radius-sm);
+    background: var(--color-success-bg);
+    color: var(--color-success);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+
+    &[hidden] {
+      display: none;
+    }
   }
 
   .practice-text {
