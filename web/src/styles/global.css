@@ -1,11 +1,32 @@
 html {
-  font-family:
-    var(--font-manrope),
-    var(--font-david-libre),
-    system-ui,
-    -apple-system,
-    sans-serif;
+  font-family: var(--font-sans);
   font-weight: var(--font-weight-normal);
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  color: var(--color-text-heading);
+  letter-spacing: -0.01em;
+}
+
+/* Every Hebrew run (wrapped by the rehype-hebrew plugin, or marked by hand). */
+:lang(he) {
+  font-family: var(--font-hebrew);
+}
+
+::selection {
+  background: var(--color-accent-bg-hover);
+  color: var(--color-text-heading);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 h1,
@@ -22,6 +43,7 @@ b {
 body {
   margin: 0;
   display: flex;
+  background: var(--color-bg);
 }
 
 .content {

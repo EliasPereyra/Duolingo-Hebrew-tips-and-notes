@@ -33,45 +33,67 @@
   --space-15: 2.5rem;
   --space-16: 3rem;
 
-  /* Colors - semantic */
-  --color-bg: hsla(0, 0%, 100%, 1);
-  --color-bg-subtle: hsla(210, 29%, 97%, 1);
-  --color-bg-hover: hsla(210, 25%, 98%, 1);
-  --color-surface-dark: hsla(220, 15%, 12%, 1);
-  --color-surface-dark-hover: hsla(215, 15%, 15%, 1);
+  /* Font families */
+  --font-sans: var(--font-manrope), var(--font-frank-ruhl), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-frank-ruhl), Georgia, serif;
+  --font-hebrew: var(--font-frank-ruhl), "Noto Serif Hebrew", serif;
+  --font-size-hebrew: 1.2em;
 
-  --color-border: hsla(214, 13%, 90%, 1);
-  --color-border-subtle: hsla(215, 27%, 91%, 1);
-  --color-border-dark: hsla(212, 12%, 21%, 1);
+  /*
+   * Colors - semantic. "Study notebook" palette: warm paper, ink text,
+   * tekhelet (deep indigo-blue) as the accent and Jerusalem-stone clay as
+   * a secondary accent for small details.
+   */
+  color-scheme: light dark;
 
-  --color-text: hsla(213, 13%, 16%, 1);
-  --color-text-heading: hsla(210, 13%, 12%, 1);
-  --color-text-muted: hsla(212, 9%, 38%, 1);
-  --color-text-subtle: hsla(212, 9%, 58%, 1);
-  --color-text-inverse: hsla(210, 17%, 82%, 1);
-  --color-text-inverse-strong: hsla(0, 0%, 100%, 1);
-  --color-text-disabled: hsla(208, 9%, 64%, 1);
+  --color-bg: hsl(42 38% 97%);
+  --color-bg-subtle: hsl(40 30% 94%);
+  --color-bg-hover: hsl(40 35% 95%);
+  --color-surface: hsl(38 30% 92%);
+  --color-surface-hover: hsl(38 28% 88%);
 
-  --color-accent: hsla(212, 97%, 43%, 1);
-  --color-accent-hover: hsla(212, 97%, 36%, 1);
-  --color-accent-bg: hsla(215, 75%, 94%, 1);
-  --color-accent-bg-hover: hsla(213, 81%, 90%, 1);
-  --color-accent-bg-active: hsla(213, 82%, 85%, 1);
-  --color-accent-subtle-bg: hsla(212, 100%, 97%, 1);
+  --color-border: hsl(35 20% 82%);
+  --color-border-subtle: hsl(36 22% 88%);
 
-  --color-quote-border: hsla(208, 100%, 74%, 1);
-  --color-quote-bg: hsla(213, 69%, 97%, 1);
+  --color-text: hsl(222 22% 18%);
+  --color-text-heading: hsl(224 32% 12%);
+  --color-text-muted: hsl(220 10% 36%);
+  --color-text-subtle: hsl(220 8% 44%);
+  --color-text-disabled: hsl(220 6% 62%);
 
-  --color-disabled-bg: hsla(210, 19%, 94%, 1);
+  --color-accent: hsl(224 58% 36%);
+  --color-accent-hover: hsl(224 62% 28%);
+  --color-accent-bg: hsl(224 50% 92%);
+  --color-accent-bg-hover: hsl(224 50% 87%);
+  --color-accent-bg-active: hsl(224 48% 82%);
+  --color-accent-subtle-bg: hsl(224 45% 96%);
+  --color-on-accent: hsl(42 38% 97%);
 
-  --color-success: hsla(145, 63%, 32%, 1);
-  --color-success-bg: hsla(140, 60%, 94%, 1);
-  --color-error: hsla(0, 70%, 45%, 1);
-  --color-error-bg: hsla(0, 85%, 96%, 1);
+  --color-clay: hsl(20 55% 42%);
+  --color-clay-bg: hsl(28 55% 92%);
 
-  --color-overlay: rgb(0 0 0 / 0.5);
-  --color-shadow: rgb(0 0 0 / 0.12);
-  --color-shadow-strong: rgb(0 0 0 / 0.35);
+  --color-note-border: var(--color-clay);
+  --color-note-bg: hsl(40 55% 92%);
+  --color-example-bg: hsl(0 0% 100% / 0.6);
+
+  --color-disabled-bg: hsl(38 18% 90%);
+
+  /* Lesson icon colors (cycled per topic group); earthy tones that read on paper. */
+  --color-icon-1: hsl(224 55% 42%);
+  --color-icon-2: hsl(18 60% 44%);
+  --color-icon-3: hsl(90 35% 32%);
+  --color-icon-4: hsl(38 85% 34%);
+  --color-icon-5: hsl(300 25% 40%);
+  --color-icon-6: hsl(185 55% 30%);
+
+  --color-success: hsl(145 55% 30%);
+  --color-success-bg: hsl(140 45% 91%);
+  --color-error: hsl(0 65% 44%);
+  --color-error-bg: hsl(0 70% 95%);
+
+  --color-overlay: rgb(20 18 12 / 0.45);
+  --color-shadow: rgb(60 45 20 / 0.1);
+  --color-shadow-strong: rgb(60 45 20 / 0.25);
 
   /* Radius */
   --radius-sm: 6px;
@@ -89,4 +111,56 @@
 
   /* Layout sizing */
   --sidebar-width: 280px;
+}
+
+/* "Night study" palette: same structure, ink-dark paper and lighter ink. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: hsl(225 18% 11%);
+    --color-bg-subtle: hsl(225 16% 14%);
+    --color-bg-hover: hsl(225 16% 16%);
+    --color-surface: hsl(225 18% 9%);
+    --color-surface-hover: hsl(225 16% 15%);
+
+    --color-border: hsl(225 12% 26%);
+    --color-border-subtle: hsl(225 12% 20%);
+
+    --color-text: hsl(40 18% 84%);
+    --color-text-heading: hsl(40 30% 93%);
+    --color-text-muted: hsl(40 8% 66%);
+    --color-text-subtle: hsl(40 6% 58%);
+    --color-text-disabled: hsl(40 4% 42%);
+
+    --color-accent: hsl(222 75% 76%);
+    --color-accent-hover: hsl(222 80% 84%);
+    --color-accent-bg: hsl(224 35% 22%);
+    --color-accent-bg-hover: hsl(224 35% 27%);
+    --color-accent-bg-active: hsl(224 35% 32%);
+    --color-accent-subtle-bg: hsl(224 30% 17%);
+    --color-on-accent: hsl(225 18% 11%);
+
+    --color-clay: hsl(22 60% 66%);
+    --color-clay-bg: hsl(22 30% 18%);
+
+    --color-note-bg: hsl(35 22% 15%);
+    --color-example-bg: hsl(225 16% 14%);
+
+    --color-disabled-bg: hsl(225 10% 20%);
+
+    --color-icon-1: hsl(222 75% 76%);
+    --color-icon-2: hsl(18 70% 70%);
+    --color-icon-3: hsl(90 40% 64%);
+    --color-icon-4: hsl(40 80% 64%);
+    --color-icon-5: hsl(300 35% 74%);
+    --color-icon-6: hsl(185 50% 62%);
+
+    --color-success: hsl(145 45% 60%);
+    --color-success-bg: hsl(145 30% 16%);
+    --color-error: hsl(0 70% 70%);
+    --color-error-bg: hsl(0 35% 18%);
+
+    --color-overlay: rgb(0 0 0 / 0.6);
+    --color-shadow: rgb(0 0 0 / 0.3);
+    --color-shadow-strong: rgb(0 0 0 / 0.5);
+  }
 }
